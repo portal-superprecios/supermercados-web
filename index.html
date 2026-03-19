@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperPrecios- Compara y Ahorra</title>
+    <meta name="description"
+        content="Encuentra los mejores productos y precios de los supermercados Carrefour, la anonima, Chango Mas, Vea.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="dark-theme">
+    <header>
+        <nav class="glass">
+            <a href="#" class="logo-link" id="nav-logo-home" title="SuperPrecios - Inicio">
+                <svg class="logo-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="url(#logo-grad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <defs>
+                        <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#10b981" />
+                            <stop offset="100%" stop-color="#a855f7" />
+                        </linearGradient>
+                        <filter id="logo-glow" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="2" result="blur" />
+                            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                        </filter>
+                    </defs>
+                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" filter="url(#logo-glow)"/>
+                    <line x1="7" y1="7" x2="7.01" y2="7" stroke-width="4"/>
+                </svg>
+                <span class="gradient-text brand-name">SuperPrecios</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" class="active" id="nav-home">Inicio</a></li>
+                <li><a href="#supermarkets" id="nav-supermarkets">Supermercados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-banner animate-fade">
+                <img src="img/hero_supermarket.png" alt="Supermercado Moderno" class="hero-img">
+                <div class="hero-overlay-banner"></div>
+                <div class="hero-content">
+                    <h1 class="animate-up">Compara precios de <span class="gradient-text">4 Supermercados</span></h1>
+                    <p class="animate-up delay-1">El ahorro inteligente comienza aquí.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="search-section" class="container" style="padding: 2rem 2rem 0;">
+            <div class="main-search-container animate-up delay-2">
+                <div class="search-box glass hero-search">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                        stroke-width="2.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="product-search"
+                        placeholder="¿Qué quieres ahorrar hoy? Busca marcas, productos...">
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories-bar">
+            <div class="categories-wrapper">
+                <button class="scroll-btn left" id="scroll-left" aria-label="Desplazar a la izquierda">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <div class="categories-container glass">
+                    <button class="cat-btn" data-cat="all">Todos</button>
+                    <button class="cat-btn" data-cat="aceite">Aceite</button>
+                    <button class="cat-btn" data-cat="arroz">Arroz</button>
+                    <button class="cat-btn" data-cat="aguas">Aguas</button>
+                    <button class="cat-btn" data-cat="carnes">Carnes</button>
+                    <button class="cat-btn" data-cat="cereales">Cereales</button>
+                    <button class="cat-btn" data-cat="cervezas">Cervezas</button>
+                    <button class="cat-btn" data-cat="gaseosas">Gaseosas</button>
+                    <button class="cat-btn" data-cat="hamburguesas">Hamburguesas</button>
+                    <button class="cat-btn" data-cat="harinas">Harinas</button>
+                    <button class="cat-btn" data-cat="isotonicas">Isotónicas</button>
+                    <button class="cat-btn" data-cat="jugos">Jugos</button>
+                    <button class="cat-btn" data-cat="limpieza">Limpieza</button>
+                    <button class="cat-btn" data-cat="perros">Perros</button>
+                    <button class="cat-btn" data-cat="gatos">Gatos</button>
+                    <button class="cat-btn" data-cat="pañales">Pañales</button>
+                    <button class="cat-btn" data-cat="papeles">Papeles</button>
+                    <button class="cat-btn" data-cat="fiambres">Fiambres</button>
+                    <button class="cat-btn" data-cat="sal">Sal</button>
+                    <button class="cat-btn" data-cat="snacks">Snacks</button>
+                </div>
+                <button class="scroll-btn right" id="scroll-right" aria-label="Desplazar a la derecha">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <section class="market-logos-section animate-up delay-1">
+            <div class="market-logos-container">
+                <a href="https://laanonima.com.ar/" target="_blank" class="market-logo-link glass"
+                    title="Ir a La Anónima">
+                    <img src="logos/La Anonima.svg" alt="La Anonima">
+                </a>
+                <a href="https://www.carrefour.com.ar/" target="_blank" class="market-logo-link glass"
+                    title="Ir a Carrefour">
+                    <img src="logos/carre.png" alt="Carrefour">
+                </a>
+                <a href="https://www.masonline.com.ar/" target="_blank" class="market-logo-link glass"
+                    title="Ir a Chango Mas">
+                    <img src="logos/changomas-2011-seeklogo.png" alt="Chango Mas">
+                </a>
+                <a href="https://www.vea.com.ar/" target="_blank" class="market-logo-link glass" title="Ir a Vea">
+                    <img src="logos/super-vea-seeklogo.png" alt="Vea">
+                </a>
+            </div>
+        </section>
+
+        <section id="offers-wrapper">
+            <section id="offers" class="container">
+                <h2 class="section-title">Grandes Ofertas</h2>
+                <div class="offers-grid" id="offer-list">
+                    <!-- Dynamically populated -->
+                </div>
+            </section>
+        </section>
+
+        <section id="products" class="container">
+            <h2 id="products-title" class="section-title">Resultados</h2>
+
+            <div class="sort-container animate-up">
+                <div class="sort-box glass">
+                    <span style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.5rem;">Ordenar por:</span>
+                    <select id="price-sort">
+                        <option value="none" selected>Relevancia</option>
+                        <option value="low">Menor Precio</option>
+                        <option value="high">Mayor Precio</option>
+                        <option value="name">Nombre (A-Z)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="filter-bar glass">
+                <button class="filter-btn active" data-filter="all">TODOS</button>
+                <button class="filter-btn" data-filter="aura">LA ANONIMA</button>
+                <button class="filter-btn" data-filter="zenith">CARREFOUR</button>
+                <button class="filter-btn" data-filter="terra">CHANGO MAS</button>
+                <button class="filter-btn" data-filter="lumina">VEA</button>
+            </div>
+            <div id="loader" class="loader-container">
+                <div class="spinner"></div>
+                <p>Cargando productos de los supermercados...</p>
+            </div>
+            <div class="product-grid" id="product-list">
+                <!-- Dynamically populated -->
+            </div>
+        </section>
+    </main>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content glass animate-scale">
+            <button class="close-modal">&times;</button>
+            <div id="modal-body">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

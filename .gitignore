@@ -1,0 +1,22 @@
+# Archivos intermedios y logs
+output.txt
+carrefour_images.txt
+carrefour_names.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Carpetas de entorno virtual (por si acaso)
+venv/
+.venv/
+env/
+.env/
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store

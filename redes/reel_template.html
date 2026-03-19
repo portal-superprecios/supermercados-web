@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Reels - Super Ofertas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #080a1f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Outfit', sans-serif;
+            overflow: hidden;
+            color: #ffffff;
+        }
+
+        /* Contenedor simulando la pantalla del celular (9:16) */
+        .reel-container {
+            width: 400px;
+            height: 711px; /* Proporción 9:16 approx para encajar bien en pantalla */
+            background: linear-gradient(135deg, rgba(38, 40, 221, 0.4) 0%, #080a1f 100%);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+        }
+
+        @media (min-height: 850px) {
+            .reel-container {
+                width: 450px;
+                height: 800px;
+            }
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 4rem 2rem 2rem 2rem; /* Aumentado el padding superior para dar mas "cielo" */
+            opacity: 0;
+            transform: scale(1.1) translateY(50px);
+            transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); /* Rebote suave */
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .slide.active {
+            opacity: 1;
+            transform: scale(1) translateY(0);
+            z-index: 10;
+        }
+
+        /* Slide Intro / Outro */
+        .intro, .outro {
+            background: rgba(20, 24, 60, 0.8);
+            backdrop-filter: blur(10px);
+        }
+
+        .intro h1, .outro h1 {
+            font-size: 4rem;
+            color: #ffffff;
+            text-transform: uppercase;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            text-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            background: linear-gradient(135deg, #ffffff, #aeb2e6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .intro.active h1 {
+            animation: pulse 1s infinite alternate;
+        }
+
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+
+        .intro p, .outro p {
+            font-size: 1.8rem;
+            color: #10b981;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .website-link {
+            margin-top: 3rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #0ea5e9;
+            border: 2px dashed #0ea5e9;
+            box-shadow: 0 5px 15px rgba(14, 165, 233, 0.2);
+            text-transform: lowercase;
+            letter-spacing: 1px;
+        }
+
+        /* Product Slide */
+        .product-slide .product-image {
+            width: 250px;
+            height: 250px;
+            object-fit: contain;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 30px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+            margin-bottom: 2rem;
+            border: 4px solid #10b981;
+        }
+
+        .product-slide h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            font-weight: 600;
+        }
+
+        .price-container {
+            background: linear-gradient(135deg, #10b981, #047857);
+            padding: 10px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.4);
+            transform: rotate(-3deg);
+        }
+
+        .product-slide .price {
+            color: #ffffff;
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1;
+        }
+
+        .market-badge {
+            position: absolute;
+            top: 4.5rem; /* Ajustado para respetar el nuevo "cielo" */
+            background: rgba(255, 255, 255, 0.95);
+            padding: 0.5rem 1rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            width: 140px;
+        }
+
+        .market-badge img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        /* Controles externos al lado del Reel */
+        .controls {
+            position: absolute;
+            right: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .controls button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 12px;
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        .controls button:hover {
+            transform: translateY(-3px);
+            background: #0ea5e9;
+            box-shadow: 0 8px 20px rgba(14, 165, 233, 0.4);
+        }
+
+        .instructions {
+            position: absolute;
+            left: 50px;
+            max-width: 300px;
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .instructions h3 { margin-bottom: 10px; color: #10b981; }
+        .instructions p { margin-bottom: 10px; font-size: 0.9rem; color: #aeb2e6; }
+        
+        @media (max-width: 1100px) {
+            .controls, .instructions { display: none; } /* Ocultar en pantallas chicas para priorizar el reel */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="instructions">
+        <h3>📹 Cómo grabar tu Reel</h3>
+        <p>1. Presiona "Generar Nuevas Ofertas" si quieres otros productos distintos al azar.</p>
+        <p>2. Abre tu programa para grabar pantalla (OBS o la grabadora de Windows/Mac).</p>
+        <p>3. Graba el área del recuadro del celular.</p>
+        <p>4. Presiona "Iniciar Grabación/Animación" para que comience a pasar la publicidad desde el principio. Dura unos 15 segundos en total.</p>
+    </div>
+
+    <!-- Contenedor Principal del Reel -->
+    <div class="reel-container" id="reel">
+        <div class="slide intro" id="intro-slide">
+            <h1>¡SUPER OFERTAS!</h1>
+            <p>Solo por hoy</p>
+            <div class="website-link">💻 TUSITIO.COM</div>
+        </div>
+        
+        <div id="product-slides">
+            <!-- Los productos se inyectan acá con JS -->
+        </div>
+
+        <div class="slide outro" id="outro-slide">
+            <h1>¡Buscá tu sucursal!</h1>
+            <p>¡Te esperamos!</p>
+            <div class="website-link" style="background:#10b981; color:white; border:none; box-shadow:0 10px 20px rgba(16,185,129,0.5);">🛒 visita TUSITIO.COM</div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button onclick="generateRandomOffers()">🔄 Generar Nuevas Ofertas</button>
+        <button onclick="playAnimation()">▶ Iniciar Animación</button>
+    </div>
+
+    <!-- Importar la base de datos de productos existente -->
+    <script src="../products.js"></script>
+    <script>
+        const slidesContainer = document.getElementById('product-slides');
+        let allSlides = [];
+        let animationTimeout = null;
+        let currentSlide = -1;
+
+        // Limpia el formato de color en base al mercado
+        const marketColors = {
+            'aura': '#10b981',
+            'zenith': '#0ea5e9',
+            'terra': '#f59e0b',
+            'lumina': '#d946ef'
+        };
+        
+        const marketNames = {
+            'aura': 'La Anónima',
+            'zenith': 'Carrefour',
+            'terra': 'Chango Mas',
+            'lumina': 'Vea'
+        };
+
+        const marketLogos = {
+            'aura': '../logos/La Anonima.svg',
+            'zenith': '../logos/carre.png',
+            'terra': '../logos/changomas-2011-seeklogo.png',
+            'lumina': '../logos/super-vea-seeklogo.png'
+        };
+
+        function generateRandomOffers() {
+            // Detener cualquier animación en curso
+            clearTimeout(animationTimeout);
+            
+            // Vaciar contenedor
+            slidesContainer.innerHTML = '';
+            
+            // Tomar 4 productos al azar
+            const shuffled = [...allProductsData].sort(() => 0.5 - Math.random());
+            const selected = shuffled.slice(0, 4);
+
+            selected.forEach((p, index) => {
+                let slide = document.createElement('div');
+                slide.className = 'slide product-slide';
+                
+                // Asignar el nombre amigable y color del mercado
+                let marketName = marketNames[p.market] || p.market.toUpperCase();
+                let mColor = marketColors[p.market] || '#f59e0b';
+                let mLogo = marketLogos[p.market] || '';
+
+                // Corregir la ruta de la imagen (debe retroceder a la base y entrar a images)
+                let imagePath = "../" + p.image;
+
+                slide.innerHTML = `
+                    <div class="market-badge" style="border: 3px solid ${mColor};">
+                        <img src="${mLogo}" alt="${marketName}">
+                    </div>
+                    <img src="${imagePath}" alt="${p.name}" class="product-image" style="border-color: ${mColor};">
+                    <h2>${p.name}</h2>
+                    <div class="price-container">
+                        <div class="price">$${p.price.toLocaleString('es-AR', {minimumFractionDigits: 0, maximumFractionDigits: 2})}</div>
+                    </div>
+                `;
+                slidesContainer.appendChild(slide);
+            });
+
+            // Preparar el array de slides
+            allSlides = [
+                document.getElementById('intro-slide'),
+                ...document.querySelectorAll('.product-slide'),
+                document.getElementById('outro-slide')
+            ];
+
+            // Resetea todas
+            allSlides.forEach(s => s.classList.remove('active'));
+            document.getElementById('intro-slide').classList.add('active'); // Mantiene el intro
+        }
+
+        // Función para ir pasando diapositivas
+        function nextSlide() {
+            if (currentSlide >= 0 && currentSlide < allSlides.length) {
+                allSlides[currentSlide].classList.remove('active');
+            }
+            
+            currentSlide++;
+            
+            if (currentSlide < allSlides.length) {
+                allSlides[currentSlide].classList.add('active');
+                
+                // Tiempo de espera (Intro y Outro duran 2s, los productos 3s)
+                let waitTime = (currentSlide === 0 || currentSlide === allSlides.length - 1) ? 2000 : 3000;
+                animationTimeout = setTimeout(nextSlide, waitTime);
+            }
+        }
+
+        function playAnimation() {
+            clearTimeout(animationTimeout);
+            allSlides.forEach(s => s.classList.remove('active'));
+            currentSlide = -1; // Comienza desde -1 para que la proxima sea 0 
+            nextSlide();
+        }
+
+        // Generar la primera vez
+        document.addEventListener('DOMContentLoaded', () => {
+            generateRandomOffers();
+        });
+    </script>
+</body>
+</html>
