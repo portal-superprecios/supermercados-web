@@ -12748,6 +12748,14 @@ const allProductsData = [
             {
                 "date": "2026-03-20",
                 "price": 1600.0
+            },
+            {
+                "date": "2026-03-20",
+                "price": 1400.0
+            },
+            {
+                "date": "2026-03-20",
+                "price": 1600.0
             }
         ]
     },
@@ -12773,6 +12781,14 @@ const allProductsData = [
         "category": "sal",
         "image": "images/vea/Sal Fina Celusal 500 Gr_3.jpg",
         "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1750.0
+            },
+            {
+                "date": "2026-03-20",
+                "price": 1450.0
+            },
             {
                 "date": "2026-03-20",
                 "price": 1750.0
@@ -12850,6 +12866,14 @@ const allProductsData = [
             {
                 "date": "2026-03-20",
                 "price": 1600.0
+            },
+            {
+                "date": "2026-03-20",
+                "price": 1400.0
+            },
+            {
+                "date": "2026-03-20",
+                "price": 1600.0
             }
         ]
     },
@@ -12861,6 +12885,14 @@ const allProductsData = [
         "category": "sal",
         "image": "images/vea/Sal Fina Celusal 500 Gr_6.jpg",
         "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1750.0
+            },
+            {
+                "date": "2026-03-20",
+                "price": 1450.0
+            },
             {
                 "date": "2026-03-20",
                 "price": 1750.0
