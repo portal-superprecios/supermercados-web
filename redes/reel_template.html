@@ -65,12 +65,20 @@
             opacity: 1;
             transform: scale(1) translateY(0);
             z-index: 10;
+            pointer-events: auto; /* Permitir clics en el slide activo */
         }
 
         /* Slide Intro / Outro */
-        .intro, .outro {
+        .intro {
             background: rgba(20, 24, 60, 0.8);
             backdrop-filter: blur(10px);
+        }
+
+        .outro {
+            background: linear-gradient(rgba(8, 10, 31, 0.4), rgba(8, 10, 31, 0.9)), url('../img/happy_shopper.png');
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: blur(2px);
         }
 
         .intro h1, .outro h1 {
@@ -82,6 +90,7 @@
             text-shadow: 0 5px 15px rgba(0,0,0,0.5);
             background: linear-gradient(135deg, #ffffff, #aeb2e6);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -114,6 +123,14 @@
             box-shadow: 0 5px 15px rgba(14, 165, 233, 0.2);
             text-transform: lowercase;
             letter-spacing: 1px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .website-link:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
         }
 
         /* Product Slide */
@@ -136,6 +153,7 @@
             margin-bottom: 1rem;
             display: -webkit-box;
             -webkit-line-clamp: 3;
+            line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
             font-weight: 600;
@@ -238,7 +256,7 @@
         <div class="slide intro" id="intro-slide">
             <h1>¡SUPER OFERTAS!</h1>
             <p>Solo por hoy</p>
-            <div class="website-link">💻 TUSITIO.COM</div>
+            <a href="../index.html" class="website-link">💻 SUPERPRECIOS.WEB</a>
         </div>
         
         <div id="product-slides">
@@ -246,9 +264,14 @@
         </div>
 
         <div class="slide outro" id="outro-slide">
-            <h1>¡Buscá tu sucursal!</h1>
-            <p>¡Te esperamos!</p>
-            <div class="website-link" style="background:#10b981; color:white; border:none; box-shadow:0 10px 20px rgba(16,185,129,0.5);">🛒 visita TUSITIO.COM</div>
+            <h1>¡MÁS OFERTAS!</h1>
+            <p style="font-size: 1.2rem; margin: 1.5rem 0; color: #ffffff; text-transform: none; font-weight: 400; line-height: 1.4;">
+                Navega por la web y conoce todas las ofertas de los supermercados
+            </p>
+            <a href="../index.html" class="website-link" style="background:#10b981; color:white; border:none; box-shadow:0 10px 20px rgba(16,185,129,0.5);">
+                🛒 VER TODAS LAS OFERTAS
+            </a>
+            <p style="font-size: 1.1rem; margin-top: 1.5rem; color: #aeb2e6; letter-spacing: 2px; font-weight: 700; text-transform: uppercase;">🔗 LINK EN LA BIO</p>
         </div>
     </div>
 
@@ -346,8 +369,11 @@
             if (currentSlide < allSlides.length) {
                 allSlides[currentSlide].classList.add('active');
                 
-                // Tiempo de espera (Intro y Outro duran 2s, los productos 3s)
-                let waitTime = (currentSlide === 0 || currentSlide === allSlides.length - 1) ? 2000 : 3000;
+                // Tiempo de espera (Intro 2s, productos 3s, Outro 5s para mayor visibilidad)
+                let waitTime = 3000; 
+                if (currentSlide === 0) waitTime = 2000;
+                if (currentSlide === allSlides.length - 1) waitTime = 5000;
+                
                 animationTimeout = setTimeout(nextSlide, waitTime);
             }
         }

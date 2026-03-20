@@ -19,4 +19,7 @@ env/
 
 # Archivos de sistema
 Thumbs.db
-.DS_Store
+# Archivos sensibles (NO SUBIR)
+datos git.txt
+token
+
