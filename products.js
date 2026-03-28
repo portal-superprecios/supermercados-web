@@ -7981,6 +7981,2090 @@ const allProductsData = [
     },
     {
         "id": 489,
+        "name": "Amargo Pomelo Rosado Tres Torres x 1,5 Lt.",
+        "price": 1600.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Amargo Pomelo Rosado Tres Torres x 15 Lt_51.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1550.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
+            }
+        ]
+    },
+    {
+        "id": 490,
+        "name": "Amargo Tres Torres Limón Pet x 1,5 lt.",
+        "price": 1600.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Amargo Tres Torres Limón Pet x 15 lt_56.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1550.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
+            }
+        ]
+    },
+    {
+        "id": 491,
+        "name": "Amargo Serrano Tres Torres Pet x 1,5 lt.",
+        "price": 1600.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Amargo Serrano Tres Torres Pet x 15 lt_57.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1550.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
+            }
+        ]
+    },
+    {
+        "id": 492,
+        "name": "Amargo Blanco Tres Torres Pet x 1,5 lt.",
+        "price": 1600.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Amargo Blanco Tres Torres Pet x 15 lt_61.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1550.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
+            }
+        ]
+    },
+    {
+        "id": 493,
+        "name": "Dr. Lemon Vodka s/ Tacc x 275 cc.",
+        "price": 1600.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Dr Lemon Vodka s Tacc x 275 cc_65.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1500.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
+            }
+        ]
+    },
+    {
+        "id": 494,
+        "name": "Amargo Pomelo Rosado La Anónima x 1,5 Lt.",
+        "price": 1700.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Amargo Pomelo Rosado La Anónima x 15 Lt_37.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1700.0
+            }
+        ]
+    },
+    {
+        "id": 495,
+        "name": "Amargo Serrano La Anónima x 1,5 Lt.",
+        "price": 1700.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Amargo Serrano La Anónima x 15 Lt_38.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 1700.0
+            }
+        ]
+    },
+    {
+        "id": 496,
+        "name": "Amargo Cordillerano La Anónima x 1,5 Lt.",
+        "price": 1700.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Amargo Cordillerano La Anónima x 15 Lt_39.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1700.0
+            }
+        ]
+    },
+    {
+        "id": 497,
+        "name": "Lata Frizzé Blue x 473 cc.",
+        "price": 2450.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Lata Frizzé Blue x 473 cc_3.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 2450.0
+            }
+        ]
+    },
+    {
+        "id": 498,
+        "name": "Fernet con Cola 1882 x 473 cc.",
+        "price": 2450.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Fernet con Cola 1882 x 473 cc_63.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2300.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 2450.0
+            }
+        ]
+    },
+    {
+        "id": 499,
+        "name": "Pate de Jamón Bocatti x 90 g.",
+        "price": 2000.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Pate de Jamón Bocatti x 90 g_44.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2000.0
+            }
+        ]
+    },
+    {
+        "id": 500,
+        "name": "Paté Panceta Ahumada Bocatti x 90 g.",
+        "price": 2050.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Paté Panceta Ahumada Bocatti x 90 g_20.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2050.0
+            }
+        ]
+    },
+    {
+        "id": 501,
+        "name": "Pate con Pimienta Verde Bocatti x 90 g.",
+        "price": 2050.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Pate con Pimienta Verde Bocatti x 90 g_27.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2050.0
+            }
+        ]
+    },
+    {
+        "id": 502,
+        "name": "Salchichón Primavera Feteado Zur Linde x 200 g.",
+        "price": 2650.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Salchichón Primavera Feteado Zur Linde x_12.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2650.0
+            }
+        ]
+    },
+    {
+        "id": 503,
+        "name": "Mortadela con Pistacho Bocatti x 70 g.",
+        "price": 2650.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Mortadela con Pistacho Bocatti x 70 g_33.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2650.0
+            }
+        ]
+    },
+    {
+        "id": 504,
+        "name": "Lomo al Horno Feteado Var.Log5 Bocatti x 70 g.",
+        "price": 2700.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Lomo al Horno Feteado VarLog5 Bocatti x _9.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2700.0
+            }
+        ]
+    },
+    {
+        "id": 505,
+        "name": "Leberwurst Cabaña Argentina x 200 g.",
+        "price": 2700.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Leberwurst Cabaña Argentina x 200 g_22.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2150.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 2700.0
+            }
+        ]
+    },
+    {
+        "id": 506,
+        "name": "Salchichón con Jamón Feteado Zur Linde x 200 g.",
+        "price": 2700.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Salchichón con Jamón Feteado Zur Linde x_40.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2700.0
+            }
+        ]
+    },
+    {
+        "id": 507,
+        "name": "Salame Milán Feteado Var.Log.5 Bocatti x 70 g.",
+        "price": 2750.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Salame Milán Feteado VarLog5 Bocatti x 7_19.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2750.0
+            }
+        ]
+    },
+    {
+        "id": 508,
+        "name": "Mortadela Feteada 214 x 200 g.",
+        "price": 3600.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Mortadela Feteada 214 x 200 g_24.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 3600.0
+            }
+        ]
+    },
+    {
+        "id": 509,
+        "name": "Frutillas Congeladas Karinat x 300 g.",
+        "price": 5850.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Frutillas Congeladas Karinat x 300 g_8.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 5550.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 5850.0
+            }
+        ]
+    },
+    {
+        "id": 510,
+        "name": "Frutillas Congeladas La Anónima x 300 g.",
+        "price": 6000.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Frutillas Congeladas La Anónima x 300 g_7.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 6000.0
+            }
+        ]
+    },
+    {
+        "id": 511,
+        "name": "Arándanos Congelados La Anónima x 300 g.",
+        "price": 6300.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Arándanos Congelados La Anónima x 300 g_6.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 6300.0
+            }
+        ]
+    },
+    {
+        "id": 512,
+        "name": "Arándanos Congelados Green Life x 300 g.",
+        "price": 6650.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Arándanos Congelados Green Life x 300 g_1.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 6650.0
+            }
+        ]
+    },
+    {
+        "id": 513,
+        "name": "Mix Frutos Rojos Congelados La Anónima x 300 g.",
+        "price": 7350.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mix Frutos Rojos Congelados La Anónima x_5.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 7350.0
+            }
+        ]
+    },
+    {
+        "id": 514,
+        "name": "Mix Berries Congelados Karinat x 300 g.",
+        "price": 7400.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mix Berries Congelados Karinat x 300 g_9.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 6950.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 7400.0
+            }
+        ]
+    },
+    {
+        "id": 515,
+        "name": "Frutillas Enteras Congeladas Green Life x 400 g.",
+        "price": 7700.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Frutillas Enteras Congeladas Green Life _0.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 7700.0
+            }
+        ]
+    },
+    {
+        "id": 516,
+        "name": "Arándanos Congelados Karinat x 300 g.",
+        "price": 7700.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Arándanos Congelados Karinat x 300 g_11.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 7250.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 7700.0
+            }
+        ]
+    },
+    {
+        "id": 517,
+        "name": "Mix Cuatro Berries Green Life x 400 g.",
+        "price": 9900.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mix Cuatro Berries Green Life x 400 g_2.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 9900.0
+            }
+        ]
+    },
+    {
+        "id": 518,
+        "name": "Mix Berries Congelados Karinat x 400 g.",
+        "price": 12050.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mix Berries Congelados Karinat x 400 g_10.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 11300.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 12050.0
+            }
+        ]
+    },
+    {
+        "id": 519,
+        "name": "Gaseosa Cola s/Azúcar Lata Coca Cola x 354 cc.",
+        "price": 1450.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Cola sAzúcar Lata Coca Cola x 35_18.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1450.0
+            }
+        ]
+    },
+    {
+        "id": 520,
+        "name": "Gaseosa Pomelo Lata Schweppes x 310 cc.",
+        "price": 1450.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Pomelo Lata Schweppes x 310 cc_24.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1450.0
+            }
+        ]
+    },
+    {
+        "id": 521,
+        "name": "Gaseosa Lima Limón s/Azúcar Lata Sprite x 354 cc.",
+        "price": 1450.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Lima Limón sAzúcar Lata Sprite x_26.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1450.0
+            }
+        ]
+    },
+    {
+        "id": 522,
+        "name": "Gaseosa Pepsi Black Lata 354cc x1",
+        "price": 1550.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Pepsi Black Lata 354cc x1_5.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1550.0
+            }
+        ]
+    },
+    {
+        "id": 523,
+        "name": "Gaseosa Lima Limón Zero Ice Sprite x 473 cc.",
+        "price": 1650.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Lima Limón Zero Ice Sprite x 473_21.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1650.0
+            }
+        ]
+    },
+    {
+        "id": 524,
+        "name": "Gaseosa Cola Diet Coca-Cola Zero Pet x 500 cc.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Cola Diet Coca-Cola Zero Pet x 5_19.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 525,
+        "name": "Gaseosa Lima Limón sin Azúcar Sprite Pet x 500 cc.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Lima Limón sin Azúcar Sprite Pet_20.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 526,
+        "name": "Gaseosa Naranja Diet Fanta Zero Pet x 500 cc.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Naranja Diet Fanta Zero Pet x 50_27.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 527,
+        "name": "Gaseosa Schweppes Pomelo Zero Pet x 500 cc.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Schweppes Pomelo Zero Pet x 500 _28.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 528,
+        "name": "Gaseosa Cola Coca-Cola Light Pet x 500 cc.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "gaseosas",
+        "image": "images/laanonima/Gaseosa Cola Coca-Cola Light Pet x 500 c_29.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 529,
+        "name": "Medallón Hamburguesa Champion. x 2 u. 112 GR",
+        "price": 1550.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Medallón Hamburguesa Champion x 2 u 112 _31.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1550.0
+            }
+        ]
+    },
+    {
+        "id": 530,
+        "name": "Medallones Carne Vacuna con Soja x 2 Un. Tres Cruces x 110 g.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Medallones Carne Vacuna con Soja x 2 Un _32.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1600.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 531,
+        "name": "Medallones de Carne Vacuna Best x 2 un. 110 gr.",
+        "price": 2100.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Medallones de Carne Vacuna Best x 2 un 1_21.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2100.0
+            }
+        ]
+    },
+    {
+        "id": 532,
+        "name": "Medallones de Carne Vacuna Doble Swift x 2 un. 112 gr.",
+        "price": 2300.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Medallones de Carne Vacuna Doble Swift x_42.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2100.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 2300.0
+            }
+        ]
+    },
+    {
+        "id": 533,
+        "name": "Medallones de Carne Vacuna Express x 2 Un. Paty x 110 g.",
+        "price": 2600.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Medallones de Carne Vacuna Express x 2 U_33.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2450.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 2600.0
+            }
+        ]
+    },
+    {
+        "id": 534,
+        "name": "Medallones de Carne Vacuna x 2 Un.  Swift x 320 g.",
+        "price": 3050.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Medallones de Carne Vacuna x 2 Un  Swift_35.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2800.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 3050.0
+            }
+        ]
+    },
+    {
+        "id": 535,
+        "name": "Hamburguesas de Carne Vacuna La Anónima x 2 un. 110 gr.",
+        "price": 3250.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Hamburguesas de Carne Vacuna La Anónima _20.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 3250.0
+            }
+        ]
+    },
+    {
+        "id": 536,
+        "name": "Medallón Hamburguesa Champion. x 4 u. 224 GR",
+        "price": 3300.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Medallón Hamburguesa Champion x 4 u 224 _34.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 3300.0
+            }
+        ]
+    },
+    {
+        "id": 537,
+        "name": "Hamburguesa Carne Vacuna Finitas x 2 Un. Paty x 110 g.",
+        "price": 3400.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Hamburguesa Carne Vacuna Finitas x 2 Un _5.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 3150.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 3400.0
+            }
+        ]
+    },
+    {
+        "id": 538,
+        "name": "Medallones de Carne Vacuna x 4 un. La Blanca x 276 gr.",
+        "price": 4100.0,
+        "market": "aura",
+        "category": "hamburguesas",
+        "image": "images/laanonima/Medallones de Carne Vacuna x 4 un La Bla_36.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 3750.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 4100.0
+            }
+        ]
+    },
+    {
+        "id": 539,
+        "name": "Bebida Fresh Blue Full Sport x 500 cc.",
+        "price": 1850.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida Fresh Blue Full Sport x 500 cc_36.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1850.0
+            }
+        ]
+    },
+    {
+        "id": 540,
+        "name": "Bebida Energizante Speed x 269 cc.",
+        "price": 1900.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida Energizante Speed x 269 cc_22.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1900.0
+            }
+        ]
+    },
+    {
+        "id": 541,
+        "name": "Energizante Rockstar  Botella 500cc x1",
+        "price": 2000.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Energizante Rockstar  Botella 500cc x1_13.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2000.0
+            }
+        ]
+    },
+    {
+        "id": 542,
+        "name": "Bebida de Moras Pet Gatorade Sin Azúcar x 400 cc.",
+        "price": 2050.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida de Moras Pet Gatorade Sin Azúcar _10.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 2050.0
+            }
+        ]
+    },
+    {
+        "id": 543,
+        "name": "Bebida de Fresa y Kiwi Pet Gatorade Sin Azúcar x 400 cc.",
+        "price": 2050.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida de Fresa y Kiwi Pet Gatorade Sin _14.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 2050.0
+            }
+        ]
+    },
+    {
+        "id": 544,
+        "name": "Bebida Uva Powerade x 500 cc.",
+        "price": 2050.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida Uva Powerade x 500 cc_21.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2050.0
+            }
+        ]
+    },
+    {
+        "id": 545,
+        "name": "Powerade Mountain Blast x 500 cc.",
+        "price": 2300.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Powerade Mountain Blast x 500 cc_25.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2350.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 2300.0
+            }
+        ]
+    },
+    {
+        "id": 546,
+        "name": "Bebida Powerade Manzana x 500 cc.",
+        "price": 2300.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida Powerade Manzana x 500 cc_27.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2350.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 2300.0
+            }
+        ]
+    },
+    {
+        "id": 547,
+        "name": "Bebida Powerade Naranja x 500 cc.",
+        "price": 2300.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida Powerade Naranja x 500 cc_28.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2350.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 2300.0
+            }
+        ]
+    },
+    {
+        "id": 548,
+        "name": "Powerade Frutas Tropicales x 500 cc.",
+        "price": 2300.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Powerade Frutas Tropicales x 500 cc_38.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2350.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 2300.0
+            }
+        ]
+    },
+    {
+        "id": 549,
+        "name": "Bebida Láctea Vainilla Tetra La Serenísima x 200 cc.",
+        "price": 1250.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Bebida Láctea Vainilla Tetra La Serenísi_53.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1250.0
+            }
+        ]
+    },
+    {
+        "id": 550,
+        "name": "Bebida Láctea Frutilla Tetra La Serenísima x 200 cc.",
+        "price": 1250.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Bebida Láctea Frutilla Tetra La Serenísi_57.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1250.0
+            }
+        ]
+    },
+    {
+        "id": 551,
+        "name": "Leche LV Entera Clásica Fortificada c/ Vitamina 3% La Serenísima x 200 cc.",
+        "price": 1350.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche LV Entera Clásica Fortificada c Vi_52.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1350.0
+            }
+        ]
+    },
+    {
+        "id": 552,
+        "name": "Leche LV Chocolatada Nescao x 185 cc.",
+        "price": 1500.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche LV Chocolatada Nescao x 185 cc_10.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1500.0
+            }
+        ]
+    },
+    {
+        "id": 553,
+        "name": "Leche LV Modificada Etapa 3 Baby La Serenísima x 200 cc.",
+        "price": 1550.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche LV Modificada Etapa 3 Baby La Sere_62.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1550.0
+            }
+        ]
+    },
+    {
+        "id": 554,
+        "name": "Protein chocolate 200ml",
+        "price": 1700.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Protein chocolate 200ml_51.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 1650.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1700.0
+            }
+        ]
+    },
+    {
+        "id": 555,
+        "name": "Bebida Lactea a Base de Leche Capuchino Sense x 200 cc.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Bebida Lactea a Base de Leche Capuchino _67.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 556,
+        "name": "Bebida Lactea a Base de Leche Caramel Sense x 200 cc.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Bebida Lactea a Base de Leche Caramel Se_68.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 557,
+        "name": "Bebida Lactea a Base de Leche Avellanas Sense x 200 cc.",
+        "price": 1750.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Bebida Lactea a Base de Leche Avellanas _75.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1750.0
+            }
+        ]
+    },
+    {
+        "id": 558,
+        "name": "Leche chocolatada La Serenísima Clásico 200cc",
+        "price": 1800.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche chocolatada La Serenísima Clásico _7.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 1800.0
+            }
+        ]
+    },
+    {
+        "id": 559,
+        "name": "Limpiador Líquido Concentrado Lavanda Rinde 1 Lt. Best x 30 cc.",
+        "price": 660.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Limpiador Líquido Concentrado Lavanda Ri_137.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 660.0
+            }
+        ]
+    },
+    {
+        "id": 560,
+        "name": "Limpiador Líquido Concentrado Marina Rinde 1 Lt. Best x 30 cc.",
+        "price": 660.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Limpiador Líquido Concentrado Marina Rin_138.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 660.0
+            }
+        ]
+    },
+    {
+        "id": 561,
+        "name": "Fibra Esponja Lisita Best x 1 un.",
+        "price": 810.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Fibra Esponja Lisita Best x 1 un_105.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 800.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 810.0
+            }
+        ]
+    },
+    {
+        "id": 562,
+        "name": "Fibra Esponja Best Extra Delgada x 1 un.",
+        "price": 910.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Fibra Esponja Best Extra Delgada x 1 un_145.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 870.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 910.0
+            }
+        ]
+    },
+    {
+        "id": 563,
+        "name": "Rejilla Blanca Best Pábilo 32x42cm x 1 un.",
+        "price": 1150.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Rejilla Blanca Best Pábilo 32x42cm x 1 u_91.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1050.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1150.0
+            }
+        ]
+    },
+    {
+        "id": 564,
+        "name": "Fibra Esponja Suave Best No raya x 1 un.",
+        "price": 1150.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Fibra Esponja Suave Best No raya x 1 un_118.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1100.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1150.0
+            }
+        ]
+    },
+    {
+        "id": 565,
+        "name": "Jabón en Pan Blanco Best x 1 un. x 200 g.",
+        "price": 1300.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Jabón en Pan Blanco Best x 1 un x 200 g_27.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1300.0
+            }
+        ]
+    },
+    {
+        "id": 566,
+        "name": "Esponja de Acero Best x 2 un.",
+        "price": 1350.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Esponja de Acero Best x 2 un_76.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1350.0
+            }
+        ]
+    },
+    {
+        "id": 567,
+        "name": "Rejilla Blanca Best Americana 38x43cm x 1 un.",
+        "price": 1400.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Rejilla Blanca Best Americana 38x43cm x _67.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1300.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1400.0
+            }
+        ]
+    },
+    {
+        "id": 568,
+        "name": "Limpiador Líquido para Pisos Best Fragancia Lavanda x 900 cc.",
+        "price": 1400.0,
+        "market": "aura",
+        "category": "limpieza",
+        "image": "images/laanonima/Limpiador Líquido para Pisos Best Fragan_77.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1350.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1400.0
+            }
+        ]
+    },
+    {
+        "id": 569,
+        "name": "Pañales Huggies Classic P x30",
+        "price": 12500.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañales Huggies Classic P x30_63.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 12500.0
+            }
+        ]
+    },
+    {
+        "id": 570,
+        "name": "Pañales Babysec Super Premium Recien Nacido 20 Un.",
+        "price": 13350.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañales Babysec Super Premium Recien Nac_33.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 13350.0
+            }
+        ]
+    },
+    {
+        "id": 571,
+        "name": "Pañal Huggies Flexi Comfort XG x16",
+        "price": 14300.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal Huggies Flexi Comfort XG x16_70.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 14300.0
+            }
+        ]
+    },
+    {
+        "id": 572,
+        "name": "Pañal Huggies Flexi Comfort G x20",
+        "price": 14300.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal Huggies Flexi Comfort G x20_71.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 14300.0
+            }
+        ]
+    },
+    {
+        "id": 573,
+        "name": "Traje Baño M Little Swimm Huggies x 11 un.",
+        "price": 14550.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Traje Baño M Little Swimm Huggies x 11 u_84.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 14550.0
+            }
+        ]
+    },
+    {
+        "id": 574,
+        "name": "Pañal Huggies Protect Plus P x30",
+        "price": 14600.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal Huggies Protect Plus P x30_58.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 14600.0
+            }
+        ]
+    },
+    {
+        "id": 575,
+        "name": "Traje de Baño Descremado  Splashers G-XG Pampers x 10 un.",
+        "price": 16350.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Traje de Baño Descremado  Splashers G-XG_21.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 16350.0
+            }
+        ]
+    },
+    {
+        "id": 576,
+        "name": "Traje de Baño Descremado  Splashers P-M Pampers x 12 un.",
+        "price": 16350.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Traje de Baño Descremado  Splashers P-M _22.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 16350.0
+            }
+        ]
+    },
+    {
+        "id": 577,
+        "name": "Traje de Baño Descremado  Splashers M-G Pampers x 11 un.",
+        "price": 16350.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Traje de Baño Descremado  Splashers M-G _23.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 16350.0
+            }
+        ]
+    },
+    {
+        "id": 578,
+        "name": "Pañal Huggies Flexi Comfort P x30",
+        "price": 17150.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal Huggies Flexi Comfort P x30_55.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 17150.0
+            }
+        ]
+    },
+    {
+        "id": 579,
+        "name": "Servilletas Papel Hoja Simple 32,3 cm x 30 cm Felpita x 70 Un.",
+        "price": 1550.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Servilletas Papel Hoja Simple 323 cm x 3_38.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1550.0
+            }
+        ]
+    },
+    {
+        "id": 580,
+        "name": "Servilleta Sussex Clásica hoja simple 80 un",
+        "price": 1800.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Servilleta Sussex Clásica hoja simple 80_33.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1800.0
+            }
+        ]
+    },
+    {
+        "id": 581,
+        "name": "Servilletas Papel 33X33 Elegante x 80 un.",
+        "price": 1800.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Servilletas Papel 33X33 Elegante x 80 un_45.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1800.0
+            }
+        ]
+    },
+    {
+        "id": 582,
+        "name": "Servilletas Papel Tissue La Anónima Decoradas 32cmx30cm x 70 un.",
+        "price": 1900.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Servilletas Papel Tissue La Anónima Deco_26.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1900.0
+            }
+        ]
+    },
+    {
+        "id": 583,
+        "name": "Servilletas La Anónima x 80 un.",
+        "price": 2150.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Servilletas La Anónima x 80 un_10.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2150.0
+            }
+        ]
+    },
+    {
+        "id": 584,
+        "name": "Bolsas para Residuos Best 45x55cm x 20 un.",
+        "price": 2200.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Bolsas para Residuos Best 45x55cm x 20 u_20.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2200.0
+            }
+        ]
+    },
+    {
+        "id": 585,
+        "name": "Papel Higiénico Hoja Simple Elegante 30 Mts Blanco x 4 un.",
+        "price": 2400.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Papel Higiénico Hoja Simple Elegante 30 _40.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2400.0
+            }
+        ]
+    },
+    {
+        "id": 586,
+        "name": "Papel higiénico Higienol Fresh hoja simple 30 m 4 un",
+        "price": 2450.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Papel higiénico Higienol Fresh hoja simp_39.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2450.0
+            }
+        ]
+    },
+    {
+        "id": 587,
+        "name": "Rollo Cocina Doble Hoja x 60 Un. Paños Felpita x 3 Un.",
+        "price": 2500.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Rollo Cocina Doble Hoja x 60 Un Paños Fe_29.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 2500.0
+            }
+        ]
+    },
+    {
+        "id": 588,
+        "name": "Papel Higiénico Hoja Simple Best 4 x 30 metros",
+        "price": 2700.0,
+        "market": "aura",
+        "category": "papeles",
+        "image": "images/laanonima/Papel Higiénico Hoja Simple Best 4 x 30 _16.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 2700.0
+            }
+        ]
+    },
+    {
+        "id": 589,
+        "name": "Pollo Fresco La Anónima (Kg)",
+        "price": 4190.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pollo Fresco La Anónima Kg_0.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 4190.0
+            }
+        ]
+    },
+    {
+        "id": 590,
+        "name": "Pollo Fresco Pollolin (Kg)",
+        "price": 4190.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pollo Fresco Pollolin Kg_1.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 4190.0
+            }
+        ]
+    },
+    {
+        "id": 591,
+        "name": "Pollo Tres Arroyos Congelado (Kg)",
+        "price": 4190.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pollo Tres Arroyos Congelado Kg_5.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 4190.0
+            }
+        ]
+    },
+    {
+        "id": 592,
+        "name": "Cuarto Trasero de Pollo La Anónima (Kg)",
+        "price": 5190.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Cuarto Trasero de Pollo La Anónima Kg_7.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 5190.0
+            }
+        ]
+    },
+    {
+        "id": 593,
+        "name": "Muslo de Pollo La Anónima (Kg)",
+        "price": 5890.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Muslo de Pollo La Anónima Kg_4.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 5890.0
+            }
+        ]
+    },
+    {
+        "id": 594,
+        "name": "PataMuslo de Pollo La Anónima (Kg)",
+        "price": 6490.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/PataMuslo de Pollo La Anónima Kg_6.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 6490.0
+            }
+        ]
+    },
+    {
+        "id": 595,
+        "name": "Pollo Refrigerado Bandeja Pollolin (Kg)",
+        "price": 6550.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pollo Refrigerado Bandeja Pollolin Kg_14.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 6550.0
+            }
+        ]
+    },
+    {
+        "id": 596,
+        "name": "Cuarto Trasero Bandeja Pollolin (Kg)",
+        "price": 6990.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Cuarto Trasero Bandeja Pollolin Kg_12.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 6990.0
+            }
+        ]
+    },
+    {
+        "id": 597,
+        "name": "Pollo Parrillero Pollolin (Kg)",
+        "price": 7490.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pollo Parrillero Pollolin Kg_15.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 7490.0
+            }
+        ]
+    },
+    {
+        "id": 598,
+        "name": "Muslo Pollolin (Kg)",
+        "price": 7690.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Muslo Pollolin Kg_9.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 7690.0
+            }
+        ]
+    },
+    {
+        "id": 599,
+        "name": "Queso Rallado La Quesera x 40 g.",
+        "price": 950.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso Rallado La Quesera x 40 g_16.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 950.0
+            }
+        ]
+    },
+    {
+        "id": 600,
+        "name": "Queso Rallado Reggianito Tonadita x 40 g.",
+        "price": 1650.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso Rallado Reggianito Tonadita x 40 g_8.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 1650.0
+            }
+        ]
+    },
+    {
+        "id": 601,
+        "name": "Queso Rallado Reggianito La Serenísima x 35 g.",
+        "price": 1800.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso Rallado Reggianito La Serenísima x_15.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1800.0
+            }
+        ]
+    },
+    {
+        "id": 602,
+        "name": "Queso Rallado La Quesera x 100 g.",
+        "price": 2150.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso Rallado La Quesera x 100 g_11.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2150.0
+            }
+        ]
+    },
+    {
+        "id": 603,
+        "name": "Queso Rallado Tregar x 40 g.",
+        "price": 2200.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso Rallado Tregar x 40 g_69.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2050.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 2200.0
+            }
+        ]
+    },
+    {
+        "id": 604,
+        "name": "Queso Rallado La Paulina x 40 g.",
+        "price": 2400.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso Rallado La Paulina x 40 g_46.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2350.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 2400.0
+            }
+        ]
+    },
+    {
+        "id": 605,
+        "name": "Queso Provolone En Fetas x 8 Un. Tonadita x 120 g.",
+        "price": 2800.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso Provolone En Fetas x 8 Un Tonadita_27.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 2800.0
+            }
+        ]
+    },
+    {
+        "id": 606,
+        "name": "Queso Cheddar En Fetas x 8 Un. Tonadita x 120 g.",
+        "price": 2800.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso Cheddar En Fetas x 8 Un Tonadita x_28.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 2800.0
+            }
+        ]
+    },
+    {
+        "id": 607,
+        "name": "Queso en Hebras Mini La Paulina x 80 g.",
+        "price": 3000.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso en Hebras Mini La Paulina x 80 g_62.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 3000.0
+            }
+        ]
+    },
+    {
+        "id": 608,
+        "name": "Queso de Cerdo Feteado 42 x 200 g.",
+        "price": 3300.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso de Cerdo Feteado 42 x 200 g_70.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 3100.0
+            },
+            {
+                "date": "2026-03-21",
+                "price": 3300.0
+            }
+        ]
+    },
+    {
+        "id": 609,
+        "name": "Polvo para preparar Salsa Blanca Dos Anclas x 40 g.",
+        "price": 840.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Polvo para preparar Salsa Blanca Dos Anc_1.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 840.0
+            }
+        ]
+    },
+    {
+        "id": 610,
+        "name": "Ajo en Polvo Deshidratado Dos Anclas x 20 g.",
+        "price": 1400.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Ajo en Polvo Deshidratado Dos Anclas x 2_0.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1400.0
+            }
+        ]
+    },
+    {
+        "id": 611,
+        "name": "Perejil Deshidratado Dos Anclas x 25 g.",
+        "price": 1500.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Perejil Deshidratado Dos Anclas x 25 g_4.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1500.0
+            }
+        ]
+    },
+    {
+        "id": 612,
+        "name": "Sal Fina Paquete Dos Anclas x 500 g.",
+        "price": 1500.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Sal Fina Paquete Dos Anclas x 500 g_6.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 1500.0
+            }
+        ]
+    },
+    {
+        "id": 613,
+        "name": "Pimienta Negra Molida Sobre Dos Anclas x 25 g.",
+        "price": 2050.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Pimienta Negra Molida Sobre Dos Anclas x_11.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2050.0
+            }
+        ]
+    },
+    {
+        "id": 614,
+        "name": "Ají Molido Dos Anclas x 50 g.",
+        "price": 2200.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Ají Molido Dos Anclas x 50 g_5.jpg",
+        "history": [
+            {
+                "date": "2026-03-20",
+                "price": 2200.0
+            }
+        ]
+    },
+    {
+        "id": 615,
+        "name": "Pimentón Seleccionado Dos Anclas x 50 g.",
+        "price": 2300.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Pimentón Seleccionado Dos Anclas x 50 g_2.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 2300.0
+            }
+        ]
+    },
+    {
+        "id": 616,
+        "name": "Sal Entrefina Parrillera Estuche Dos Anclas x 1 Kg.",
+        "price": 2600.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Sal Entrefina Parrillera Estuche Dos Anc_8.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 2600.0
+            }
+        ]
+    },
+    {
+        "id": 617,
+        "name": "Sal Gruesa Paquete Dos Anclas x 1 Kg.",
+        "price": 2600.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Sal Gruesa Paquete Dos Anclas x 1 Kg_9.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 2600.0
+            }
+        ]
+    },
+    {
+        "id": 618,
+        "name": "Provenzal Dos Anclas x 50 g.",
+        "price": 2700.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Provenzal Dos Anclas x 50 g_3.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 2700.0
+            }
+        ]
+    },
+    {
+        "id": 619,
+        "name": "Cereal Aritos Frutados Julicroc x 150 g.",
+        "price": 1200.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Cereal Aritos Frutados Julicroc x 150 g_46.jpg",
+        "history": [
+            {
+                "date": "2026-03-21",
+                "price": 1200.0
+            }
+        ]
+    },
+    {
+        "id": 620,
+        "name": "Cereal Bolitas de Chocolate Julicroc x 150 g.",
+        "price": 1200.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Cereal Bolitas de Chocolate Julicroc x 1_47.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1200.0
+            }
+        ]
+    },
+    {
+        "id": 621,
+        "name": "Barrita Vegana Choco Naranja Laddu Bar x 30 g.",
+        "price": 1500.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Barrita Vegana Choco Naranja Laddu Bar x_75.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1500.0
+            }
+        ]
+    },
+    {
+        "id": 622,
+        "name": "Chips de Remolachas y Batatas Nuestros Sabores x 80 g.",
+        "price": 1600.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Chips de Remolachas y Batatas Nuestros S_29.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1600.0
+            }
+        ]
+    },
+    {
+        "id": 623,
+        "name": "Chips de Batata Frita Nuestros Sabores x 80 g.",
+        "price": 1600.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Chips de Batata Frita Nuestros Sabores x_30.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1600.0
+            }
+        ]
+    },
+    {
+        "id": 624,
+        "name": "Papas Fritas Sabor Cheddar Julicroc x 70 g.",
+        "price": 1700.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Papas Fritas Sabor Cheddar Julicroc x 70_66.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1700.0
+            }
+        ]
+    },
+    {
+        "id": 625,
+        "name": "Almohaditas Rellena de Avellana sin Tacc Snuks x 90 g.",
+        "price": 1850.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Almohaditas Rellena de Avellana sin Tacc_51.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1850.0
+            }
+        ]
+    },
+    {
+        "id": 626,
+        "name": "Almohaditas Rellena de Frutilla sin Tacc Snuks x 90 g.",
+        "price": 1850.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Almohaditas Rellena de Frutilla sin Tacc_71.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1850.0
+            }
+        ]
+    },
+    {
+        "id": 627,
+        "name": "Galletitas sabor Frutilla sin Tacc Smams x 105 g.",
+        "price": 1900.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Galletitas sabor Frutilla sin Tacc Smams_61.jpg",
+        "history": [
+            {
+                "date": "2026-03-16",
+                "price": 1900.0
+            }
+        ]
+    },
+    {
+        "id": 628,
+        "name": "Galletitas Rellenas Vainilla Smams x 105 g.",
+        "price": 1900.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Galletitas Rellenas Vainilla Smams x 105_62.jpg",
+        "history": [
+            {
+                "date": "2026-03-28",
+                "price": 1900.0
+            }
+        ]
+    },
+    {
+        "id": 629,
         "name": "Cerveza Quilmes 0.0% Lata 473cc x1",
         "price": 2150.0,
         "market": "aura",
@@ -8002,7 +10086,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 490,
+        "id": 630,
         "name": "Cerveza Porrón Michelob x 275 cc.",
         "price": 2350.0,
         "market": "aura",
@@ -8016,7 +10100,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 491,
+        "id": 631,
         "name": "Cerveza Lata Rubia Andes x 473 cc.",
         "price": 2550.0,
         "market": "aura",
@@ -8030,7 +10114,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 492,
+        "id": 632,
         "name": "Cerveza Quilmes Hinchada Lata 473cc x1",
         "price": 2650.0,
         "market": "aura",
@@ -8044,7 +10128,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 493,
+        "id": 633,
         "name": "Cerveza Brahma Chopp Lata 473cc x1",
         "price": 2650.0,
         "market": "aura",
@@ -8058,7 +10142,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 494,
+        "id": 634,
         "name": "Cerveza Rubia Budweiser Lata 473cc",
         "price": 2750.0,
         "market": "aura",
@@ -8072,7 +10156,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 495,
+        "id": 635,
         "name": "Cerveza Imperial Lata x 473 cc.",
         "price": 2750.0,
         "market": "aura",
@@ -8086,7 +10170,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 496,
+        "id": 636,
         "name": "Cerveza Golden Lata Imperial x 473 cc.",
         "price": 2750.0,
         "market": "aura",
@@ -8100,7 +10184,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 497,
+        "id": 637,
         "name": "Cerveza Rubia Lata Salta x 473 cc.",
         "price": 2750.0,
         "market": "aura",
@@ -8114,7 +10198,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 498,
+        "id": 638,
         "name": "Cerveza Quilmes IPA Lata 473cc x1",
         "price": 2750.0,
         "market": "aura",
@@ -8128,2090 +10212,6 @@ const allProductsData = [
             {
                 "date": "2026-03-21",
                 "price": 2750.0
-            }
-        ]
-    },
-    {
-        "id": 499,
-        "name": "Amargo Pomelo Rosado Tres Torres x 1,5 Lt.",
-        "price": 1600.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Amargo Pomelo Rosado Tres Torres x 15 Lt_51.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1550.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1600.0
-            }
-        ]
-    },
-    {
-        "id": 500,
-        "name": "Amargo Tres Torres Limón Pet x 1,5 lt.",
-        "price": 1600.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Amargo Tres Torres Limón Pet x 15 lt_56.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1550.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1600.0
-            }
-        ]
-    },
-    {
-        "id": 501,
-        "name": "Amargo Serrano Tres Torres Pet x 1,5 lt.",
-        "price": 1600.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Amargo Serrano Tres Torres Pet x 15 lt_57.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1550.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1600.0
-            }
-        ]
-    },
-    {
-        "id": 502,
-        "name": "Amargo Blanco Tres Torres Pet x 1,5 lt.",
-        "price": 1600.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Amargo Blanco Tres Torres Pet x 15 lt_61.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1550.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1600.0
-            }
-        ]
-    },
-    {
-        "id": 503,
-        "name": "Dr. Lemon Vodka s/ Tacc x 275 cc.",
-        "price": 1600.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Dr Lemon Vodka s Tacc x 275 cc_65.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1500.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1600.0
-            }
-        ]
-    },
-    {
-        "id": 504,
-        "name": "Amargo Pomelo Rosado La Anónima x 1,5 Lt.",
-        "price": 1700.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Amargo Pomelo Rosado La Anónima x 15 Lt_37.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1700.0
-            }
-        ]
-    },
-    {
-        "id": 505,
-        "name": "Amargo Serrano La Anónima x 1,5 Lt.",
-        "price": 1700.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Amargo Serrano La Anónima x 15 Lt_38.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 1700.0
-            }
-        ]
-    },
-    {
-        "id": 506,
-        "name": "Amargo Cordillerano La Anónima x 1,5 Lt.",
-        "price": 1700.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Amargo Cordillerano La Anónima x 15 Lt_39.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1700.0
-            }
-        ]
-    },
-    {
-        "id": 507,
-        "name": "Lata Frizzé Blue x 473 cc.",
-        "price": 2450.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Lata Frizzé Blue x 473 cc_3.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 2450.0
-            }
-        ]
-    },
-    {
-        "id": 508,
-        "name": "Fernet con Cola 1882 x 473 cc.",
-        "price": 2450.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Fernet con Cola 1882 x 473 cc_63.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2300.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 2450.0
-            }
-        ]
-    },
-    {
-        "id": 509,
-        "name": "Pate de Jamón Bocatti x 90 g.",
-        "price": 2000.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Pate de Jamón Bocatti x 90 g_44.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2000.0
-            }
-        ]
-    },
-    {
-        "id": 510,
-        "name": "Paté Panceta Ahumada Bocatti x 90 g.",
-        "price": 2050.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Paté Panceta Ahumada Bocatti x 90 g_20.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2050.0
-            }
-        ]
-    },
-    {
-        "id": 511,
-        "name": "Pate con Pimienta Verde Bocatti x 90 g.",
-        "price": 2050.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Pate con Pimienta Verde Bocatti x 90 g_27.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2050.0
-            }
-        ]
-    },
-    {
-        "id": 512,
-        "name": "Salchichón Primavera Feteado Zur Linde x 200 g.",
-        "price": 2650.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Salchichón Primavera Feteado Zur Linde x_12.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2650.0
-            }
-        ]
-    },
-    {
-        "id": 513,
-        "name": "Mortadela con Pistacho Bocatti x 70 g.",
-        "price": 2650.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Mortadela con Pistacho Bocatti x 70 g_33.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2650.0
-            }
-        ]
-    },
-    {
-        "id": 514,
-        "name": "Lomo al Horno Feteado Var.Log5 Bocatti x 70 g.",
-        "price": 2700.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Lomo al Horno Feteado VarLog5 Bocatti x _9.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2700.0
-            }
-        ]
-    },
-    {
-        "id": 515,
-        "name": "Leberwurst Cabaña Argentina x 200 g.",
-        "price": 2700.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Leberwurst Cabaña Argentina x 200 g_22.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2150.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 2700.0
-            }
-        ]
-    },
-    {
-        "id": 516,
-        "name": "Salchichón con Jamón Feteado Zur Linde x 200 g.",
-        "price": 2700.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Salchichón con Jamón Feteado Zur Linde x_40.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2700.0
-            }
-        ]
-    },
-    {
-        "id": 517,
-        "name": "Salame Milán Feteado Var.Log.5 Bocatti x 70 g.",
-        "price": 2750.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Salame Milán Feteado VarLog5 Bocatti x 7_19.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2750.0
-            }
-        ]
-    },
-    {
-        "id": 518,
-        "name": "Mortadela Feteada 214 x 200 g.",
-        "price": 3600.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Mortadela Feteada 214 x 200 g_24.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 3600.0
-            }
-        ]
-    },
-    {
-        "id": 519,
-        "name": "Frutillas Congeladas Karinat x 300 g.",
-        "price": 5850.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Frutillas Congeladas Karinat x 300 g_8.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 5550.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 5850.0
-            }
-        ]
-    },
-    {
-        "id": 520,
-        "name": "Frutillas Congeladas La Anónima x 300 g.",
-        "price": 6000.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Frutillas Congeladas La Anónima x 300 g_7.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 6000.0
-            }
-        ]
-    },
-    {
-        "id": 521,
-        "name": "Arándanos Congelados La Anónima x 300 g.",
-        "price": 6300.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Arándanos Congelados La Anónima x 300 g_6.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 6300.0
-            }
-        ]
-    },
-    {
-        "id": 522,
-        "name": "Arándanos Congelados Green Life x 300 g.",
-        "price": 6650.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Arándanos Congelados Green Life x 300 g_1.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 6650.0
-            }
-        ]
-    },
-    {
-        "id": 523,
-        "name": "Mix Frutos Rojos Congelados La Anónima x 300 g.",
-        "price": 7350.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Mix Frutos Rojos Congelados La Anónima x_5.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 7350.0
-            }
-        ]
-    },
-    {
-        "id": 524,
-        "name": "Mix Berries Congelados Karinat x 300 g.",
-        "price": 7400.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Mix Berries Congelados Karinat x 300 g_9.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 6950.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 7400.0
-            }
-        ]
-    },
-    {
-        "id": 525,
-        "name": "Frutillas Enteras Congeladas Green Life x 400 g.",
-        "price": 7700.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Frutillas Enteras Congeladas Green Life _0.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 7700.0
-            }
-        ]
-    },
-    {
-        "id": 526,
-        "name": "Arándanos Congelados Karinat x 300 g.",
-        "price": 7700.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Arándanos Congelados Karinat x 300 g_11.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 7250.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 7700.0
-            }
-        ]
-    },
-    {
-        "id": 527,
-        "name": "Mix Cuatro Berries Green Life x 400 g.",
-        "price": 9900.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Mix Cuatro Berries Green Life x 400 g_2.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 9900.0
-            }
-        ]
-    },
-    {
-        "id": 528,
-        "name": "Mix Berries Congelados Karinat x 400 g.",
-        "price": 12050.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Mix Berries Congelados Karinat x 400 g_10.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 11300.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 12050.0
-            }
-        ]
-    },
-    {
-        "id": 529,
-        "name": "Gaseosa Cola s/Azúcar Lata Coca Cola x 354 cc.",
-        "price": 1450.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Cola sAzúcar Lata Coca Cola x 35_18.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1450.0
-            }
-        ]
-    },
-    {
-        "id": 530,
-        "name": "Gaseosa Pomelo Lata Schweppes x 310 cc.",
-        "price": 1450.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Pomelo Lata Schweppes x 310 cc_24.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1450.0
-            }
-        ]
-    },
-    {
-        "id": 531,
-        "name": "Gaseosa Lima Limón s/Azúcar Lata Sprite x 354 cc.",
-        "price": 1450.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Lima Limón sAzúcar Lata Sprite x_26.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1450.0
-            }
-        ]
-    },
-    {
-        "id": 532,
-        "name": "Gaseosa Pepsi Black Lata 354cc x1",
-        "price": 1550.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Pepsi Black Lata 354cc x1_5.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1550.0
-            }
-        ]
-    },
-    {
-        "id": 533,
-        "name": "Gaseosa Lima Limón Zero Ice Sprite x 473 cc.",
-        "price": 1650.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Lima Limón Zero Ice Sprite x 473_21.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1650.0
-            }
-        ]
-    },
-    {
-        "id": 534,
-        "name": "Gaseosa Cola Diet Coca-Cola Zero Pet x 500 cc.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Cola Diet Coca-Cola Zero Pet x 5_19.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 535,
-        "name": "Gaseosa Lima Limón sin Azúcar Sprite Pet x 500 cc.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Lima Limón sin Azúcar Sprite Pet_20.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 536,
-        "name": "Gaseosa Naranja Diet Fanta Zero Pet x 500 cc.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Naranja Diet Fanta Zero Pet x 50_27.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 537,
-        "name": "Gaseosa Schweppes Pomelo Zero Pet x 500 cc.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Schweppes Pomelo Zero Pet x 500 _28.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 538,
-        "name": "Gaseosa Cola Coca-Cola Light Pet x 500 cc.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa Cola Coca-Cola Light Pet x 500 c_29.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 539,
-        "name": "Medallón Hamburguesa Champion. x 2 u. 112 GR",
-        "price": 1550.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Medallón Hamburguesa Champion x 2 u 112 _31.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1550.0
-            }
-        ]
-    },
-    {
-        "id": 540,
-        "name": "Medallones Carne Vacuna con Soja x 2 Un. Tres Cruces x 110 g.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Medallones Carne Vacuna con Soja x 2 Un _32.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1600.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 541,
-        "name": "Medallones de Carne Vacuna Best x 2 un. 110 gr.",
-        "price": 2100.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Medallones de Carne Vacuna Best x 2 un 1_21.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2100.0
-            }
-        ]
-    },
-    {
-        "id": 542,
-        "name": "Medallones de Carne Vacuna Doble Swift x 2 un. 112 gr.",
-        "price": 2300.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Medallones de Carne Vacuna Doble Swift x_42.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2100.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 2300.0
-            }
-        ]
-    },
-    {
-        "id": 543,
-        "name": "Medallones de Carne Vacuna Express x 2 Un. Paty x 110 g.",
-        "price": 2600.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Medallones de Carne Vacuna Express x 2 U_33.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2450.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 2600.0
-            }
-        ]
-    },
-    {
-        "id": 544,
-        "name": "Medallones de Carne Vacuna x 2 Un.  Swift x 320 g.",
-        "price": 3050.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Medallones de Carne Vacuna x 2 Un  Swift_35.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2800.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 3050.0
-            }
-        ]
-    },
-    {
-        "id": 545,
-        "name": "Hamburguesas de Carne Vacuna La Anónima x 2 un. 110 gr.",
-        "price": 3250.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Hamburguesas de Carne Vacuna La Anónima _20.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 3250.0
-            }
-        ]
-    },
-    {
-        "id": 546,
-        "name": "Medallón Hamburguesa Champion. x 4 u. 224 GR",
-        "price": 3300.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Medallón Hamburguesa Champion x 4 u 224 _34.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 3300.0
-            }
-        ]
-    },
-    {
-        "id": 547,
-        "name": "Hamburguesa Carne Vacuna Finitas x 2 Un. Paty x 110 g.",
-        "price": 3400.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Hamburguesa Carne Vacuna Finitas x 2 Un _5.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 3150.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 3400.0
-            }
-        ]
-    },
-    {
-        "id": 548,
-        "name": "Medallones de Carne Vacuna x 4 un. La Blanca x 276 gr.",
-        "price": 4100.0,
-        "market": "aura",
-        "category": "hamburguesas",
-        "image": "images/laanonima/Medallones de Carne Vacuna x 4 un La Bla_36.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 3750.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 4100.0
-            }
-        ]
-    },
-    {
-        "id": 549,
-        "name": "Bebida Fresh Blue Full Sport x 500 cc.",
-        "price": 1850.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Bebida Fresh Blue Full Sport x 500 cc_36.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1850.0
-            }
-        ]
-    },
-    {
-        "id": 550,
-        "name": "Bebida Energizante Speed x 269 cc.",
-        "price": 1900.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Bebida Energizante Speed x 269 cc_22.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1900.0
-            }
-        ]
-    },
-    {
-        "id": 551,
-        "name": "Energizante Rockstar  Botella 500cc x1",
-        "price": 2000.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Energizante Rockstar  Botella 500cc x1_13.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2000.0
-            }
-        ]
-    },
-    {
-        "id": 552,
-        "name": "Bebida de Moras Pet Gatorade Sin Azúcar x 400 cc.",
-        "price": 2050.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Bebida de Moras Pet Gatorade Sin Azúcar _10.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 2050.0
-            }
-        ]
-    },
-    {
-        "id": 553,
-        "name": "Bebida de Fresa y Kiwi Pet Gatorade Sin Azúcar x 400 cc.",
-        "price": 2050.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Bebida de Fresa y Kiwi Pet Gatorade Sin _14.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 2050.0
-            }
-        ]
-    },
-    {
-        "id": 554,
-        "name": "Bebida Uva Powerade x 500 cc.",
-        "price": 2050.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Bebida Uva Powerade x 500 cc_21.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2050.0
-            }
-        ]
-    },
-    {
-        "id": 555,
-        "name": "Powerade Mountain Blast x 500 cc.",
-        "price": 2300.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Powerade Mountain Blast x 500 cc_25.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2350.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 2300.0
-            }
-        ]
-    },
-    {
-        "id": 556,
-        "name": "Bebida Powerade Manzana x 500 cc.",
-        "price": 2300.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Bebida Powerade Manzana x 500 cc_27.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2350.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 2300.0
-            }
-        ]
-    },
-    {
-        "id": 557,
-        "name": "Bebida Powerade Naranja x 500 cc.",
-        "price": 2300.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Bebida Powerade Naranja x 500 cc_28.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2350.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 2300.0
-            }
-        ]
-    },
-    {
-        "id": 558,
-        "name": "Powerade Frutas Tropicales x 500 cc.",
-        "price": 2300.0,
-        "market": "aura",
-        "category": "isotonicas",
-        "image": "images/laanonima/Powerade Frutas Tropicales x 500 cc_38.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2350.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 2300.0
-            }
-        ]
-    },
-    {
-        "id": 559,
-        "name": "Bebida Láctea Vainilla Tetra La Serenísima x 200 cc.",
-        "price": 1250.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Bebida Láctea Vainilla Tetra La Serenísi_53.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1250.0
-            }
-        ]
-    },
-    {
-        "id": 560,
-        "name": "Bebida Láctea Frutilla Tetra La Serenísima x 200 cc.",
-        "price": 1250.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Bebida Láctea Frutilla Tetra La Serenísi_57.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1250.0
-            }
-        ]
-    },
-    {
-        "id": 561,
-        "name": "Leche LV Entera Clásica Fortificada c/ Vitamina 3% La Serenísima x 200 cc.",
-        "price": 1350.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Leche LV Entera Clásica Fortificada c Vi_52.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1350.0
-            }
-        ]
-    },
-    {
-        "id": 562,
-        "name": "Leche LV Chocolatada Nescao x 185 cc.",
-        "price": 1500.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Leche LV Chocolatada Nescao x 185 cc_10.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1500.0
-            }
-        ]
-    },
-    {
-        "id": 563,
-        "name": "Leche LV Modificada Etapa 3 Baby La Serenísima x 200 cc.",
-        "price": 1550.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Leche LV Modificada Etapa 3 Baby La Sere_62.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1550.0
-            }
-        ]
-    },
-    {
-        "id": 564,
-        "name": "Protein chocolate 200ml",
-        "price": 1700.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Protein chocolate 200ml_51.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 1650.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1700.0
-            }
-        ]
-    },
-    {
-        "id": 565,
-        "name": "Bebida Lactea a Base de Leche Capuchino Sense x 200 cc.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Bebida Lactea a Base de Leche Capuchino _67.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 566,
-        "name": "Bebida Lactea a Base de Leche Caramel Sense x 200 cc.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Bebida Lactea a Base de Leche Caramel Se_68.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 567,
-        "name": "Bebida Lactea a Base de Leche Avellanas Sense x 200 cc.",
-        "price": 1750.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Bebida Lactea a Base de Leche Avellanas _75.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1750.0
-            }
-        ]
-    },
-    {
-        "id": 568,
-        "name": "Leche chocolatada La Serenísima Clásico 200cc",
-        "price": 1800.0,
-        "market": "aura",
-        "category": "leches",
-        "image": "images/laanonima/Leche chocolatada La Serenísima Clásico _7.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 1800.0
-            }
-        ]
-    },
-    {
-        "id": 569,
-        "name": "Limpiador Líquido Concentrado Lavanda Rinde 1 Lt. Best x 30 cc.",
-        "price": 660.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Limpiador Líquido Concentrado Lavanda Ri_137.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 660.0
-            }
-        ]
-    },
-    {
-        "id": 570,
-        "name": "Limpiador Líquido Concentrado Marina Rinde 1 Lt. Best x 30 cc.",
-        "price": 660.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Limpiador Líquido Concentrado Marina Rin_138.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 660.0
-            }
-        ]
-    },
-    {
-        "id": 571,
-        "name": "Fibra Esponja Lisita Best x 1 un.",
-        "price": 810.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Fibra Esponja Lisita Best x 1 un_105.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 800.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 810.0
-            }
-        ]
-    },
-    {
-        "id": 572,
-        "name": "Fibra Esponja Best Extra Delgada x 1 un.",
-        "price": 910.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Fibra Esponja Best Extra Delgada x 1 un_145.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 870.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 910.0
-            }
-        ]
-    },
-    {
-        "id": 573,
-        "name": "Rejilla Blanca Best Pábilo 32x42cm x 1 un.",
-        "price": 1150.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Rejilla Blanca Best Pábilo 32x42cm x 1 u_91.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1050.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1150.0
-            }
-        ]
-    },
-    {
-        "id": 574,
-        "name": "Fibra Esponja Suave Best No raya x 1 un.",
-        "price": 1150.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Fibra Esponja Suave Best No raya x 1 un_118.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1100.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1150.0
-            }
-        ]
-    },
-    {
-        "id": 575,
-        "name": "Jabón en Pan Blanco Best x 1 un. x 200 g.",
-        "price": 1300.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Jabón en Pan Blanco Best x 1 un x 200 g_27.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1300.0
-            }
-        ]
-    },
-    {
-        "id": 576,
-        "name": "Esponja de Acero Best x 2 un.",
-        "price": 1350.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Esponja de Acero Best x 2 un_76.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1350.0
-            }
-        ]
-    },
-    {
-        "id": 577,
-        "name": "Rejilla Blanca Best Americana 38x43cm x 1 un.",
-        "price": 1400.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Rejilla Blanca Best Americana 38x43cm x _67.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1300.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1400.0
-            }
-        ]
-    },
-    {
-        "id": 578,
-        "name": "Limpiador Líquido para Pisos Best Fragancia Lavanda x 900 cc.",
-        "price": 1400.0,
-        "market": "aura",
-        "category": "limpieza",
-        "image": "images/laanonima/Limpiador Líquido para Pisos Best Fragan_77.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1350.0
-            },
-            {
-                "date": "2026-03-28",
-                "price": 1400.0
-            }
-        ]
-    },
-    {
-        "id": 579,
-        "name": "Pañales Huggies Classic P x30",
-        "price": 12500.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Pañales Huggies Classic P x30_63.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 12500.0
-            }
-        ]
-    },
-    {
-        "id": 580,
-        "name": "Pañales Babysec Super Premium Recien Nacido 20 Un.",
-        "price": 13350.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Pañales Babysec Super Premium Recien Nac_33.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 13350.0
-            }
-        ]
-    },
-    {
-        "id": 581,
-        "name": "Pañal Huggies Flexi Comfort XG x16",
-        "price": 14300.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Pañal Huggies Flexi Comfort XG x16_70.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 14300.0
-            }
-        ]
-    },
-    {
-        "id": 582,
-        "name": "Pañal Huggies Flexi Comfort G x20",
-        "price": 14300.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Pañal Huggies Flexi Comfort G x20_71.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 14300.0
-            }
-        ]
-    },
-    {
-        "id": 583,
-        "name": "Traje Baño M Little Swimm Huggies x 11 un.",
-        "price": 14550.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Traje Baño M Little Swimm Huggies x 11 u_84.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 14550.0
-            }
-        ]
-    },
-    {
-        "id": 584,
-        "name": "Pañal Huggies Protect Plus P x30",
-        "price": 14600.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Pañal Huggies Protect Plus P x30_58.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 14600.0
-            }
-        ]
-    },
-    {
-        "id": 585,
-        "name": "Traje de Baño Descremado  Splashers G-XG Pampers x 10 un.",
-        "price": 16350.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Traje de Baño Descremado  Splashers G-XG_21.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 16350.0
-            }
-        ]
-    },
-    {
-        "id": 586,
-        "name": "Traje de Baño Descremado  Splashers P-M Pampers x 12 un.",
-        "price": 16350.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Traje de Baño Descremado  Splashers P-M _22.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 16350.0
-            }
-        ]
-    },
-    {
-        "id": 587,
-        "name": "Traje de Baño Descremado  Splashers M-G Pampers x 11 un.",
-        "price": 16350.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Traje de Baño Descremado  Splashers M-G _23.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 16350.0
-            }
-        ]
-    },
-    {
-        "id": 588,
-        "name": "Pañal Huggies Flexi Comfort P x30",
-        "price": 17150.0,
-        "market": "aura",
-        "category": "pañales",
-        "image": "images/laanonima/Pañal Huggies Flexi Comfort P x30_55.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 17150.0
-            }
-        ]
-    },
-    {
-        "id": 589,
-        "name": "Servilletas Papel Hoja Simple 32,3 cm x 30 cm Felpita x 70 Un.",
-        "price": 1550.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Servilletas Papel Hoja Simple 323 cm x 3_38.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1550.0
-            }
-        ]
-    },
-    {
-        "id": 590,
-        "name": "Servilleta Sussex Clásica hoja simple 80 un",
-        "price": 1800.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Servilleta Sussex Clásica hoja simple 80_33.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1800.0
-            }
-        ]
-    },
-    {
-        "id": 591,
-        "name": "Servilletas Papel 33X33 Elegante x 80 un.",
-        "price": 1800.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Servilletas Papel 33X33 Elegante x 80 un_45.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1800.0
-            }
-        ]
-    },
-    {
-        "id": 592,
-        "name": "Servilletas Papel Tissue La Anónima Decoradas 32cmx30cm x 70 un.",
-        "price": 1900.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Servilletas Papel Tissue La Anónima Deco_26.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1900.0
-            }
-        ]
-    },
-    {
-        "id": 593,
-        "name": "Servilletas La Anónima x 80 un.",
-        "price": 2150.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Servilletas La Anónima x 80 un_10.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2150.0
-            }
-        ]
-    },
-    {
-        "id": 594,
-        "name": "Bolsas para Residuos Best 45x55cm x 20 un.",
-        "price": 2200.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Bolsas para Residuos Best 45x55cm x 20 u_20.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2200.0
-            }
-        ]
-    },
-    {
-        "id": 595,
-        "name": "Papel Higiénico Hoja Simple Elegante 30 Mts Blanco x 4 un.",
-        "price": 2400.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Papel Higiénico Hoja Simple Elegante 30 _40.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2400.0
-            }
-        ]
-    },
-    {
-        "id": 596,
-        "name": "Papel higiénico Higienol Fresh hoja simple 30 m 4 un",
-        "price": 2450.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Papel higiénico Higienol Fresh hoja simp_39.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2450.0
-            }
-        ]
-    },
-    {
-        "id": 597,
-        "name": "Rollo Cocina Doble Hoja x 60 Un. Paños Felpita x 3 Un.",
-        "price": 2500.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Rollo Cocina Doble Hoja x 60 Un Paños Fe_29.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 2500.0
-            }
-        ]
-    },
-    {
-        "id": 598,
-        "name": "Papel Higiénico Hoja Simple Best 4 x 30 metros",
-        "price": 2700.0,
-        "market": "aura",
-        "category": "papeles",
-        "image": "images/laanonima/Papel Higiénico Hoja Simple Best 4 x 30 _16.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 2700.0
-            }
-        ]
-    },
-    {
-        "id": 599,
-        "name": "Pollo Fresco La Anónima (Kg)",
-        "price": 4190.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Pollo Fresco La Anónima Kg_0.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 4190.0
-            }
-        ]
-    },
-    {
-        "id": 600,
-        "name": "Pollo Fresco Pollolin (Kg)",
-        "price": 4190.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Pollo Fresco Pollolin Kg_1.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 4190.0
-            }
-        ]
-    },
-    {
-        "id": 601,
-        "name": "Pollo Tres Arroyos Congelado (Kg)",
-        "price": 4190.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Pollo Tres Arroyos Congelado Kg_5.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 4190.0
-            }
-        ]
-    },
-    {
-        "id": 602,
-        "name": "Cuarto Trasero de Pollo La Anónima (Kg)",
-        "price": 5190.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Cuarto Trasero de Pollo La Anónima Kg_7.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 5190.0
-            }
-        ]
-    },
-    {
-        "id": 603,
-        "name": "Muslo de Pollo La Anónima (Kg)",
-        "price": 5890.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Muslo de Pollo La Anónima Kg_4.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 5890.0
-            }
-        ]
-    },
-    {
-        "id": 604,
-        "name": "PataMuslo de Pollo La Anónima (Kg)",
-        "price": 6490.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/PataMuslo de Pollo La Anónima Kg_6.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 6490.0
-            }
-        ]
-    },
-    {
-        "id": 605,
-        "name": "Pollo Refrigerado Bandeja Pollolin (Kg)",
-        "price": 6550.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Pollo Refrigerado Bandeja Pollolin Kg_14.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 6550.0
-            }
-        ]
-    },
-    {
-        "id": 606,
-        "name": "Cuarto Trasero Bandeja Pollolin (Kg)",
-        "price": 6990.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Cuarto Trasero Bandeja Pollolin Kg_12.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 6990.0
-            }
-        ]
-    },
-    {
-        "id": 607,
-        "name": "Pollo Parrillero Pollolin (Kg)",
-        "price": 7490.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Pollo Parrillero Pollolin Kg_15.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 7490.0
-            }
-        ]
-    },
-    {
-        "id": 608,
-        "name": "Muslo Pollolin (Kg)",
-        "price": 7690.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Muslo Pollolin Kg_9.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 7690.0
-            }
-        ]
-    },
-    {
-        "id": 609,
-        "name": "Queso Rallado La Quesera x 40 g.",
-        "price": 950.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso Rallado La Quesera x 40 g_16.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 950.0
-            }
-        ]
-    },
-    {
-        "id": 610,
-        "name": "Queso Rallado Reggianito Tonadita x 40 g.",
-        "price": 1650.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso Rallado Reggianito Tonadita x 40 g_8.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 1650.0
-            }
-        ]
-    },
-    {
-        "id": 611,
-        "name": "Queso Rallado Reggianito La Serenísima x 35 g.",
-        "price": 1800.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso Rallado Reggianito La Serenísima x_15.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1800.0
-            }
-        ]
-    },
-    {
-        "id": 612,
-        "name": "Queso Rallado La Quesera x 100 g.",
-        "price": 2150.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso Rallado La Quesera x 100 g_11.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2150.0
-            }
-        ]
-    },
-    {
-        "id": 613,
-        "name": "Queso Rallado Tregar x 40 g.",
-        "price": 2200.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso Rallado Tregar x 40 g_69.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2050.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 2200.0
-            }
-        ]
-    },
-    {
-        "id": 614,
-        "name": "Queso Rallado La Paulina x 40 g.",
-        "price": 2400.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso Rallado La Paulina x 40 g_46.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2350.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 2400.0
-            }
-        ]
-    },
-    {
-        "id": 615,
-        "name": "Queso Provolone En Fetas x 8 Un. Tonadita x 120 g.",
-        "price": 2800.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso Provolone En Fetas x 8 Un Tonadita_27.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 2800.0
-            }
-        ]
-    },
-    {
-        "id": 616,
-        "name": "Queso Cheddar En Fetas x 8 Un. Tonadita x 120 g.",
-        "price": 2800.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso Cheddar En Fetas x 8 Un Tonadita x_28.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 2800.0
-            }
-        ]
-    },
-    {
-        "id": 617,
-        "name": "Queso en Hebras Mini La Paulina x 80 g.",
-        "price": 3000.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso en Hebras Mini La Paulina x 80 g_62.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 3000.0
-            }
-        ]
-    },
-    {
-        "id": 618,
-        "name": "Queso de Cerdo Feteado 42 x 200 g.",
-        "price": 3300.0,
-        "market": "aura",
-        "category": "fiambres",
-        "image": "images/laanonima/Queso de Cerdo Feteado 42 x 200 g_70.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 3100.0
-            },
-            {
-                "date": "2026-03-21",
-                "price": 3300.0
-            }
-        ]
-    },
-    {
-        "id": 619,
-        "name": "Polvo para preparar Salsa Blanca Dos Anclas x 40 g.",
-        "price": 840.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Polvo para preparar Salsa Blanca Dos Anc_1.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 840.0
-            }
-        ]
-    },
-    {
-        "id": 620,
-        "name": "Ajo en Polvo Deshidratado Dos Anclas x 20 g.",
-        "price": 1400.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Ajo en Polvo Deshidratado Dos Anclas x 2_0.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1400.0
-            }
-        ]
-    },
-    {
-        "id": 621,
-        "name": "Perejil Deshidratado Dos Anclas x 25 g.",
-        "price": 1500.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Perejil Deshidratado Dos Anclas x 25 g_4.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1500.0
-            }
-        ]
-    },
-    {
-        "id": 622,
-        "name": "Sal Fina Paquete Dos Anclas x 500 g.",
-        "price": 1500.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Sal Fina Paquete Dos Anclas x 500 g_6.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 1500.0
-            }
-        ]
-    },
-    {
-        "id": 623,
-        "name": "Pimienta Negra Molida Sobre Dos Anclas x 25 g.",
-        "price": 2050.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Pimienta Negra Molida Sobre Dos Anclas x_11.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2050.0
-            }
-        ]
-    },
-    {
-        "id": 624,
-        "name": "Ají Molido Dos Anclas x 50 g.",
-        "price": 2200.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Ají Molido Dos Anclas x 50 g_5.jpg",
-        "history": [
-            {
-                "date": "2026-03-20",
-                "price": 2200.0
-            }
-        ]
-    },
-    {
-        "id": 625,
-        "name": "Pimentón Seleccionado Dos Anclas x 50 g.",
-        "price": 2300.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Pimentón Seleccionado Dos Anclas x 50 g_2.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 2300.0
-            }
-        ]
-    },
-    {
-        "id": 626,
-        "name": "Sal Entrefina Parrillera Estuche Dos Anclas x 1 Kg.",
-        "price": 2600.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Sal Entrefina Parrillera Estuche Dos Anc_8.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 2600.0
-            }
-        ]
-    },
-    {
-        "id": 627,
-        "name": "Sal Gruesa Paquete Dos Anclas x 1 Kg.",
-        "price": 2600.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Sal Gruesa Paquete Dos Anclas x 1 Kg_9.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 2600.0
-            }
-        ]
-    },
-    {
-        "id": 628,
-        "name": "Provenzal Dos Anclas x 50 g.",
-        "price": 2700.0,
-        "market": "aura",
-        "category": "sal",
-        "image": "images/laanonima/Provenzal Dos Anclas x 50 g_3.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 2700.0
-            }
-        ]
-    },
-    {
-        "id": 629,
-        "name": "Cereal Aritos Frutados Julicroc x 150 g.",
-        "price": 1200.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Cereal Aritos Frutados Julicroc x 150 g_46.jpg",
-        "history": [
-            {
-                "date": "2026-03-21",
-                "price": 1200.0
-            }
-        ]
-    },
-    {
-        "id": 630,
-        "name": "Cereal Bolitas de Chocolate Julicroc x 150 g.",
-        "price": 1200.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Cereal Bolitas de Chocolate Julicroc x 1_47.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1200.0
-            }
-        ]
-    },
-    {
-        "id": 631,
-        "name": "Barrita Vegana Choco Naranja Laddu Bar x 30 g.",
-        "price": 1500.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Barrita Vegana Choco Naranja Laddu Bar x_75.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1500.0
-            }
-        ]
-    },
-    {
-        "id": 632,
-        "name": "Chips de Remolachas y Batatas Nuestros Sabores x 80 g.",
-        "price": 1600.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Chips de Remolachas y Batatas Nuestros S_29.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1600.0
-            }
-        ]
-    },
-    {
-        "id": 633,
-        "name": "Chips de Batata Frita Nuestros Sabores x 80 g.",
-        "price": 1600.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Chips de Batata Frita Nuestros Sabores x_30.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1600.0
-            }
-        ]
-    },
-    {
-        "id": 634,
-        "name": "Papas Fritas Sabor Cheddar Julicroc x 70 g.",
-        "price": 1700.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Papas Fritas Sabor Cheddar Julicroc x 70_66.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1700.0
-            }
-        ]
-    },
-    {
-        "id": 635,
-        "name": "Almohaditas Rellena de Avellana sin Tacc Snuks x 90 g.",
-        "price": 1850.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Almohaditas Rellena de Avellana sin Tacc_51.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1850.0
-            }
-        ]
-    },
-    {
-        "id": 636,
-        "name": "Almohaditas Rellena de Frutilla sin Tacc Snuks x 90 g.",
-        "price": 1850.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Almohaditas Rellena de Frutilla sin Tacc_71.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1850.0
-            }
-        ]
-    },
-    {
-        "id": 637,
-        "name": "Galletitas sabor Frutilla sin Tacc Smams x 105 g.",
-        "price": 1900.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Galletitas sabor Frutilla sin Tacc Smams_61.jpg",
-        "history": [
-            {
-                "date": "2026-03-16",
-                "price": 1900.0
-            }
-        ]
-    },
-    {
-        "id": 638,
-        "name": "Galletitas Rellenas Vainilla Smams x 105 g.",
-        "price": 1900.0,
-        "market": "aura",
-        "category": "all",
-        "image": "images/laanonima/Galletitas Rellenas Vainilla Smams x 105_62.jpg",
-        "history": [
-            {
-                "date": "2026-03-28",
-                "price": 1900.0
             }
         ]
     },
@@ -13942,6 +13942,22 @@ const allProductsData = [
             {
                 "date": "2026-03-28",
                 "price": 1600.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1400.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1400.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
             }
         ]
     },
@@ -14009,6 +14025,22 @@ const allProductsData = [
             },
             {
                 "date": "2026-03-21",
+                "price": 1750.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1450.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1750.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1450.0
+            },
+            {
+                "date": "2026-03-28",
                 "price": 1750.0
             },
             {
@@ -14124,6 +14156,22 @@ const allProductsData = [
             {
                 "date": "2026-03-28",
                 "price": 1600.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1400.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1400.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1600.0
             }
         ]
     },
@@ -14177,6 +14225,22 @@ const allProductsData = [
             },
             {
                 "date": "2026-03-21",
+                "price": 1750.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1450.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1750.0
+            },
+            {
+                "date": "2026-03-28",
+                "price": 1450.0
+            },
+            {
+                "date": "2026-03-28",
                 "price": 1750.0
             },
             {
