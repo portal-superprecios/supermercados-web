@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Métricas - Flyer Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #10b981;
+            --secondary: #3b82f6;
+            --dark: #0f172a;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #020617;
+            color: #f8fafc;
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Sidebar de Controles */
+        .sidebar {
+            width: 350px;
+            background: rgba(15, 23, 42, 0.95);
+            border-right: 1px solid var(--glass-border);
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            z-index: 100;
+            backdrop-filter: blur(20px);
+        }
+
+        .sidebar h2 {
+            font-size: 1.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        input, select {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 0.8rem 1rem;
+            color: white;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+        }
+
+        .suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #1e293b;
+            border-radius: 12px;
+            margin-top: 5px;
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid var(--glass-border);
+            z-index: 1000;
+            display: none;
+        }
+
+        .suggestion-item {
+            padding: 0.8rem 1rem;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.9rem;
+        }
+
+        .suggestion-item:hover {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--primary);
+        }
+
+        .btn-generate {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-generate:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(16, 185, 129, 0.4);
+        }
+
+        /* Área del Flyer */
+        .preview-area {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at center, #1e293b 0%, #020617 100%);
+            padding: 2rem;
+            position: relative;
+        }
+
+        .flyer-container {
+            width: 360px;
+            height: 740px; /* Aumentado de 640px para acomodar todo el contenido sin cortes */
+            background: #000;
+            border-radius: 25px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+            border: 4px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flyer-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(16, 185, 129, 0.1) 0%, rgba(0,0,0,0) 100%);
+            z-index: 1;
+        }
+
+        .flyer-content {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 2.5rem 1.5rem; /* Ajustado padding interno */
+            text-align: center;
+        }
+
+        .market-header {
+            height: 50px; /* Reducido levemente */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0.8rem;
+        }
+
+        .market-header img {
+            max-height: 100%;
+            max-width: 80%;
+            object-fit: contain;
+            filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
+        }
+
+        .product-visual {
+            background: white;
+            width: 100%;
+            height: 240px; /* Reducido levemente para balancear */
+            border-radius: 20px;
+            padding: 2rem; /* Aumentado padding para que el producto tenga "aire" */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0.8rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            position: relative;
+        }
+
+        .verified-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: #3b82f6;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+            z-index: 2; /* Asegurar visibilidad */
+        }
+
+        .product-visual img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .discount-badge {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: #ef4444;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: 900;
+            font-size: 1rem;
+            transform: rotate(15deg);
+            box-shadow: 0 10px 20px rgba(239, 68, 68, 0.4);
+            border: 2px solid white;
+            z-index: 2;
+        }
+
+        .product-name {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            line-height: 1.2;
+            color: white;
+            height: 60px; /* Reducido levemente */
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.8rem;
+            margin-top: 0.5rem;
+        }
+
+        .chart-container {
+            width: 100%;
+            height: 170px; /* Reducido levemente */
+            margin-top: 1rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 0.8rem;
+            position: relative;
+        }
+
+        .chart-label {
+            position: absolute;
+            top: 10px;
+            left: 15px;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #94a3b8;
+            font-weight: 700;
+        }
+
+        .metric-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            border-radius: 15px;
+            padding: 0.8rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.3rem;
+            backdrop-filter: blur(5px);
+        }
+
+        .metric-value {
+            font-size: 1.1rem;
+            font-weight: 900;
+        }
+
+        .metric-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #94a3b8;
+        }
+
+        .price-hero {
+            grid-column: span 2;
+            background: linear-gradient(135deg, var(--primary), #059669);
+            border: none;
+        }
+
+        .price-hero .metric-value {
+            font-size: 2.8rem;
+        }
+
+        .trend-icon {
+            font-size: 1.2rem;
+            margin-right: 5px;
+        }
+
+        .trend-up { color: #ef4444; }
+        .trend-down { color: #10b981; }
+
+        .footer-info {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: #64748b;
+            font-weight: 600;
+        }
+
+        /* Instrucciones flotantes */
+        .info-floater {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            max-width: 250px;
+            background: rgba(15, 23, 42, 0.8);
+            padding: 1rem;
+            border-radius: 12px;
+            border: 1px solid var(--glass-border);
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <h2>Métricas Pro</h2>
+        
+        <div class="form-group">
+            <label>1. Buscar Producto</label>
+            <div class="search-container">
+                <input type="text" id="productSearch" placeholder="Ej: Aceite Natura...">
+                <div id="productSuggestions" class="suggestions"></div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>2. Seleccionar Mercado</label>
+            <select id="marketSelect">
+                <option value="all">Todos los mercados</option>
+                <option value="zenith">Carrefour</option>
+                <option value="aura">La Anónima</option>
+                <option value="terra">Chango Mas</option>
+                <option value="lumina">Vea</option>
+            </select>
+        </div>
+
+        <button class="btn-generate" onclick="updateFlyer()">Generar Flyer</button>
+
+        <div style="margin-top: auto; padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 12px; font-size: 0.85rem;">
+            <p style="color: var(--primary); font-weight: 700; margin-bottom: 0.5rem;">💡 Tip para Redes</p>
+            <p>Captura la pantalla o usa OBS para grabar el flyer. Los colores y sombras se ven increíbles en móviles.</p>
+        </div>
+    </aside>
+
+    <main class="preview-area">
+        <div class="flyer-container" id="flyer">
+            <div class="flyer-bg" id="flyerBg"></div>
+            <div class="flyer-content">
+                <div class="market-header" id="marketLogo">
+                    <img src="../logos/carre.png" alt="Market">
+                </div>
+
+                <div class="product-visual">
+                    <div class="verified-badge">
+                        <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="3" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        PRECIO VERIFICADO
+                    </div>
+                    <div class="discount-badge" id="discountBadge" style="display: none;">
+                        <span id="discountVal">-15%</span>
+                        <small>OFF</small>
+                    </div>
+                    <img src="../images/placeholder.png" id="productImg" alt="Producto">
+                </div>
+
+                <h1 class="product-name" id="productName">Selecciona un producto</h1>
+
+                <div class="metrics-grid">
+                    <div class="metric-card price-hero">
+                        <span class="metric-value" id="priceVal">$00.00</span>
+                        <span class="metric-label">Precio Actual</span>
+                    </div>
+
+                    <div class="metric-card">
+                        <span class="metric-value" id="trendVal">--</span>
+                        <span class="metric-label">Tendencia</span>
+                    </div>
+
+                    <div class="metric-card">
+                        <span class="metric-value" id="rankVal">#1</span>
+                        <span class="metric-label">En Categoría</span>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-label">Evolución de Precio</div>
+                    <canvas id="priceChart"></canvas>
+                </div>
+
+                <div class="footer-info">
+                    WWW.SUPERPRECIOS.WEB
+                </div>
+            </div>
+        </div>
+
+        <div class="info-floater">
+            Presiona <b>F11</b> para pantalla completa y captura tu flyer perfecto.
+        </div>
+    </main>
+
+    <script src="../products.js"></script>
+    <script>
+        const searchInput = document.getElementById('productSearch');
+        const suggestionsBox = document.getElementById('productSuggestions');
+        const marketSelect = document.getElementById('marketSelect');
+        
+        let selectedProduct = null;
+        let priceChart = null;
+
+        const marketInfo = {
+            'aura': { name: 'La Anónima', color: '#10b981', logo: '../logos/La Anonima.svg' },
+            'zenith': { name: 'Carrefour', color: '#0ea5e9', logo: '../logos/carre.png' },
+            'terra': { name: 'Chango Mas', color: '#f59e0b', logo: '../logos/changomas-2011-seeklogo.png' },
+            'lumina': { name: 'Vea', color: '#d946ef', logo: '../logos/super-vea-seeklogo.png' }
+        };
+
+        // Filtro de búsqueda
+        searchInput.addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase();
+            if (val.length < 2) {
+                suggestionsBox.style.display = 'none';
+                return;
+            }
+
+            const marketFilter = marketSelect.value;
+            const filtered = allProductsData.filter(p => {
+                const matchesName = p.name.toLowerCase().includes(val);
+                const matchesMarket = marketFilter === 'all' || p.market === marketFilter;
+                return matchesName && matchesMarket;
+            }).slice(0, 8);
+
+            if (filtered.length > 0) {
+                suggestionsBox.innerHTML = filtered.map(p => `
+                    <div class="suggestion-item" onclick="selectProduct(${p.id})">
+                        ${p.name} <small style="color: #64748b">(${marketInfo[p.market]?.name || p.market})</small>
+                    </div>
+                `).join('');
+                suggestionsBox.style.display = 'block';
+            } else {
+                suggestionsBox.style.display = 'none';
+            }
+        });
+
+        function selectProduct(id) {
+            selectedProduct = allProductsData.find(p => p.id === id);
+            searchInput.value = selectedProduct.name;
+            suggestionsBox.style.display = 'none';
+            updateFlyer();
+        }
+
+        function updateFlyer() {
+            if (!selectedProduct) return;
+
+            const mInfo = marketInfo[selectedProduct.market];
+            const flyerBg = document.getElementById('flyerBg');
+            const marketLogo = document.getElementById('marketLogo');
+            
+            // Colores y Logo
+            flyerBg.style.background = `linear-gradient(180deg, ${mInfo.color}33 0%, rgba(0,0,0,0) 100%)`;
+            marketLogo.innerHTML = `<img src="${mInfo.logo}" alt="${mInfo.name}">`;
+            
+            // Imagen y Nombre
+            document.getElementById('productImg').src = '../' + selectedProduct.image;
+            document.getElementById('productName').innerText = selectedProduct.name;
+            
+            // Precio
+            document.getElementById('priceVal').innerText = `$${selectedProduct.price.toLocaleString('es-AR')}`;
+
+            // Métricas: Tendencia
+            const trendVal = document.getElementById('trendVal');
+            if (selectedProduct.history && selectedProduct.history.length > 1) {
+                const hist = selectedProduct.history;
+                const last = hist[hist.length - 1].price;
+                const prev = hist[hist.length - 2].price;
+                
+                if (last < prev) {
+                    const diff = (((prev - last) / prev) * 100).toFixed(0);
+                    trendVal.innerHTML = `<span class="trend-down">↓ ${diff}%</span>`;
+                    document.getElementById('discountBadge').style.display = 'flex';
+                    document.getElementById('discountVal').innerText = `-${diff}%`;
+                } else if (last > prev) {
+                    trendVal.innerHTML = `<span class="trend-up">↑</span>`;
+                    document.getElementById('discountBadge').style.display = 'none';
+                } else {
+                    trendVal.innerText = 'ESTABLE';
+                    document.getElementById('discountBadge').style.display = 'none';
+                }
+            } else {
+                trendVal.innerText = 'UNICO';
+                document.getElementById('discountBadge').style.display = 'none';
+            }
+
+            // Métricas: Ranking en categoría (simulado o calculado)
+            const sameCategory = allProductsData.filter(p => p.category === selectedProduct.category);
+            sameCategory.sort((a, b) => a.price - b.price);
+            const rank = sameCategory.findIndex(p => p.id === selectedProduct.id) + 1;
+            document.getElementById('rankVal').innerText = `#${rank}`;
+            
+            // Gráfico de Evolución
+            updateChart(selectedProduct, mInfo.color);
+
+            // Animación de entrada
+            const flyer = document.getElementById('flyer');
+            flyer.style.animation = 'none';
+            flyer.offsetHeight; // trigger reflow
+            flyer.style.animation = 'fadeInUp 0.6s ease-out forwards';
+        }
+
+        function updateChart(product, color) {
+            const ctx = document.getElementById('priceChart').getContext('2d');
+            
+            if (priceChart) priceChart.destroy();
+            
+            const history = product.history || [{date: 'N/A', price: product.price}];
+            const labels = history.map(h => {
+                const parts = h.date.split('-');
+                return parts.length === 3 ? `${parts[2]}/${parts[1]}` : h.date;
+            });
+            const data = history.map(h => h.price);
+
+            priceChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Precio',
+                        data: data,
+                        borderColor: color,
+                        backgroundColor: color + '22',
+                        borderWidth: 4,
+                        pointBackgroundColor: '#ffffff',
+                        pointBorderColor: color,
+                        pointRadius: labels.length > 5 ? 2 : 5,
+                        pointHoverRadius: 7,
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: '#1e293b',
+                            titleFont: { size: 10 },
+                            bodyFont: { size: 12, weight: 'bold' },
+                            padding: 10,
+                            displayColors: false
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: '#64748b', font: { size: 10 } }
+                        },
+                        y: {
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            ticks: { 
+                                color: '#64748b', 
+                                font: { size: 10 },
+                                callback: value => '$' + value
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Estilo animacion
+        const style = document.createElement('style');
+        style.innerHTML = `
+            @keyframes fadeInUp {
+                from { opacity: 0; transform: translateY(30px) scale(0.95); }
+                to { opacity: 1; transform: translateY(0) scale(1); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

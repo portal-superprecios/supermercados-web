@@ -462,6 +462,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Nav
     document.getElementById('nav-home')?.addEventListener('click', showHome);
     document.getElementById('nav-supermarkets')?.addEventListener('click', showSupermarkets);
+    document.getElementById('nav-contact')?.addEventListener('click', () => {
+        document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+        document.getElementById('nav-contact').classList.add('active');
+    });
 
     // Desplazamiento de categorías
     const categoryContainer = document.querySelector('.categories-container');
