@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inflación Febrero 2026 - SuperPrecios</title>
+    <meta name="description" content="Análisis de la inflación de febrero 2026 en la región Patagonia. Compara precios y ahorra con SuperPrecios.">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=Outfit:wght@300;400;600;700&display=swap');
+
+      :root {
+        --sp-navy: #0D1B3E;
+        --sp-navy-light: #162a5a;
+        --sp-teal: #3DD9A4;
+        --sp-teal-dark: #1fa87a;
+        --sp-white: #FFFFFF;
+        --sp-light: #EAF9F3;
+        --sp-purple: #2B2D6B;
+        --sp-accent-gradient: linear-gradient(135deg, #3DD9A4 0%, #1fa87a 100%);
+        --shadow-premium: 0 20px 40px rgba(0,0,0,0.15);
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        background-color: #f0f2f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-family: 'Outfit', 'DM Sans', sans-serif;
+      }
+
+      .carousel-wrap {
+        width: 100%;
+        max-width: 600px; /* Standard square size for many tools */
+        margin: 20px auto;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .slides-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0; /* Flat edges look better for some social layouts, or keep it rounded */
+        border-radius: 20px;
+        aspect-ratio: 1/1; /* SQUARE FOR INSTAGRAM */
+        background: var(--sp-navy);
+        box-shadow: var(--shadow-premium);
+      }
+
+      .slide {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        padding: 40px;
+        transform: scale(1.05);
+        transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        pointer-events: none;
+      }
+
+      .slide.active {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: all;
+      }
+
+      /* ── SLIDE 1 ── */
+      .s1 {
+        background: radial-gradient(circle at top right, var(--sp-navy-light), var(--sp-navy));
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .s1-badge {
+        font-size: 12px;
+        letter-spacing: 3px;
+        padding: 10px 24px;
+        margin-bottom: 30px;
+      }
+
+      .s1-title {
+        font-size: clamp(60px, 15vw, 110px);
+        line-height: 0.8;
+      }
+
+      .s1-sub {
+        font-size: 16px;
+        margin-top: 20px;
+      }
+
+      /* ── SLIDE 2 ── */
+      .s2 {
+        background: #f8fafc;
+        padding: 50px;
+      }
+
+      .s2-tag {
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+
+      .s2-label {
+        font-size: clamp(16px, 4vw, 22px);
+        margin-bottom: 30px;
+      }
+
+      .s2-big {
+        font-size: clamp(100px, 25vw, 160px);
+      }
+
+      /* ── SLIDE 3 ── */
+      .s3 {
+        padding: 40px;
+      }
+
+      .s3-heading {
+        font-size: clamp(36px, 8vw, 56px);
+        margin-bottom: 30px;
+      }
+
+      .s3-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .s3-card {
+        padding: 20px;
+      }
+
+      .s3-card-val {
+        font-size: clamp(30px, 7vw, 44px);
+      }
+
+      /* ── SLIDE 4 ── */
+      .s4 {
+        padding: 50px;
+      }
+
+      .s4-headline {
+        font-size: clamp(40px, 9vw, 68px);
+        margin-bottom: 20px;
+      }
+
+      .s4-body {
+        font-size: clamp(16px, 3.5vw, 19px);
+        max-width: 100%;
+      }
+
+      .s4-cta {
+        font-size: 16px;
+        padding: 16px 40px;
+        margin-top: 35px;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* ── CONTROLS (Optimized for screenshotting) ── */
+      .controls {
+        margin-top: 30px;
+      }
+
+      .btn-nav {
+        width: 50px; 
+        height: 50px;
+      }
+
+      .dot {
+        width: 12px;
+        height: 12px;
+      }
+
+      .dot.active {
+        width: 25px;
+      }
+
+      @media (max-width: 480px) {
+        .slide { padding: 30px; }
+        .s3-grid { gap: 12px; }
+      }
+    </style>
+</head>
+<body>
+
+<div class="carousel-wrap">
+  <div class="slides-container" id="carousel-container">
+
+    <!-- SLIDE 1: Título -->
+    <div class="slide s1 active">
+      <div class="s1-accent-top"></div>
+      <div class="s1-badge">Datos oficiales • INDEC</div>
+      <div class="s1-title">Inflación<br><span>Febrero</span><br>2026</div>
+      <div class="s1-sub">Región Patagonia</div>
+      <div class="logo-brand">
+        <div class="logo-icon"></div>
+        <span class="logo-text">SuperPrecios</span>
+      </div>
+    </div>
+
+    <!-- SLIDE 2: Dato clave -->
+    <div class="slide s2">
+      <div class="s2-tag">Dato clave del mes</div>
+      <div class="s2-label">Variación en <strong>Alimentos y bebidas no alcohólicas</strong><br>Región Patagonia · enero → febrero 2026</div>
+      <div class="s2-big"><span>+</span>2,5<span>%</span></div>
+      <div class="s2-period">vencimiento acumulado mensual</div>
+    </div>
+
+    <!-- SLIDE 3: Datos INDEC -->
+    <div class="slide s3">
+      <div class="s3-overtitle">Fuente · INDEC</div>
+      <div class="s3-heading">Los números<br>de tu bolsillo</div>
+      <div class="s3-grid">
+        <div class="s3-card">
+          <div class="s3-card-label">Variación alimentos</div>
+          <div class="s3-card-val">2,5%</div>
+          <div class="s3-card-desc">Región Patagonia</div>
+        </div>
+        <div class="s3-card">
+          <div class="s3-card-label">Impacto real</div>
+          <div class="s3-card-val">$1.025k</div>
+          <div class="s3-card-desc">cada $1.000.000</div>
+        </div>
+        <div class="s3-card">
+          <div class="s3-card-label">Período</div>
+          <div class="s3-card-val">ENE/FEB</div>
+          <div class="s3-card-desc">Año 2026</div>
+        </div>
+        <div class="s3-card">
+          <div class="s3-card-label">División</div>
+          <div class="s3-card-val" style="font-size: clamp(16px, 4vw, 24px); line-height:1.1;">Alimentos</div>
+          <div class="s3-card-desc">y bebidas</div>
+        </div>
+      </div>
+      <div class="s3-source">Calculadora de actualización · indec.gob.ar</div>
+    </div>
+
+    <!-- SLIDE 4: Llamado a la acción -->
+    <div class="slide s4">
+      <div class="s4-bg-text">AHORRO</div>
+      <div class="s4-icon-row">
+        <div class="s4-dot on"></div>
+        <div class="s4-dot on"></div>
+        <div class="s4-dot on"></div>
+      </div>
+      <div class="s4-headline">Comprá mejor,<br>pagá menos.</div>
+      <div class="s4-body">Compará precios en tiempo real de todos los supermercados de tu zona. No pagues de más por lo mismo.</div>
+      <a href="https://portal-superprecios.github.io/supermercados-web/" class="s4-cta" target="_blank">IR A LA WEB ↗</a>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="btn-nav" id="prev" aria-label="Anterior">&#8592;</button>
+    <div class="dots">
+      <div class="dot active" data-i="0"></div>
+      <div class="dot" data-i="1"></div>
+      <div class="dot" data-i="2"></div>
+      <div class="dot" data-i="3"></div>
+    </div>
+    <button class="btn-nav" id="next" aria-label="Siguiente">&#8594;</button>
+    <span class="slide-counter" id="counter">1 / 4</span>
+  </div>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const dots = document.querySelectorAll('.dot');
+  const counter = document.getElementById('counter');
+  let cur = 0;
+  let autoPlayInterval;
+
+  function goTo(n) {
+    slides[cur].classList.remove('active');
+    dots[cur].classList.remove('active');
+    cur = (n + slides.length) % slides.length;
+    slides[cur].classList.add('active');
+    dots[cur].classList.add('active');
+    counter.textContent = (cur + 1) + ' / ' + slides.length;
+    resetAutoPlay();
+  }
+
+  function nextSlide() {
+    goTo(cur + 1);
+  }
+
+  function resetAutoPlay() {
+    clearInterval(autoPlayInterval);
+    autoPlayInterval = setInterval(nextSlide, 5000);
+  }
+
+  document.getElementById('prev').addEventListener('click', () => goTo(cur - 1));
+  document.getElementById('next').addEventListener('click', () => goTo(cur + 1));
+  dots.forEach(d => d.addEventListener('click', () => goTo(+d.dataset.i)));
+
+  // Touch Support
+  let startX = 0;
+  const cont = document.getElementById('carousel-container');
+  cont.addEventListener('touchstart', e => { 
+    startX = e.touches[0].clientX; 
+    clearInterval(autoPlayInterval);
+  }, {passive: true});
+
+  cont.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 50) {
+        goTo(dx < 0 ? cur + 1 : cur - 1);
+    } else {
+        resetAutoPlay();
+    }
+  }, {passive: true});
+
+  // Start autoplay
+  resetAutoPlay();
+</script>
+
+</body>
+</html>

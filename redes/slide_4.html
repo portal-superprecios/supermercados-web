@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 4 - CTA</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700&display=swap');
+      
+      :root {
+        --sp-navy: #0D1B3E;
+        --sp-teal: #00FFAA;
+        --sp-gradient: linear-gradient(135deg, #00FFAA 0%, #00D4FF 100%);
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      
+      body {
+        width: 600px; height: 600px;
+        background: var(--sp-gradient);
+        font-family: 'Outfit', sans-serif;
+        display: flex; align-items: center; justify-content: center;
+        flex-direction: column;
+        padding: 60px;
+        position: relative; overflow: hidden;
+      }
+
+      .bg-text {
+        position: absolute; bottom: -40px; right: -20px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 220px;
+        color: rgba(0,0,0,0.07);
+        line-height: 1;
+        pointer-events: none;
+      }
+
+      .content {
+        position: relative; z-index: 10;
+        width: 100%;
+      }
+
+      .dots {
+        display: flex; gap: 15px; margin-bottom: 30px;
+      }
+
+      .dot {
+        width: 15px; height: 15px; border-radius: 50%;
+        background: var(--sp-navy); opacity: 0.2;
+      }
+
+      .dot.on { opacity: 1; }
+
+      h2 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 85px;
+        color: var(--sp-navy);
+        line-height: 0.9;
+        margin-bottom: 25px;
+      }
+
+      p {
+        font-size: 20px;
+        color: var(--sp-navy);
+        font-weight: 500;
+        line-height: 1.5;
+        opacity: 0.9;
+        margin-bottom: 40px;
+      }
+
+      .cta-btn {
+        background: var(--sp-navy);
+        color: var(--sp-teal);
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 20px 0;
+        border-radius: 100px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 15px 30px rgba(13, 27, 62, 0.2);
+      }
+    </style>
+</head>
+<body>
+    <div class="bg-text">WEB</div>
+    <div class="content">
+        <div class="dots">
+            <div class="dot on"></div>
+            <div class="dot on"></div>
+            <div class="dot on"></div>
+        </div>
+        <h2>Comprá mejor,<br>pagá menos.</h2>
+        <p>Compará precios en tiempo real de todos los supermercados de tu zona. No pagues de más por lo mismo.</p>
+        <div class="cta-btn">IR A LA WEB ↗</div>
+    </div>
+</body>
+</html>

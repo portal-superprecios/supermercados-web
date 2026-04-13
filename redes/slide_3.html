@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 3 - Resumen</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700&display=swap');
+      
+      :root {
+        --sp-navy: #0D1B3E;
+        --sp-teal: #00FFAA;
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      
+      body {
+        width: 600px; height: 600px;
+        background: linear-gradient(135deg, #0D1B3E 0%, #1a2a4d 100%);
+        font-family: 'Outfit', sans-serif;
+        display: flex; align-items: flex-start; justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+      }
+
+      .over {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: var(--sp-teal);
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 60px;
+        color: #fff;
+        margin-bottom: 35px;
+        line-height: 0.95;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 100%;
+      }
+
+      .card {
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(0, 255, 170, 0.2);
+        border-radius: 20px;
+        padding: 24px;
+      }
+
+      .card-lab {
+        font-size: 11px;
+        color: rgba(255,255,255,0.5);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+
+      .card-val {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 45px;
+        color: var(--sp-teal);
+        line-height: 1;
+      }
+
+      .card-desc {
+        font-size: 13px;
+        color: rgba(255,255,255,0.4);
+        margin-top: 8px;
+      }
+
+      .source {
+        margin-top: 35px;
+        font-size: 12px;
+        color: rgba(255,255,255,0.3);
+        font-style: italic;
+      }
+    </style>
+</head>
+<body>
+    <div class="over">Fuente oficial</div>
+    <h2>Los números<br>de tu bolsillo</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="card-lab">Inflación</div>
+            <div class="card-val">2,5%</div>
+            <div class="card-desc">Variación Mensual</div>
+        </div>
+        <div class="card">
+            <div class="card-lab">Impacto real</div>
+            <div class="card-val" style="font-size: 34px;">$1.025.089,68</div>
+            <div class="card-desc">cada $1.000.000</div>
+        </div>
+        <div class="card">
+            <div class="card-lab">Período</div>
+            <div class="card-val">ENE/FEB</div>
+            <div class="card-desc">Año 2026</div>
+        </div>
+        <div class="card">
+            <div class="card-lab">División</div>
+            <div class="card-val" style="font-size: 20px; line-height: 1.1;">ALIMENTOS Y<br>BEBIDAS NO ALCOH.</div>
+            <div class="card-desc">Región Patagonia</div>
+        </div>
+    </div>
+    <div class="source">Datos extraídos de indec.gob.ar</div>
+</body>
+</html>

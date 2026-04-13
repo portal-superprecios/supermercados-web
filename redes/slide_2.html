@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 2 - El Dato</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700&display=swap');
+      
+      :root {
+        --sp-navy: #0D1B3E;
+        --sp-teal: #00FFAA;
+        --sp-bg: #F8FAFC;
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      
+      body {
+        width: 600px; height: 600px;
+        background: var(--sp-bg);
+        font-family: 'Outfit', sans-serif;
+        display: flex; align-items: center; justify-content: center;
+        flex-direction: column;
+        padding: 60px;
+        text-align: center;
+      }
+
+      .tag {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #00A372;
+        margin-bottom: 30px;
+        background: rgba(0, 255, 170, 0.15);
+        padding: 8px 20px;
+        border-radius: 50px;
+      }
+
+      .label {
+        font-size: 26px;
+        color: var(--sp-navy);
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 40px;
+      }
+
+      .big {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 180px;
+        color: var(--sp-navy);
+        line-height: 0.9;
+        display: flex; align-items: baseline;
+      }
+
+      .big span {
+        color: #00A372;
+      }
+
+      .period {
+        font-size: 18px;
+        color: #64748B;
+        margin-top: 20px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    </style>
+</head>
+<body>
+    <div class="tag">Dato clave</div>
+    <div class="label">Variación en<br><strong>Alimentos y bebidas no alcohólicas</strong><br>Región Patagonia</div>
+    <div class="big"><span>+</span>2,5<span>%</span></div>
+    <div class="period">Enero → Febrero 2026</div>
+</body>
+</html>
