@@ -1,0 +1,16 @@
+{
+  "name": "SuperPrecios",
+  "short_name": "SuperPrecios",
+  "description": "Compara precios de supermercados en Argentina",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

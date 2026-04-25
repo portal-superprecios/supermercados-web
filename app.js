@@ -473,5 +473,20 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('scroll-left')?.addEventListener('click', () => categoryContainer.scrollBy({ left: -300, behavior: 'smooth' }));
     document.getElementById('scroll-right')?.addEventListener('click', () => categoryContainer.scrollBy({ left: 300, behavior: 'smooth' }));
 
-    loadAllProducts();
+    loadAllProducts().then(() => {
+        // Manejar búsqueda por URL (SEO)
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+        if (query) {
+            const searchInput = document.getElementById('product-search');
+            if (searchInput) {
+                searchInput.value = query;
+                searchQuery = query;
+                showSupermarkets();
+                const productsTitle = document.getElementById('products-title');
+                if (productsTitle) productsTitle.innerText = `Resultados para "${query}"`;
+                renderProducts();
+            }
+        }
+    });
 });

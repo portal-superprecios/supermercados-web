@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://portal-superprecios.github.io/supermercados-web/sitemap.xml
