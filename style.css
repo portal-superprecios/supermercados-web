@@ -11,6 +11,7 @@
     --accent-zenith: #0ea5e9;
     --accent-terra: #f59e0b;
     --accent-lumina: #d946ef;
+    --accent-maxiconsumo: #ed1c24;
     --font-main: 'Outfit', sans-serif;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --shadow-premium: 0 10px 30px -5px rgba(0, 0, 0, 0.3), 0 4px 10px -5px rgba(0, 0, 0, 0.2);
@@ -823,6 +824,11 @@ body.searching .main-search-container {
 .tag-lumina {
     background: rgba(217, 70, 239, 0.2);
     color: var(--accent-lumina);
+}
+
+.tag-maxiconsumo {
+    background: rgba(237, 28, 36, 0.2);
+    color: var(--accent-maxiconsumo);
 }
 
 footer {

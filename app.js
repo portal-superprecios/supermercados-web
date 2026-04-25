@@ -3,7 +3,8 @@ const supermarkets = [
     { id: 'aura', name: 'LA ANONIMA', logo: 'logos/La Anonima.svg', theme: 'aura', color: '#10b981' },
     { id: 'zenith', name: 'CARREFOUR', logo: 'logos/carre.png', theme: 'zenith', color: '#0ea5e9' },
     { id: 'terra', name: 'CHANGO MAS', logo: 'logos/changomas-2011-seeklogo.png', theme: 'terra', color: '#f59e0b' },
-    { id: 'lumina', name: 'VEA', logo: 'logos/super-vea-seeklogo.png', theme: 'lumina', color: '#d946ef' }
+    { id: 'lumina', name: 'VEA', logo: 'logos/super-vea-seeklogo.png', theme: 'lumina', color: '#d946ef' },
+    { id: 'maxiconsumo', name: 'MAXICONSUMO', logo: 'logos/maxiconsumo.png', theme: 'maxiconsumo', color: '#ed1c24' }
 ];
 
 let products = [];

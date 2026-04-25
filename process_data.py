@@ -36,12 +36,12 @@ categories_map = {
     'energizante': 'isotonicas',
     'panales': 'pañales'
 }
-
 market_map = {
     'carrefour': 'zenith',
     'changomas': 'terra',
     'laanonima': 'aura',
-    'vea': 'lumina'
+    'vea': 'lumina',
+    'maxiconsumo': 'maxiconsumo'
 }
 
 all_products = []
@@ -209,7 +209,7 @@ def process_file(file_path, market):
         print(f"Error processing {file_path}: {e}")
 
 # Process all folders
-for market in ['carrefour', 'changomas', 'laanonima', 'vea']:
+for market in ['carrefour', 'changomas', 'laanonima', 'vea', 'maxiconsumo']:
     market_dir = os.path.join(base_path, market)
     if os.path.exists(market_dir):
         files = glob.glob(os.path.join(market_dir, "*.csv")) + glob.glob(os.path.join(market_dir, "*.xlsx"))
