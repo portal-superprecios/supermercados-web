@@ -754,6 +754,27 @@ body.searching .main-search-container {
     color: var(--text);
 }
 
+.filter-btn[data-filter="sintacc"].active {
+    background: #fbbf24 !important;
+    color: #000 !important;
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.4);
+}
+
+.sintacc-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #fbbf24;
+    color: #000;
+    padding: 0.3rem 0.7rem;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    z-index: 5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    letter-spacing: 0.5px;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

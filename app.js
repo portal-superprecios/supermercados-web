@@ -168,7 +168,17 @@ function renderProducts() {
 
     let filtered = products.filter(p => {
         const matchCat = currentCategory === 'all' || p.category === currentCategory;
-        const matchMarket = currentMarket === 'all' || p.market === currentMarket;
+        let matchMarket = currentMarket === 'all' || p.market === currentMarket;
+        
+        // Lógica especial para el filtro SIN TACC
+        if (currentMarket === 'sintacc') {
+            const nameLower = p.name.toLowerCase();
+            matchMarket = nameLower.includes('sin tacc') || 
+                          nameLower.includes('s/tacc') || 
+                          nameLower.includes('s. tacc') || 
+                          nameLower.includes('s tacc');
+        }
+
         const matchSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase());
         return matchCat && matchMarket && matchSearch;
     });
@@ -187,9 +197,16 @@ function renderProducts() {
 
     productList.innerHTML = filtered.map((p, index) => {
         const market = supermarkets.find(m => m.id === p.market);
+        const isSinTacc = p.name.toLowerCase().includes('sin tacc') || 
+                          p.name.toLowerCase().includes('s/tacc') || 
+                          p.name.toLowerCase().includes('s. tacc') || 
+                          p.name.toLowerCase().includes('s tacc');
+        const sinTaccBadge = isSinTacc ? '<div class="sintacc-badge">SIN TACC</div>' : '';
+        
         return `
         <div class="product-card animate-up" style="animation-delay: ${Math.min(index * 0.05, 1)}s">
             <div class="product-img-container" onclick="openProductDetail(${p.id})">
+                ${sinTaccBadge}
                 <img src="${p.image}" alt="${p.name}" class="product-image" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300?text=Producto'">
             </div>
             <div class="product-info">
@@ -261,9 +278,16 @@ function openProductDetail(productId) {
         ? Math.min(...validComparisons.map(c => c.product.price))
         : 0;
 
+    const isSinTacc = product.name.toLowerCase().includes('sin tacc') || 
+                      product.name.toLowerCase().includes('s/tacc') || 
+                      product.name.toLowerCase().includes('s. tacc') || 
+                      product.name.toLowerCase().includes('s tacc');
+    const sinTaccBadge = isSinTacc ? '<div class="sintacc-badge" style="top: 20px; right: 20px; font-size: 0.9rem; padding: 0.5rem 1rem;">✨ SIN TACC</div>' : '';
+
     modalBody.innerHTML = `
         <div class="product-detail-hero">
             <div class="modal-product-img-container">
+                ${sinTaccBadge}
                 <img src="${product.image}" alt="${product.name}" class="modal-product-img">
             </div>
             <div>
