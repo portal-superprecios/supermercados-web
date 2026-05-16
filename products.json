@@ -18494,6 +18494,30 @@
             {
                 "date": "2026-05-16",
                 "price": 1616.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1415.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1616.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1415.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1616.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1415.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1616.0
             }
         ]
     },
@@ -18986,6 +19010,30 @@
             {
                 "date": "2026-05-16",
                 "price": 1616.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1415.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1616.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1415.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1616.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1415.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1616.0
             }
         ]
     },
@@ -19355,30 +19403,8 @@
     },
     {
         "id": 924,
-        "name": "AGUA BENEDICTINO 500 CC",
-        "price": 949.9,
-        "market": "maxiconsumo",
-        "category": "aguas",
-        "image": "images/maxiconsumo/AGUA BENEDICTINO 500 CC.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 1049.9
-            },
-            {
-                "date": "2026-05-02",
-                "price": 1049.89
-            },
-            {
-                "date": "2026-05-09",
-                "price": 949.9
-            }
-        ]
-    },
-    {
-        "id": 925,
         "name": "AGUA GLACIAR SIN GAS 500 cc",
-        "price": 1049.9,
+        "price": 949.9,
         "market": "maxiconsumo",
         "category": "aguas",
         "image": "images/maxiconsumo/AGUA GLACIAR SIN GAS 500 cc.jpg",
@@ -19394,11 +19420,15 @@
             {
                 "date": "2026-05-09",
                 "price": 1049.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 949.9
             }
         ]
     },
     {
-        "id": 926,
+        "id": 925,
         "name": "AGUA NESTLE PUREZA VITAL 1.5 LT",
         "price": 1199.9,
         "market": "maxiconsumo",
@@ -19420,21 +19450,7 @@
         ]
     },
     {
-        "id": 927,
-        "name": "AGUA VILLA DEL SUR 600 CC",
-        "price": 1269.9,
-        "market": "maxiconsumo",
-        "category": "aguas",
-        "image": "images/maxiconsumo/AGUA VILLA DEL SUR 600 CC.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 1269.9
-            }
-        ]
-    },
-    {
-        "id": 928,
+        "id": 926,
         "name": "AGUA NESTLE PUREZA VITAL 2.25 LT",
         "price": 1299.9,
         "market": "maxiconsumo",
@@ -19444,6 +19460,34 @@
             {
                 "date": "2026-04-24",
                 "price": 1299.9
+            }
+        ]
+    },
+    {
+        "id": 927,
+        "name": "AGUA VILLAVICENCIO 500 CC",
+        "price": 1499.89,
+        "market": "maxiconsumo",
+        "category": "aguas",
+        "image": "images/maxiconsumo/AGUA VILLAVICENCIO 500 CC.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1499.89
+            }
+        ]
+    },
+    {
+        "id": 928,
+        "name": "AGUA VILLA DEL SUR 1.65 LT",
+        "price": 1549.89,
+        "market": "maxiconsumo",
+        "category": "aguas",
+        "image": "images/maxiconsumo/AGUA VILLA DEL SUR 165 LT.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1549.89
             }
         ]
     },
@@ -19519,20 +19563,6 @@
     },
     {
         "id": 934,
-        "name": "ALIMENTO PARA ANIMALES PEDIGREE POUCH RAZAS PEQUEÑAS POLLO 100 gr",
-        "price": 999.9,
-        "market": "maxiconsumo",
-        "category": "perros",
-        "image": "images/maxiconsumo/ALIMENTO PARA ANIMALES PEDIGREE POUCH RA.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 999.9
-            }
-        ]
-    },
-    {
-        "id": 935,
         "name": "ALIMENTO PARA PERROS PEDIGREE POUCH CARNE ADULTO 100 GR",
         "price": 999.9,
         "market": "maxiconsumo",
@@ -19546,7 +19576,7 @@
         ]
     },
     {
-        "id": 936,
+        "id": 935,
         "name": "ALIMENTO PARA PERROS PEDIGREE POUCH CACHORRO 85 GR",
         "price": 999.9,
         "market": "maxiconsumo",
@@ -19560,7 +19590,7 @@
         ]
     },
     {
-        "id": 937,
+        "id": 936,
         "name": "ALIMENTO PARA PERROS PEDIGREE ADULTOS POLLO 100 GR",
         "price": 999.9,
         "market": "maxiconsumo",
@@ -19574,7 +19604,7 @@
         ]
     },
     {
-        "id": 938,
+        "id": 937,
         "name": "ALIMENTO PARA PERROS DOG CHOW ADULTOS SALMON 100 GR",
         "price": 1199.9,
         "market": "maxiconsumo",
@@ -19583,6 +19613,20 @@
         "history": [
             {
                 "date": "2026-04-24",
+                "price": 1199.9
+            }
+        ]
+    },
+    {
+        "id": 938,
+        "name": "ALIMENTO PARA PERROS DOG CHOW ADULTOS PAVO 100 GR",
+        "price": 1199.9,
+        "market": "maxiconsumo",
+        "category": "perros",
+        "image": "images/maxiconsumo/ALIMENTO PARA PERROS DOG CHOW ADULTOS PA.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
                 "price": 1199.9
             }
         ]
@@ -19632,7 +19676,7 @@
     {
         "id": 942,
         "name": "ALIMENTO PARA ANIMALES WHISKAS POUCH GATITOS CARNE 85 GR",
-        "price": 999.9,
+        "price": 899.9,
         "market": "maxiconsumo",
         "category": "gatos",
         "image": "images/maxiconsumo/ALIMENTO PARA ANIMALES WHISKAS POUCH GAT.jpg",
@@ -19640,13 +19684,17 @@
             {
                 "date": "2026-04-24",
                 "price": 999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 899.9
             }
         ]
     },
     {
         "id": 943,
         "name": "ALIMENTO PARA ANIMALES WHISKAS POUCH POLLO 85 GR",
-        "price": 999.9,
+        "price": 899.9,
         "market": "maxiconsumo",
         "category": "gatos",
         "image": "images/maxiconsumo/ALIMENTO PARA ANIMALES WHISKAS POUCH POL.jpg",
@@ -19654,13 +19702,17 @@
             {
                 "date": "2026-04-24",
                 "price": 999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 899.9
             }
         ]
     },
     {
         "id": 944,
         "name": "ALIMENTO PARA ANIMALES WHISKAS POUCH SALMON 85 gr",
-        "price": 999.9,
+        "price": 899.9,
         "market": "maxiconsumo",
         "category": "gatos",
         "image": "images/maxiconsumo/ALIMENTO PARA ANIMALES WHISKAS POUCH SAL.jpg",
@@ -19668,13 +19720,17 @@
             {
                 "date": "2026-04-24",
                 "price": 999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 899.9
             }
         ]
     },
     {
         "id": 945,
         "name": "ALIMENTO PARA ANIMALES WHISKAS POUCH PAVO 85 gr",
-        "price": 999.9,
+        "price": 899.9,
         "market": "maxiconsumo",
         "category": "gatos",
         "image": "images/maxiconsumo/ALIMENTO PARA ANIMALES WHISKAS POUCH PAV.jpg",
@@ -19682,13 +19738,17 @@
             {
                 "date": "2026-04-24",
                 "price": 999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 899.9
             }
         ]
     },
     {
         "id": 946,
         "name": "ALIMENTO PARA GATOS WHISKAS POUCH CARNE 85 GR",
-        "price": 999.9,
+        "price": 899.9,
         "market": "maxiconsumo",
         "category": "gatos",
         "image": "images/maxiconsumo/ALIMENTO PARA GATOS WHISKAS POUCH CARNE .jpg",
@@ -19696,13 +19756,17 @@
             {
                 "date": "2026-05-09",
                 "price": 999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 899.9
             }
         ]
     },
     {
         "id": 947,
         "name": "ALIMENTO PARA GATOS WHISKAS POUCH SARDINA 85 GR",
-        "price": 999.9,
+        "price": 899.9,
         "market": "maxiconsumo",
         "category": "gatos",
         "image": "images/maxiconsumo/ALIMENTO PARA GATOS WHISKAS POUCH SARDIN.jpg",
@@ -19710,6 +19774,10 @@
             {
                 "date": "2026-05-09",
                 "price": 999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 899.9
             }
         ]
     },
@@ -19759,8 +19827,22 @@
     },
     {
         "id": 950,
-        "name": "ARROZ CAÑUELAS LARGO FINO 500 GR",
+        "name": "ARROZ MOLTO INTEGRAL 500 GR",
         "price": 619.9,
+        "market": "maxiconsumo",
+        "category": "arroz",
+        "image": "images/maxiconsumo/ARROZ MOLTO INTEGRAL 500 GR.jpg",
+        "history": [
+            {
+                "date": "2026-04-24",
+                "price": 619.9
+            }
+        ]
+    },
+    {
+        "id": 951,
+        "name": "ARROZ CAÑUELAS LARGO FINO 500 GR",
+        "price": 649.9,
         "market": "maxiconsumo",
         "category": "arroz",
         "image": "images/maxiconsumo/ARROZ CAÑUELAS LARGO FINO 500 GR.jpg",
@@ -19776,13 +19858,17 @@
             {
                 "date": "2026-05-09",
                 "price": 619.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 649.9
             }
         ]
     },
     {
-        "id": 951,
+        "id": 952,
         "name": "ARROZ MARIA LARGO FINO 500 GR",
-        "price": 619.9,
+        "price": 649.9,
         "market": "maxiconsumo",
         "category": "arroz",
         "image": "images/maxiconsumo/ARROZ MARIA LARGO FINO 500 GR.jpg",
@@ -19794,20 +19880,10 @@
             {
                 "date": "2026-05-09",
                 "price": 619.9
-            }
-        ]
-    },
-    {
-        "id": 952,
-        "name": "ARROZ MOLTO INTEGRAL 500 GR",
-        "price": 619.9,
-        "market": "maxiconsumo",
-        "category": "arroz",
-        "image": "images/maxiconsumo/ARROZ MOLTO INTEGRAL 500 GR.jpg",
-        "history": [
+            },
             {
-                "date": "2026-04-24",
-                "price": 619.9
+                "date": "2026-05-16",
+                "price": 649.9
             }
         ]
     },
@@ -19846,7 +19922,7 @@
     {
         "id": 955,
         "name": "ARROZ LUCCHETTI LARGO FINO 500 GR",
-        "price": 749.9,
+        "price": 879.9,
         "market": "maxiconsumo",
         "category": "arroz",
         "image": "images/maxiconsumo/ARROZ LUCCHETTI LARGO FINO 500 GR.jpg",
@@ -19854,63 +19930,59 @@
             {
                 "date": "2026-04-24",
                 "price": 749.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 879.9
             }
         ]
     },
     {
         "id": 956,
-        "name": "ARROZ LUCCHETTI PARBOIL 500 GR",
-        "price": 888.89,
+        "name": "ARROZ MAROLIO DOBLE 500 GR",
+        "price": 989.9,
         "market": "maxiconsumo",
         "category": "arroz",
-        "image": "images/maxiconsumo/ARROZ LUCCHETTI PARBOIL 500 GR.jpg",
+        "image": "images/maxiconsumo/ARROZ MAROLIO DOBLE 500 GR.jpg",
         "history": [
             {
-                "date": "2026-04-24",
-                "price": 888.89
+                "date": "2026-05-16",
+                "price": 989.9
             }
         ]
     },
     {
         "id": 957,
-        "name": "ARROZ GALLO LARGO 500 GR",
-        "price": 899.89,
+        "name": "ARROZ MAROLIO PARBOLIZADO 500 GR",
+        "price": 989.9,
         "market": "maxiconsumo",
         "category": "arroz",
-        "image": "images/maxiconsumo/ARROZ GALLO LARGO 500 GR.jpg",
+        "image": "images/maxiconsumo/ARROZ MAROLIO PARBOLIZADO 500 GR.jpg",
         "history": [
             {
-                "date": "2026-04-24",
-                "price": 899.89
+                "date": "2026-05-16",
+                "price": 989.9
             }
         ]
     },
     {
         "id": 958,
-        "name": "ARROZ EL DIQUE \"0000\" 1 KG",
-        "price": 899.9,
+        "name": "ARROZ MOLTO DOBLE 500 GR",
+        "price": 989.9,
         "market": "maxiconsumo",
         "category": "arroz",
-        "image": "images/maxiconsumo/ARROZ EL DIQUE 0000 1 KG.jpg",
+        "image": "images/maxiconsumo/ARROZ MOLTO DOBLE 500 GR.jpg",
         "history": [
             {
-                "date": "2026-04-24",
-                "price": 899.9
-            },
-            {
-                "date": "2026-05-02",
-                "price": 949.9
-            },
-            {
-                "date": "2026-05-09",
-                "price": 899.9
+                "date": "2026-05-16",
+                "price": 989.9
             }
         ]
     },
     {
         "id": 959,
         "name": "PAÑAL BABYSEC ULTRA REGULAR XX GRANDE 8 UN",
-        "price": 1959.9,
+        "price": 2299.9,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/PAÑAL BABYSEC ULTRA REGULAR XX GRANDE 8 .jpg",
@@ -19922,13 +19994,17 @@
             {
                 "date": "2026-05-09",
                 "price": 1959.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 2299.9
             }
         ]
     },
     {
         "id": 960,
         "name": "PAÑAL BABYSEC ULTRA REGULAR GRANDE 8 UN",
-        "price": 1959.9,
+        "price": 2299.9,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/PAÑAL BABYSEC ULTRA REGULAR GRANDE 8 UN.jpg",
@@ -19936,13 +20012,17 @@
             {
                 "date": "2026-05-09",
                 "price": 1959.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 2299.9
             }
         ]
     },
     {
         "id": 961,
         "name": "PAÑAL BABYSEC ULTRA REGULAR CHICO 12 UN",
-        "price": 1959.9,
+        "price": 2299.9,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/PAÑAL BABYSEC ULTRA REGULAR CHICO 12 UN.jpg",
@@ -19954,13 +20034,17 @@
             {
                 "date": "2026-05-09",
                 "price": 1959.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 2299.9
             }
         ]
     },
     {
         "id": 962,
         "name": "PAÑAL BABYSEC ULTRA REGULAR MEDIANO 8 UN",
-        "price": 1959.9,
+        "price": 2299.9,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/PAÑAL BABYSEC ULTRA REGULAR MEDIANO 8 UN.jpg",
@@ -19972,13 +20056,17 @@
             {
                 "date": "2026-05-09",
                 "price": 1959.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 2299.9
             }
         ]
     },
     {
         "id": 963,
         "name": "PAÑAL BABYSEC ULTRA REGULAR X GRANDE 8 UN",
-        "price": 1959.9,
+        "price": 2299.9,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/PAÑAL BABYSEC ULTRA REGULAR X GRANDE 8 U.jpg",
@@ -19990,30 +20078,34 @@
             {
                 "date": "2026-05-09",
                 "price": 1959.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 2299.9
             }
         ]
     },
     {
         "id": 964,
-        "name": "OLEO CALCAREO ESTRELLA SIN FRAGANCIA 245 ML",
-        "price": 3849.9,
+        "name": "PAÑAL HUGGIES PROTECT REGULAR XX GRANDE 8 UN",
+        "price": 2699.9,
         "market": "maxiconsumo",
         "category": "all",
-        "image": "images/maxiconsumo/OLEO CALCAREO ESTRELLA SIN FRAGANCIA 245.jpg",
+        "image": "images/maxiconsumo/PAÑAL HUGGIES PROTECT REGULAR XX GRANDE .jpg",
         "history": [
             {
-                "date": "2026-05-02",
-                "price": 3849.9
+                "date": "2026-05-16",
+                "price": 2699.9
             }
         ]
     },
     {
         "id": 965,
-        "name": "OLEO CALCAREO ESTRELLA CON MANZANILLA 250 ml",
+        "name": "OLEO CALCAREO ESTRELLA SIN FRAGANCIA 245 ML",
         "price": 3849.9,
         "market": "maxiconsumo",
         "category": "all",
-        "image": "images/maxiconsumo/OLEO CALCAREO ESTRELLA CON MANZANILLA 25.jpg",
+        "image": "images/maxiconsumo/OLEO CALCAREO ESTRELLA SIN FRAGANCIA 245.jpg",
         "history": [
             {
                 "date": "2026-05-02",
@@ -20066,7 +20158,7 @@
     {
         "id": 969,
         "name": "CHORIZO SWIFT DE CERDO 400 GR",
-        "price": 3999.9,
+        "price": 4799.9,
         "market": "maxiconsumo",
         "category": "carnes",
         "image": "images/maxiconsumo/CHORIZO SWIFT DE CERDO 400 GR.jpg",
@@ -20082,6 +20174,10 @@
             {
                 "date": "2026-05-09",
                 "price": 3999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 4799.9
             }
         ]
     },
@@ -20102,7 +20198,7 @@
     {
         "id": 971,
         "name": "BONDIOLA DE CERDO INTERPORC PORCION 1 KG",
-        "price": 7990.0,
+        "price": 8499.9,
         "market": "maxiconsumo",
         "category": "carnes",
         "image": "images/maxiconsumo/BONDIOLA DE CERDO INTERPORC PORCION 1 KG.jpg",
@@ -20114,13 +20210,17 @@
             {
                 "date": "2026-05-09",
                 "price": 7990.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 8499.9
             }
         ]
     },
     {
         "id": 972,
         "name": "OSOBUCO RODAJA AL VACIO 1 KG",
-        "price": 12799.9,
+        "price": 11999.9,
         "market": "maxiconsumo",
         "category": "carnes",
         "image": "images/maxiconsumo/OSOBUCO RODAJA AL VACIO 1 KG.jpg",
@@ -20128,13 +20228,17 @@
             {
                 "date": "2026-04-24",
                 "price": 12799.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 11999.9
             }
         ]
     },
     {
         "id": 973,
         "name": "ASADO CARNES PLANCHA CONGELADA 1 KG",
-        "price": 14399.9,
+        "price": 14199.9,
         "market": "maxiconsumo",
         "category": "carnes",
         "image": "images/maxiconsumo/ASADO CARNES PLANCHA CONGELADA 1 KG.jpg",
@@ -20150,47 +20254,15 @@
             {
                 "date": "2026-05-09",
                 "price": 14399.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 14199.9
             }
         ]
     },
     {
         "id": 974,
-        "name": "PALETA TF AL VACIO 1 KG",
-        "price": 15789.9,
-        "market": "maxiconsumo",
-        "category": "carnes",
-        "image": "images/maxiconsumo/PALETA TF AL VACIO 1 KG.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 16449.9
-            },
-            {
-                "date": "2026-05-09",
-                "price": 15789.9
-            }
-        ]
-    },
-    {
-        "id": 975,
-        "name": "ROAD BEEF TF AL VACIO 1 KG",
-        "price": 15789.9,
-        "market": "maxiconsumo",
-        "category": "carnes",
-        "image": "images/maxiconsumo/ROAD BEEF TF AL VACIO 1 KG.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 16449.9
-            },
-            {
-                "date": "2026-05-09",
-                "price": 15789.9
-            }
-        ]
-    },
-    {
-        "id": 976,
         "name": "PICADA CARNES CONGELADA 1 KG",
         "price": 15799.9,
         "market": "maxiconsumo",
@@ -20212,30 +20284,74 @@
         ]
     },
     {
-        "id": 977,
-        "name": "PALOMITA CARNES PORCION 1 KG",
-        "price": 16999.89,
+        "id": 975,
+        "name": "PALETA TF AL VACIO 1 KG",
+        "price": 16449.9,
         "market": "maxiconsumo",
         "category": "carnes",
-        "image": "images/maxiconsumo/PALOMITA CARNES PORCION 1 KG.jpg",
+        "image": "images/maxiconsumo/PALETA TF AL VACIO 1 KG.jpg",
         "history": [
             {
-                "date": "2026-05-02",
-                "price": 16999.89
+                "date": "2026-04-24",
+                "price": 16449.9
+            },
+            {
+                "date": "2026-05-09",
+                "price": 15789.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 16449.9
+            }
+        ]
+    },
+    {
+        "id": 976,
+        "name": "ROAD BEEF TF AL VACIO 1 KG",
+        "price": 16449.9,
+        "market": "maxiconsumo",
+        "category": "carnes",
+        "image": "images/maxiconsumo/ROAD BEEF TF AL VACIO 1 KG.jpg",
+        "history": [
+            {
+                "date": "2026-04-24",
+                "price": 16449.9
+            },
+            {
+                "date": "2026-05-09",
+                "price": 15789.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 16449.9
+            }
+        ]
+    },
+    {
+        "id": 977,
+        "name": "BOLA DE LOMO TF CARNES AL VACIO 1 KG",
+        "price": 16499.9,
+        "market": "maxiconsumo",
+        "category": "carnes",
+        "image": "images/maxiconsumo/BOLA DE LOMO TF CARNES AL VACIO 1 KG.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 16499.9
             }
         ]
     },
     {
         "id": 978,
-        "name": "TAPA NALGA AL VACIO 1 KG",
-        "price": 17499.9,
+        "name": "CUADRADA TF CARNES FETEADA CONGELADA 1 KG",
+        "price": 16499.9,
         "market": "maxiconsumo",
         "category": "carnes",
-        "image": "images/maxiconsumo/TAPA NALGA AL VACIO 1 KG.jpg",
+        "image": "images/maxiconsumo/CUADRADA TF CARNES FETEADA CONGELADA 1 K.jpg",
         "history": [
             {
-                "date": "2026-05-02",
-                "price": 17499.9
+                "date": "2026-05-16",
+                "price": 16499.9
             }
         ]
     },
@@ -20382,7 +20498,7 @@
     {
         "id": 989,
         "name": "CERVEZA ZEUS 473 CC",
-        "price": 799.9,
+        "price": 899.9,
         "market": "maxiconsumo",
         "category": "cervezas",
         "image": "images/maxiconsumo/CERVEZA ZEUS 473 CC.jpg",
@@ -20398,13 +20514,17 @@
             {
                 "date": "2026-05-09",
                 "price": 799.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 899.9
             }
         ]
     },
     {
         "id": 990,
         "name": "CERVEZA QUILMES 0.0 SIN ALCOHOL 473 CC",
-        "price": 1199.9,
+        "price": 1249.91,
         "market": "maxiconsumo",
         "category": "cervezas",
         "image": "images/maxiconsumo/CERVEZA QUILMES 00 SIN ALCOHOL 473 CC.jpg",
@@ -20416,11 +20536,43 @@
             {
                 "date": "2026-05-09",
                 "price": 1199.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1249.91
             }
         ]
     },
     {
         "id": 991,
+        "name": "CERVEZA ZEUS PET 1 LT",
+        "price": 1399.9,
+        "market": "maxiconsumo",
+        "category": "cervezas",
+        "image": "images/maxiconsumo/CERVEZA ZEUS PET 1 LT.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1399.9
+            }
+        ]
+    },
+    {
+        "id": 992,
+        "name": "CERVEZA ZEUS 710 CC",
+        "price": 1699.89,
+        "market": "maxiconsumo",
+        "category": "cervezas",
+        "image": "images/maxiconsumo/CERVEZA ZEUS 710 CC.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1699.89
+            }
+        ]
+    },
+    {
+        "id": 993,
         "name": "CERVEZA QUILMES STOUT 473 CC",
         "price": 1699.9,
         "market": "maxiconsumo",
@@ -20442,7 +20594,7 @@
         ]
     },
     {
-        "id": 992,
+        "id": 994,
         "name": "CERVEZA QUILMES LATA 473 CC",
         "price": 1699.9,
         "market": "maxiconsumo",
@@ -20464,31 +20616,9 @@
         ]
     },
     {
-        "id": 993,
-        "name": "CERVEZA BUDWEISER LATA 473 CC",
-        "price": 1899.9,
-        "market": "maxiconsumo",
-        "category": "cervezas",
-        "image": "images/maxiconsumo/CERVEZA BUDWEISER LATA 473 CC.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 1699.9
-            },
-            {
-                "date": "2026-05-02",
-                "price": 1889.9
-            },
-            {
-                "date": "2026-05-09",
-                "price": 1899.9
-            }
-        ]
-    },
-    {
-        "id": 994,
+        "id": 995,
         "name": "CERVEZA ANDES ORIGEN RUBIA 473 CC",
-        "price": 1999.9,
+        "price": 1799.9,
         "market": "maxiconsumo",
         "category": "cervezas",
         "image": "images/maxiconsumo/CERVEZA ANDES ORIGEN RUBIA 473 CC.jpg",
@@ -20496,13 +20626,17 @@
             {
                 "date": "2026-04-24",
                 "price": 1999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1799.9
             }
         ]
     },
     {
-        "id": 995,
+        "id": 996,
         "name": "CERVEZA ANDES ORIGEN ROJA 473 cc",
-        "price": 1999.91,
+        "price": 1799.91,
         "market": "maxiconsumo",
         "category": "cervezas",
         "image": "images/maxiconsumo/CERVEZA ANDES ORIGEN ROJA 473 cc.jpg",
@@ -20510,25 +20644,29 @@
             {
                 "date": "2026-04-24",
                 "price": 1999.91
-            }
-        ]
-    },
-    {
-        "id": 996,
-        "name": "CERVEZA ANTARES MICRO IPA 25 473 CC",
-        "price": 2199.89,
-        "market": "maxiconsumo",
-        "category": "cervezas",
-        "image": "images/maxiconsumo/CERVEZA ANTARES MICRO IPA 25 473 CC.jpg",
-        "history": [
+            },
             {
-                "date": "2026-05-09",
-                "price": 2199.89
+                "date": "2026-05-16",
+                "price": 1799.91
             }
         ]
     },
     {
         "id": 997,
+        "name": "CERVEZA BRAHMA AMARILLA MUSICA 473 CC",
+        "price": 1899.89,
+        "market": "maxiconsumo",
+        "category": "cervezas",
+        "image": "images/maxiconsumo/CERVEZA BRAHMA AMARILLA MUSICA 473 CC.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1899.89
+            }
+        ]
+    },
+    {
+        "id": 998,
         "name": "CERVEZA CORONA 0.0 SIN ALCOHOL 330 CC",
         "price": 2299.9,
         "market": "maxiconsumo",
@@ -20550,20 +20688,6 @@
         ]
     },
     {
-        "id": 998,
-        "name": "CERVEZA STELLA ARTOIS 473 CC",
-        "price": 2369.89,
-        "market": "maxiconsumo",
-        "category": "cervezas",
-        "image": "images/maxiconsumo/CERVEZA STELLA ARTOIS 473 CC.jpg",
-        "history": [
-            {
-                "date": "2026-05-09",
-                "price": 2369.89
-            }
-        ]
-    },
-    {
         "id": 999,
         "name": "APERITIVO FERCHO FERNET-COLA 500 CC",
         "price": 699.9,
@@ -20580,7 +20704,7 @@
     {
         "id": 1000,
         "name": "APERITIVO FERCHO FERNET-COCA 1 LT",
-        "price": 1149.9,
+        "price": 999.91,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/APERITIVO FERCHO FERNET-COCA 1 LT.jpg",
@@ -20596,6 +20720,10 @@
             {
                 "date": "2026-05-09",
                 "price": 1149.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 999.91
             }
         ]
     },
@@ -20647,19 +20775,23 @@
     },
     {
         "id": 1004,
-        "name": "FERNET BUHERO 700 ML",
-        "price": 7499.9,
+        "name": "FERNET 1882 1.008 LT",
+        "price": 7199.9,
         "market": "maxiconsumo",
         "category": "all",
-        "image": "images/maxiconsumo/FERNET BUHERO 700 ML.jpg",
+        "image": "images/maxiconsumo/FERNET 1882 1008 LT.jpg",
         "history": [
             {
                 "date": "2026-04-24",
-                "price": 7499.91
+                "price": 7499.9
             },
             {
-                "date": "2026-05-09",
-                "price": 7499.9
+                "date": "2026-05-02",
+                "price": 7999.88
+            },
+            {
+                "date": "2026-05-16",
+                "price": 7199.9
             }
         ]
     },
@@ -20687,19 +20819,23 @@
     },
     {
         "id": 1006,
-        "name": "FERNET 1882 1.008 LT",
-        "price": 7999.88,
+        "name": "FERNET BUHERO 700 ML",
+        "price": 7999.9,
         "market": "maxiconsumo",
         "category": "all",
-        "image": "images/maxiconsumo/FERNET 1882 1008 LT.jpg",
+        "image": "images/maxiconsumo/FERNET BUHERO 700 ML.jpg",
         "history": [
             {
                 "date": "2026-04-24",
+                "price": 7499.91
+            },
+            {
+                "date": "2026-05-09",
                 "price": 7499.9
             },
             {
-                "date": "2026-05-02",
-                "price": 7999.88
+                "date": "2026-05-16",
+                "price": 7999.9
             }
         ]
     },
@@ -20720,7 +20856,7 @@
     {
         "id": 1008,
         "name": "FERNET BRANCA 750 CC",
-        "price": 14499.9,
+        "price": 15399.9,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/FERNET BRANCA 750 CC.jpg",
@@ -20732,13 +20868,17 @@
             {
                 "date": "2026-05-09",
                 "price": 14499.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 15399.9
             }
         ]
     },
     {
         "id": 1009,
         "name": "BONDIOLA CAGNOLI CERDO CONGELADO 1 KG",
-        "price": 7990.0,
+        "price": 8999.9,
         "market": "maxiconsumo",
         "category": "fiambres",
         "image": "images/maxiconsumo/BONDIOLA CAGNOLI CERDO CONGELADO 1 KG.jpg",
@@ -20750,6 +20890,10 @@
             {
                 "date": "2026-05-09",
                 "price": 7990.0
+            },
+            {
+                "date": "2026-05-16",
+                "price": 8999.9
             }
         ]
     },
@@ -20857,15 +21001,15 @@
     },
     {
         "id": 1017,
-        "name": "SALAMIN LA CASONA BASTON PICADO GRUESO 1 KG",
-        "price": 20499.89,
+        "name": "LONGANIZA 214 CALABRESA 1 KG",
+        "price": 19499.9,
         "market": "maxiconsumo",
         "category": "fiambres",
-        "image": "images/maxiconsumo/SALAMIN LA CASONA BASTON PICADO GRUESO 1.jpg",
+        "image": "images/maxiconsumo/LONGANIZA 214 CALABRESA 1 KG.jpg",
         "history": [
             {
-                "date": "2026-05-09",
-                "price": 20499.89
+                "date": "2026-05-16",
+                "price": 19499.9
             }
         ]
     },
@@ -20987,22 +21131,8 @@
     },
     {
         "id": 1026,
-        "name": "ANANA MAROLIO TROZO 850 GR",
-        "price": 4249.9,
-        "market": "maxiconsumo",
-        "category": "all",
-        "image": "images/maxiconsumo/ANANA MAROLIO TROZO 850 GR.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 4249.9
-            }
-        ]
-    },
-    {
-        "id": 1027,
         "name": "ANANA MAROLIO RODAJA 825 GR",
-        "price": 4699.89,
+        "price": 4199.9,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/ANANA MAROLIO RODAJA 825 GR.jpg",
@@ -21014,6 +21144,24 @@
             {
                 "date": "2026-05-02",
                 "price": 4699.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 4199.9
+            }
+        ]
+    },
+    {
+        "id": 1027,
+        "name": "ANANA MAROLIO TROZO 850 GR",
+        "price": 4249.9,
+        "market": "maxiconsumo",
+        "category": "all",
+        "image": "images/maxiconsumo/ANANA MAROLIO TROZO 850 GR.jpg",
+        "history": [
+            {
+                "date": "2026-04-24",
+                "price": 4249.9
             }
         ]
     },
@@ -21083,36 +21231,8 @@
     },
     {
         "id": 1032,
-        "name": "GASEOSA COCA COLA LATA 354 CC",
-        "price": 1249.89,
-        "market": "maxiconsumo",
-        "category": "gaseosas",
-        "image": "images/maxiconsumo/GASEOSA COCA COLA LATA 354 CC.jpg",
-        "history": [
-            {
-                "date": "2026-05-09",
-                "price": 1249.89
-            }
-        ]
-    },
-    {
-        "id": 1033,
-        "name": "GASEOSA FANTA NARANJA ZERO 354 CC",
-        "price": 1249.89,
-        "market": "maxiconsumo",
-        "category": "gaseosas",
-        "image": "images/maxiconsumo/GASEOSA FANTA NARANJA ZERO 354 CC.jpg",
-        "history": [
-            {
-                "date": "2026-05-09",
-                "price": 1249.89
-            }
-        ]
-    },
-    {
-        "id": 1034,
         "name": "GASEOSA PEPSI COLA 500 CC",
-        "price": 1249.89,
+        "price": 1271.59,
         "market": "maxiconsumo",
         "category": "gaseosas",
         "image": "images/maxiconsumo/GASEOSA PEPSI COLA 500 CC.jpg",
@@ -21120,25 +21240,15 @@
             {
                 "date": "2026-05-09",
                 "price": 1249.89
-            }
-        ]
-    },
-    {
-        "id": 1035,
-        "name": "GASEOSA COCA COLA ZERO 354 CC",
-        "price": 1249.89,
-        "market": "maxiconsumo",
-        "category": "gaseosas",
-        "image": "images/maxiconsumo/GASEOSA COCA COLA ZERO 354 CC.jpg",
-        "history": [
+            },
             {
-                "date": "2026-05-09",
-                "price": 1249.89
+                "date": "2026-05-16",
+                "price": 1271.59
             }
         ]
     },
     {
-        "id": 1036,
+        "id": 1033,
         "name": "GASEOSA FRESHY NARANJA 2.25 LT",
         "price": 1299.9,
         "market": "maxiconsumo",
@@ -21156,7 +21266,7 @@
         ]
     },
     {
-        "id": 1037,
+        "id": 1034,
         "name": "GASEOSA FRESHY COLA 2.25 LT",
         "price": 1299.9,
         "market": "maxiconsumo",
@@ -21174,7 +21284,7 @@
         ]
     },
     {
-        "id": 1038,
+        "id": 1035,
         "name": "GASEOSA FRESHY LIMA LIMON 2.25 LT",
         "price": 1299.9,
         "market": "maxiconsumo",
@@ -21192,9 +21302,77 @@
         ]
     },
     {
+        "id": 1036,
+        "name": "GASEOSA FRESHY POMELO 2.25 LT",
+        "price": 1299.9,
+        "market": "maxiconsumo",
+        "category": "gaseosas",
+        "image": "images/maxiconsumo/GASEOSA FRESHY POMELO 225 LT.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1299.9
+            }
+        ]
+    },
+    {
+        "id": 1037,
+        "name": "GASEOSA FRESHY TONICA 2.25 LT",
+        "price": 1299.9,
+        "market": "maxiconsumo",
+        "category": "gaseosas",
+        "image": "images/maxiconsumo/GASEOSA FRESHY TONICA 225 LT.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1299.9
+            }
+        ]
+    },
+    {
+        "id": 1038,
+        "name": "GASEOSA FRESHY GUARANA 2.25 LT",
+        "price": 1299.9,
+        "market": "maxiconsumo",
+        "category": "gaseosas",
+        "image": "images/maxiconsumo/GASEOSA FRESHY GUARANA 225 LT.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1299.9
+            }
+        ]
+    },
+    {
         "id": 1039,
+        "name": "HAMBURGUESA UNION GANADERA FINITAS 2 UN",
+        "price": 1868.91,
+        "market": "maxiconsumo",
+        "category": "hamburguesas",
+        "image": "images/maxiconsumo/HAMBURGUESA UNION GANADERA FINITAS 2 UN.jpg",
+        "history": [
+            {
+                "date": "2026-04-24",
+                "price": 2899.9
+            },
+            {
+                "date": "2026-05-02",
+                "price": 2168.9
+            },
+            {
+                "date": "2026-05-09",
+                "price": 2499.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1868.91
+            }
+        ]
+    },
+    {
+        "id": 1040,
         "name": "MEDALLON PATY EXPRESS 2X55 GR",
-        "price": 1698.9,
+        "price": 2219.9,
         "market": "maxiconsumo",
         "category": "hamburguesas",
         "image": "images/maxiconsumo/MEDALLON PATY EXPRESS 2X55 GR.jpg",
@@ -21206,24 +21384,10 @@
             {
                 "date": "2026-05-09",
                 "price": 1698.9
-            }
-        ]
-    },
-    {
-        "id": 1040,
-        "name": "HAMBURGUESA PATY FINITA 2 UN",
-        "price": 1998.9,
-        "market": "maxiconsumo",
-        "category": "hamburguesas",
-        "image": "images/maxiconsumo/HAMBURGUESA PATY FINITA 2 UN.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 2999.9
             },
             {
-                "date": "2026-05-09",
-                "price": 1998.9
+                "date": "2026-05-16",
+                "price": 2219.9
             }
         ]
     },
@@ -21243,64 +21407,28 @@
     },
     {
         "id": 1042,
-        "name": "HAMBURGUESA UNION GANADERA FINITAS 2 UN",
-        "price": 2499.9,
+        "name": "HAMBURGUESA PATY FINITA 2 UN",
+        "price": 2999.9,
         "market": "maxiconsumo",
         "category": "hamburguesas",
-        "image": "images/maxiconsumo/HAMBURGUESA UNION GANADERA FINITAS 2 UN.jpg",
+        "image": "images/maxiconsumo/HAMBURGUESA PATY FINITA 2 UN.jpg",
         "history": [
             {
                 "date": "2026-04-24",
-                "price": 2899.9
-            },
-            {
-                "date": "2026-05-02",
-                "price": 2168.9
+                "price": 2999.9
             },
             {
                 "date": "2026-05-09",
-                "price": 2499.9
+                "price": 1998.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 2999.9
             }
         ]
     },
     {
         "id": 1043,
-        "name": "HAMBURGUESA SWIFT CASERA 2 UN",
-        "price": 4958.89,
-        "market": "maxiconsumo",
-        "category": "hamburguesas",
-        "image": "images/maxiconsumo/HAMBURGUESA SWIFT CASERA 2 UN.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 6199.9
-            },
-            {
-                "date": "2026-05-09",
-                "price": 4958.89
-            }
-        ]
-    },
-    {
-        "id": 1044,
-        "name": "HAMBURGUESA UNION GANADERA SUPER GIGANTES 2 UN",
-        "price": 5288.9,
-        "market": "maxiconsumo",
-        "category": "hamburguesas",
-        "image": "images/maxiconsumo/HAMBURGUESA UNION GANADERA SUPER GIGANTE.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 6998.99
-            },
-            {
-                "date": "2026-05-09",
-                "price": 5288.9
-            }
-        ]
-    },
-    {
-        "id": 1045,
         "name": "HAMBURGUESA PATY DE CANCHA 2X125 GR",
         "price": 6399.9,
         "market": "maxiconsumo",
@@ -21318,25 +21446,29 @@
         ]
     },
     {
-        "id": 1046,
-        "name": "HAMBURGUESA UNION GANADERA CLASICA 4 UN",
-        "price": 6658.9,
+        "id": 1044,
+        "name": "HAMBURGUESA UNION GANADERA SUPER GIGANTES 2 UN",
+        "price": 6998.99,
         "market": "maxiconsumo",
         "category": "hamburguesas",
-        "image": "images/maxiconsumo/HAMBURGUESA UNION GANADERA CLASICA 4 UN.jpg",
+        "image": "images/maxiconsumo/HAMBURGUESA UNION GANADERA SUPER GIGANTE.jpg",
         "history": [
             {
                 "date": "2026-04-24",
-                "price": 8979.89
+                "price": 6998.99
             },
             {
                 "date": "2026-05-09",
-                "price": 6658.9
+                "price": 5288.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 6998.99
             }
         ]
     },
     {
-        "id": 1047,
+        "id": 1045,
         "name": "HAMBURGUESA PATY ESTUCHE 4 UN 80 GR",
         "price": 7999.9,
         "market": "maxiconsumo",
@@ -21350,7 +21482,29 @@
         ]
     },
     {
-        "id": 1048,
+        "id": 1046,
+        "name": "HAMBURGUESA UNION GANADERA CLASICA 4 UN",
+        "price": 8979.89,
+        "market": "maxiconsumo",
+        "category": "hamburguesas",
+        "image": "images/maxiconsumo/HAMBURGUESA UNION GANADERA CLASICA 4 UN.jpg",
+        "history": [
+            {
+                "date": "2026-04-24",
+                "price": 8979.89
+            },
+            {
+                "date": "2026-05-09",
+                "price": 6658.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 8979.89
+            }
+        ]
+    },
+    {
+        "id": 1047,
         "name": "HAMBURGUESA MAROLIO 12 UN",
         "price": 14999.9,
         "market": "maxiconsumo",
@@ -21372,9 +21526,23 @@
         ]
     },
     {
+        "id": 1048,
+        "name": "HAMBURGUESA PATY X 12 UN 80 GR",
+        "price": 15498.9,
+        "market": "maxiconsumo",
+        "category": "hamburguesas",
+        "image": "images/maxiconsumo/HAMBURGUESA PATY X 12 UN 80 GR.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 15498.9
+            }
+        ]
+    },
+    {
         "id": 1049,
         "name": "ISOTONICA UP GRADE BLUEBERRY 750 CC",
-        "price": 879.9,
+        "price": 849.9,
         "market": "maxiconsumo",
         "category": "isotonicas",
         "image": "images/maxiconsumo/ISOTONICA UP GRADE BLUEBERRY 750 CC.jpg",
@@ -21382,13 +21550,17 @@
             {
                 "date": "2026-05-02",
                 "price": 879.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 849.9
             }
         ]
     },
     {
         "id": 1050,
         "name": "ISOTONICA UP GRADE FRUTOS ROJOS 750 CC",
-        "price": 879.9,
+        "price": 849.9,
         "market": "maxiconsumo",
         "category": "isotonicas",
         "image": "images/maxiconsumo/ISOTONICA UP GRADE FRUTOS ROJOS 750 CC.jpg",
@@ -21396,13 +21568,17 @@
             {
                 "date": "2026-04-24",
                 "price": 879.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 849.9
             }
         ]
     },
     {
         "id": 1051,
         "name": "ISOTONICA UP GRADE MANZANA 750 C",
-        "price": 879.9,
+        "price": 849.9,
         "market": "maxiconsumo",
         "category": "isotonicas",
         "image": "images/maxiconsumo/ISOTONICA UP GRADE MANZANA 750 C.jpg",
@@ -21410,6 +21586,10 @@
             {
                 "date": "2026-04-24",
                 "price": 879.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 849.9
             }
         ]
     },
@@ -21433,8 +21613,50 @@
     },
     {
         "id": 1053,
+        "name": "ISOTONICA POWERADE MANZANA PET 500 CC",
+        "price": 1149.9,
+        "market": "maxiconsumo",
+        "category": "isotonicas",
+        "image": "images/maxiconsumo/ISOTONICA POWERADE MANZANA PET 500 CC.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1149.9
+            }
+        ]
+    },
+    {
+        "id": 1054,
+        "name": "ISOTONICA POWERADE MANZANA PET 995 CC",
+        "price": 1499.9,
+        "market": "maxiconsumo",
+        "category": "isotonicas",
+        "image": "images/maxiconsumo/ISOTONICA POWERADE MANZANA PET 995 CC.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1499.9
+            }
+        ]
+    },
+    {
+        "id": 1055,
+        "name": "ISOTONICA POWERADE MOUNTAIN BLAST PET 995 CC",
+        "price": 1499.9,
+        "market": "maxiconsumo",
+        "category": "isotonicas",
+        "image": "images/maxiconsumo/ISOTONICA POWERADE MOUNTAIN BLAST PET 99.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1499.9
+            }
+        ]
+    },
+    {
+        "id": 1056,
         "name": "ISOTONICA GATORADE NARANJA PET 500 CC",
-        "price": 1399.9,
+        "price": 1549.89,
         "market": "maxiconsumo",
         "category": "isotonicas",
         "image": "images/maxiconsumo/ISOTONICA GATORADE NARANJA PET 500 CC.jpg",
@@ -21450,13 +21672,17 @@
             {
                 "date": "2026-05-09",
                 "price": 1399.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1549.89
             }
         ]
     },
     {
-        "id": 1054,
+        "id": 1057,
         "name": "ISOTONICA GATORADE MANZANA PET 500 CC",
-        "price": 1399.9,
+        "price": 1549.89,
         "market": "maxiconsumo",
         "category": "isotonicas",
         "image": "images/maxiconsumo/ISOTONICA GATORADE MANZANA PET 500 CC.jpg",
@@ -21472,35 +21698,17 @@
             {
                 "date": "2026-05-09",
                 "price": 1399.9
-            }
-        ]
-    },
-    {
-        "id": 1055,
-        "name": "ISOTONICA GATORADE COOL BLUE PET 500 CC",
-        "price": 1399.9,
-        "market": "maxiconsumo",
-        "category": "isotonicas",
-        "image": "images/maxiconsumo/ISOTONICA GATORADE COOL BLUE PET 500 CC.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 1569.9
             },
             {
-                "date": "2026-05-02",
+                "date": "2026-05-16",
                 "price": 1549.89
-            },
-            {
-                "date": "2026-05-09",
-                "price": 1399.9
             }
         ]
     },
     {
-        "id": 1056,
+        "id": 1058,
         "name": "ISOTONICA GATORADE UVA PET 500 CC",
-        "price": 1399.9,
+        "price": 1549.89,
         "market": "maxiconsumo",
         "category": "isotonicas",
         "image": "images/maxiconsumo/ISOTONICA GATORADE UVA PET 500 CC.jpg",
@@ -21508,38 +21716,10 @@
             {
                 "date": "2026-05-09",
                 "price": 1399.9
-            }
-        ]
-    },
-    {
-        "id": 1057,
-        "name": "ISOTONICA GATORADE FRUTAS TROPICALES PET 500 CC",
-        "price": 1399.9,
-        "market": "maxiconsumo",
-        "category": "isotonicas",
-        "image": "images/maxiconsumo/ISOTONICA GATORADE FRUTAS TROPICALES PET.jpg",
-        "history": [
-            {
-                "date": "2026-05-09",
-                "price": 1399.9
-            }
-        ]
-    },
-    {
-        "id": 1058,
-        "name": "ISOTONICA GATORADE FRUTOS TROPICALES 750 CC",
-        "price": 1669.9,
-        "market": "maxiconsumo",
-        "category": "isotonicas",
-        "image": "images/maxiconsumo/ISOTONICA GATORADE FRUTOS TROPICALES 750.jpg",
-        "history": [
-            {
-                "date": "2026-05-02",
-                "price": 1499.9
             },
             {
-                "date": "2026-05-09",
-                "price": 1669.9
+                "date": "2026-05-16",
+                "price": 1549.89
             }
         ]
     },
@@ -21560,7 +21740,7 @@
     {
         "id": 1060,
         "name": "JUGO NOEL MULTIFRUTA 16 GR",
-        "price": 279.89,
+        "price": 249.9,
         "market": "maxiconsumo",
         "category": "jugos",
         "image": "images/maxiconsumo/JUGO NOEL MULTIFRUTA 16 GR.jpg",
@@ -21568,13 +21748,17 @@
             {
                 "date": "2026-04-24",
                 "price": 279.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 249.9
             }
         ]
     },
     {
         "id": 1061,
         "name": "JUGO NOEL LIMONADA 16 GR",
-        "price": 279.89,
+        "price": 249.9,
         "market": "maxiconsumo",
         "category": "jugos",
         "image": "images/maxiconsumo/JUGO NOEL LIMONADA 16 GR.jpg",
@@ -21582,13 +21766,17 @@
             {
                 "date": "2026-05-02",
                 "price": 279.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 249.9
             }
         ]
     },
     {
         "id": 1062,
         "name": "JUGO NOEL NARANJA 16 GR",
-        "price": 279.89,
+        "price": 249.9,
         "market": "maxiconsumo",
         "category": "jugos",
         "image": "images/maxiconsumo/JUGO NOEL NARANJA 16 GR.jpg",
@@ -21596,6 +21784,10 @@
             {
                 "date": "2026-04-24",
                 "price": 279.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 249.9
             }
         ]
     },
@@ -21669,20 +21861,6 @@
     },
     {
         "id": 1067,
-        "name": "JUGO ARCOR NARANJA 15 GR",
-        "price": 299.89,
-        "market": "maxiconsumo",
-        "category": "jugos",
-        "image": "images/maxiconsumo/JUGO ARCOR NARANJA 15 GR.jpg",
-        "history": [
-            {
-                "date": "2026-05-09",
-                "price": 299.89
-            }
-        ]
-    },
-    {
-        "id": 1068,
         "name": "JUGO ARCOR NARANJA DURAZNO 15 GR",
         "price": 299.89,
         "market": "maxiconsumo",
@@ -21692,6 +21870,20 @@
             {
                 "date": "2026-05-09",
                 "price": 299.89
+            }
+        ]
+    },
+    {
+        "id": 1068,
+        "name": "JUGO MOCORETA NARANJA 1,5 LT",
+        "price": 1939.9,
+        "market": "maxiconsumo",
+        "category": "jugos",
+        "image": "images/maxiconsumo/JUGO MOCORETA NARANJA 15 LT.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 1939.9
             }
         ]
     },
@@ -21725,24 +21917,6 @@
     },
     {
         "id": 1071,
-        "name": "LECHE ANGELITA LARGA VIDA LIVIANA 1 LT",
-        "price": 1499.9,
-        "market": "maxiconsumo",
-        "category": "all",
-        "image": "images/maxiconsumo/LECHE ANGELITA LARGA VIDA LIVIANA 1 LT.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 1759.9
-            },
-            {
-                "date": "2026-05-09",
-                "price": 1499.9
-            }
-        ]
-    },
-    {
-        "id": 1072,
         "name": "LECHE ARMONIA SACHET 2% 1 LT",
         "price": 1549.89,
         "market": "maxiconsumo",
@@ -21760,27 +21934,9 @@
         ]
     },
     {
-        "id": 1073,
-        "name": "LECHE ARMONIA SACHET 1% 1 LT",
-        "price": 1549.89,
-        "market": "maxiconsumo",
-        "category": "all",
-        "image": "images/maxiconsumo/LECHE ARMONIA SACHET 1 1 LT.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 1449.89
-            },
-            {
-                "date": "2026-05-09",
-                "price": 1549.89
-            }
-        ]
-    },
-    {
-        "id": 1074,
+        "id": 1072,
         "name": "LECHE LA SERENISIMA LIVIANA 1% SACHET 1 LT",
-        "price": 1599.9,
+        "price": 1749.89,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/LECHE LA SERENISIMA LIVIANA 1 SACHET 1 L.jpg",
@@ -21788,13 +21944,17 @@
             {
                 "date": "2026-04-24",
                 "price": 1599.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1749.89
             }
         ]
     },
     {
-        "id": 1075,
+        "id": 1073,
         "name": "LECHE LA SERENISIMA CLASICA 3% 1 LT",
-        "price": 1599.9,
+        "price": 1749.89,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/LECHE LA SERENISIMA CLASICA 3 1 LT.jpg",
@@ -21802,11 +21962,37 @@
             {
                 "date": "2026-04-24",
                 "price": 1599.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1749.89
             }
         ]
     },
     {
-        "id": 1076,
+        "id": 1074,
+        "name": "LECHE ANGELITA LARGA VIDA LIVIANA 1 LT",
+        "price": 1759.9,
+        "market": "maxiconsumo",
+        "category": "all",
+        "image": "images/maxiconsumo/LECHE ANGELITA LARGA VIDA LIVIANA 1 LT.jpg",
+        "history": [
+            {
+                "date": "2026-04-24",
+                "price": 1759.9
+            },
+            {
+                "date": "2026-05-09",
+                "price": 1499.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 1759.9
+            }
+        ]
+    },
+    {
+        "id": 1075,
         "name": "CREMA LA SERENISIMA VITAMINAS A y E 200 GR",
         "price": 2899.9,
         "market": "maxiconsumo",
@@ -21820,7 +22006,7 @@
         ]
     },
     {
-        "id": 1077,
+        "id": 1076,
         "name": "CREMA LA PAULINA 350 CC",
         "price": 3419.9,
         "market": "maxiconsumo",
@@ -21838,9 +22024,9 @@
         ]
     },
     {
-        "id": 1078,
+        "id": 1077,
         "name": "CREMA LA SERENISIMA VITAMINAS A y E 360 GR",
-        "price": 4499.89,
+        "price": 3899.9,
         "market": "maxiconsumo",
         "category": "all",
         "image": "images/maxiconsumo/CREMA LA SERENISIMA VITAMINAS A y E 360 .jpg",
@@ -21848,25 +22034,29 @@
             {
                 "date": "2026-05-09",
                 "price": 4499.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 3899.9
+            }
+        ]
+    },
+    {
+        "id": 1078,
+        "name": "CREMA LA SERENISIMA CULINARIA U 330 cc",
+        "price": 3899.9,
+        "market": "maxiconsumo",
+        "category": "all",
+        "image": "images/maxiconsumo/CREMA LA SERENISIMA CULINARIA U 330 cc.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 3899.9
             }
         ]
     },
     {
         "id": 1079,
-        "name": "QUESO ADLER CHEDDAR 144 GR",
-        "price": 2899.9,
-        "market": "maxiconsumo",
-        "category": "fiambres",
-        "image": "images/maxiconsumo/QUESO ADLER CHEDDAR 144 GR.jpg",
-        "history": [
-            {
-                "date": "2026-04-24",
-                "price": 2899.9
-            }
-        ]
-    },
-    {
-        "id": 1080,
         "name": "QUESO LA PAULINA DAMBO FETAS 180 gr",
         "price": 3999.9,
         "market": "maxiconsumo",
@@ -21880,9 +22070,23 @@
         ]
     },
     {
+        "id": 1080,
+        "name": "QUESO SANTA ROSA AZUL PORCION 140 gr",
+        "price": 4999.89,
+        "market": "maxiconsumo",
+        "category": "fiambres",
+        "image": "images/maxiconsumo/QUESO SANTA ROSA AZUL PORCION 140 gr.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 4999.89
+            }
+        ]
+    },
+    {
         "id": 1081,
         "name": "MUZZARELLA MAROLIO 1/4 HORMA 1 KG",
-        "price": 8679.9,
+        "price": 8399.9,
         "market": "maxiconsumo",
         "category": "fiambres",
         "image": "images/maxiconsumo/MUZZARELLA MAROLIO 14 HORMA 1 KG.jpg",
@@ -21894,13 +22098,31 @@
             {
                 "date": "2026-05-09",
                 "price": 8679.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 8399.9
             }
         ]
     },
     {
         "id": 1082,
+        "name": "QUESO BARRAZA BARRA TYBO 1 kg",
+        "price": 11199.89,
+        "market": "maxiconsumo",
+        "category": "fiambres",
+        "image": "images/maxiconsumo/QUESO BARRAZA BARRA TYBO 1 kg.jpg",
+        "history": [
+            {
+                "date": "2026-04-24",
+                "price": 11199.89
+            }
+        ]
+    },
+    {
+        "id": 1083,
         "name": "QUESO LA PAULINA BARRA PRATO 1 KG",
-        "price": 9888.89,
+        "price": 11499.9,
         "market": "maxiconsumo",
         "category": "fiambres",
         "image": "images/maxiconsumo/QUESO LA PAULINA BARRA PRATO 1 KG.jpg",
@@ -21912,13 +22134,17 @@
             {
                 "date": "2026-05-09",
                 "price": 9888.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 11499.9
             }
         ]
     },
     {
-        "id": 1083,
+        "id": 1084,
         "name": "QUESO LA PAULINA BARRA SANDWICH 1 KG",
-        "price": 9888.89,
+        "price": 11499.9,
         "market": "maxiconsumo",
         "category": "fiambres",
         "image": "images/maxiconsumo/QUESO LA PAULINA BARRA SANDWICH 1 KG.jpg",
@@ -21930,20 +22156,10 @@
             {
                 "date": "2026-05-09",
                 "price": 9888.89
-            }
-        ]
-    },
-    {
-        "id": 1084,
-        "name": "QUESO BARRAZA BARRA TYBO 1 kg",
-        "price": 11199.89,
-        "market": "maxiconsumo",
-        "category": "fiambres",
-        "image": "images/maxiconsumo/QUESO BARRAZA BARRA TYBO 1 kg.jpg",
-        "history": [
+            },
             {
-                "date": "2026-04-24",
-                "price": 11199.89
+                "date": "2026-05-16",
+                "price": 11499.9
             }
         ]
     },
@@ -21985,6 +22201,24 @@
     },
     {
         "id": 1087,
+        "name": "QUESO JC SARDO FRESCO 1 KG",
+        "price": 15619.9,
+        "market": "maxiconsumo",
+        "category": "fiambres",
+        "image": "images/maxiconsumo/QUESO JC SARDO FRESCO 1 KG.jpg",
+        "history": [
+            {
+                "date": "2026-05-02",
+                "price": 17999.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 15619.9
+            }
+        ]
+    },
+    {
+        "id": 1088,
         "name": "QUESO LA QUESERA AZUL MITAD 1 KG",
         "price": 17399.9,
         "market": "maxiconsumo",
@@ -21998,23 +22232,23 @@
         ]
     },
     {
-        "id": 1088,
-        "name": "QUESO JC SARDO FRESCO 1 KG",
-        "price": 17999.9,
+        "id": 1089,
+        "name": "SAL DOS ESTRELLAS FINA 500 gr",
+        "price": 599.89,
         "market": "maxiconsumo",
-        "category": "fiambres",
-        "image": "images/maxiconsumo/QUESO JC SARDO FRESCO 1 KG.jpg",
+        "category": "sal",
+        "image": "images/maxiconsumo/SAL DOS ESTRELLAS FINA 500 gr.jpg",
         "history": [
             {
-                "date": "2026-05-02",
-                "price": 17999.9
+                "date": "2026-05-16",
+                "price": 599.89
             }
         ]
     },
     {
-        "id": 1089,
+        "id": 1090,
         "name": "SAL COLOSAL ENTREFINA DOYPACK 500 GR",
-        "price": 599.89,
+        "price": 599.91,
         "market": "maxiconsumo",
         "category": "sal",
         "image": "images/maxiconsumo/SAL COLOSAL ENTREFINA DOYPACK 500 GR.jpg",
@@ -22026,13 +22260,17 @@
             {
                 "date": "2026-05-09",
                 "price": 599.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 599.91
             }
         ]
     },
     {
-        "id": 1090,
+        "id": 1091,
         "name": "SAL COLOSAL GRUESA DOYPACK 500 GR",
-        "price": 599.89,
+        "price": 599.91,
         "market": "maxiconsumo",
         "category": "sal",
         "image": "images/maxiconsumo/SAL COLOSAL GRUESA DOYPACK 500 GR.jpg",
@@ -22044,11 +22282,15 @@
             {
                 "date": "2026-05-09",
                 "price": 599.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 599.91
             }
         ]
     },
     {
-        "id": 1091,
+        "id": 1092,
         "name": "SAL MAROLIO FINA PAQUETE 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -22066,7 +22308,7 @@
         ]
     },
     {
-        "id": 1092,
+        "id": 1093,
         "name": "SAL MAROLIO FINA ESTUCHE 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -22084,7 +22326,7 @@
         ]
     },
     {
-        "id": 1093,
+        "id": 1094,
         "name": "SAL EL DIQUE GRUESA 1 KG",
         "price": 779.89,
         "market": "maxiconsumo",
@@ -22102,7 +22344,7 @@
         ]
     },
     {
-        "id": 1094,
+        "id": 1095,
         "name": "SAL EL DIQUE ENTREFINA 1 KG",
         "price": 849.89,
         "market": "maxiconsumo",
@@ -22116,7 +22358,39 @@
         ]
     },
     {
-        "id": 1095,
+        "id": 1096,
+        "name": "SAL DOS ANCLAS FINA ESTUCHE 500 GR",
+        "price": 849.9,
+        "market": "maxiconsumo",
+        "category": "sal",
+        "image": "images/maxiconsumo/SAL DOS ANCLAS FINA ESTUCHE 500 GR.jpg",
+        "history": [
+            {
+                "date": "2026-05-09",
+                "price": 1099.89
+            },
+            {
+                "date": "2026-05-16",
+                "price": 849.9
+            }
+        ]
+    },
+    {
+        "id": 1097,
+        "name": "SAL DOS ANCLAS FINA PAQUETE 500 GR",
+        "price": 849.9,
+        "market": "maxiconsumo",
+        "category": "sal",
+        "image": "images/maxiconsumo/SAL DOS ANCLAS FINA PAQUETE 500 GR.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 849.9
+            }
+        ]
+    },
+    {
+        "id": 1098,
         "name": "SAL DOS ESTRELLAS GRUESA 1 kg",
         "price": 949.9,
         "market": "maxiconsumo",
@@ -22126,48 +22400,6 @@
             {
                 "date": "2026-05-02",
                 "price": 949.9
-            }
-        ]
-    },
-    {
-        "id": 1096,
-        "name": "SAL CELUSAL ENTREFINA P 500 gr",
-        "price": 999.9,
-        "market": "maxiconsumo",
-        "category": "sal",
-        "image": "images/maxiconsumo/SAL CELUSAL ENTREFINA P 500 gr.jpg",
-        "history": [
-            {
-                "date": "2026-05-02",
-                "price": 999.9
-            }
-        ]
-    },
-    {
-        "id": 1097,
-        "name": "SAL DOS ANCLAS GRUESA PAQUETE 500 GR",
-        "price": 1099.89,
-        "market": "maxiconsumo",
-        "category": "sal",
-        "image": "images/maxiconsumo/SAL DOS ANCLAS GRUESA PAQUETE 500 GR.jpg",
-        "history": [
-            {
-                "date": "2026-05-09",
-                "price": 1099.89
-            }
-        ]
-    },
-    {
-        "id": 1098,
-        "name": "SAL DOS ANCLAS FINA ESTUCHE 500 GR",
-        "price": 1099.89,
-        "market": "maxiconsumo",
-        "category": "sal",
-        "image": "images/maxiconsumo/SAL DOS ANCLAS FINA ESTUCHE 500 GR.jpg",
-        "history": [
-            {
-                "date": "2026-05-09",
-                "price": 1099.89
             }
         ]
     },
@@ -22229,14 +22461,14 @@
     },
     {
         "id": 1103,
-        "name": "SNACK TAKIS ORIGINAL 85 GR",
+        "name": "SNACK TAKIS FUEGO 85 GR",
         "price": 2399.9,
         "market": "maxiconsumo",
         "category": "snacks",
-        "image": "images/maxiconsumo/SNACK TAKIS ORIGINAL 85 GR.jpg",
+        "image": "images/maxiconsumo/SNACK TAKIS FUEGO 85 GR.jpg",
         "history": [
             {
-                "date": "2026-05-09",
+                "date": "2026-05-16",
                 "price": 2399.9
             }
         ]
@@ -22258,7 +22490,7 @@
     {
         "id": 1105,
         "name": "SNACK MAICITOS PEHUAMAR 265 GR",
-        "price": 4499.9,
+        "price": 3999.9,
         "market": "maxiconsumo",
         "category": "snacks",
         "image": "images/maxiconsumo/SNACK MAICITOS PEHUAMAR 265 GR.jpg",
@@ -22270,6 +22502,10 @@
             {
                 "date": "2026-05-09",
                 "price": 4499.9
+            },
+            {
+                "date": "2026-05-16",
+                "price": 3999.9
             }
         ]
     },
@@ -22293,20 +22529,6 @@
     },
     {
         "id": 1107,
-        "name": "SNACK DORITOS QUESO 129 GR",
-        "price": 4899.9,
-        "market": "maxiconsumo",
-        "category": "snacks",
-        "image": "images/maxiconsumo/SNACK DORITOS QUESO 129 GR.jpg",
-        "history": [
-            {
-                "date": "2026-05-02",
-                "price": 4899.9
-            }
-        ]
-    },
-    {
-        "id": 1108,
         "name": "CONO KRACHITOS QUESO 240 GR",
         "price": 5599.9,
         "market": "maxiconsumo",
@@ -22320,6 +22542,20 @@
             {
                 "date": "2026-05-09",
                 "price": 5599.9
+            }
+        ]
+    },
+    {
+        "id": 1108,
+        "name": "SNACK DORITOS QUESO 200 GR",
+        "price": 6799.9,
+        "market": "maxiconsumo",
+        "category": "snacks",
+        "image": "images/maxiconsumo/SNACK DORITOS QUESO 200 GR.jpg",
+        "history": [
+            {
+                "date": "2026-05-16",
+                "price": 6799.9
             }
         ]
     }
