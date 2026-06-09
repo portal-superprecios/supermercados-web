@@ -8,11 +8,27 @@ const supermarkets = [
 ];
 
 let products = [];
+let latestScrapingDate = '';
 let currentCategory = 'all';
 let currentMarket = 'all';
 let searchQuery = '';
 let sortType = 'none';
 let priceChart = null;
+
+// CALCULAR LA FECHA MÁS RECIENTE DE LA BASE DE DATOS
+function calculateLatestScrapingDate() {
+    let maxDate = '';
+    products.forEach(p => {
+        if (p.history) {
+            p.history.forEach(h => {
+                if (h.date > maxDate) {
+                    maxDate = h.date;
+                }
+            });
+        }
+    });
+    latestScrapingDate = maxDate;
+}
 
 // OBTENER HISTORIAL REAL
 function getPriceHistory(productId) {
@@ -22,7 +38,7 @@ function getPriceHistory(productId) {
     // Verificamos si existe el historial real que provee process_data.py
     if (product.history && product.history.length > 0) {
         // Mapeamos para que el gráfico interprete las fechas más amigablemente
-        return product.history.map(item => {
+        const mapped = product.history.map(item => {
             // Convertir 'YYYY-MM-DD' a algo como 'D/M/YYYY' si es necesario
             const parts = item.date.split('-');
             let fDate = item.date;
@@ -34,6 +50,22 @@ function getPriceHistory(productId) {
                 price: parseFloat(item.price)
             };
         });
+
+        // Si la última fecha de actualización del producto es anterior a la fecha global más reciente,
+        // añadimos un punto final con la fecha más reciente y el precio actual para mostrar que se mantuvo constante
+        const lastEntry = product.history[product.history.length - 1];
+        if (latestScrapingDate && lastEntry.date < latestScrapingDate) {
+            const parts = latestScrapingDate.split('-');
+            let fDate = latestScrapingDate;
+            if (parts.length === 3) {
+                fDate = `${parts[2]}/${parts[1]}/${parts[0]}`;
+            }
+            mapped.push({
+                date: fDate,
+                price: parseFloat(product.price)
+            });
+        }
+        return mapped;
     }
 
     // Si por algún motivo no hay historial, retornamos al menos el precio actual
@@ -58,6 +90,23 @@ async function loadAllProducts() {
             const response = await fetch('products.json');
             if (!response.ok) throw new Error('No se pudo cargar products.json');
             products = await response.json();
+        }
+
+        // Calcular fecha de última actualización
+        calculateLatestScrapingDate();
+        if (latestScrapingDate) {
+            const parts = latestScrapingDate.split('-');
+            const formattedDate = parts.length === 3 ? `${parts[2]}/${parts[1]}/${parts[0]}` : latestScrapingDate;
+            const badge = document.getElementById('last-update-badge');
+            if (badge) {
+                badge.innerHTML = `
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" style="margin-right: 0.25rem;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    Precios Actualizados: ${formattedDate}
+                `;
+            }
         }
 
         updateDynamicOffers();

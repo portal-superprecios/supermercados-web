@@ -44,7 +44,7 @@ market_map = {
     'maxiconsumo': 'maxiconsumo'
 }
 
-all_products = []
+processed_products = {}
 id_counter = 1
 dir_cache = {}
 
@@ -128,16 +128,25 @@ def find_image(market, csv_img_filename, product_name):
     
     return None
 
+def determine_category(product_name, filename):
+    name_lower = product_name.lower()
+    # 1. Buscar en el nombre del producto primero
+    for key, val in categories_map.items():
+        if key in name_lower:
+            return val
+    # 2. Si no se encuentra, buscar en el nombre del archivo
+    filename_lower = filename.lower()
+    for key, val in categories_map.items():
+        if key in filename_lower:
+            return val
+    # Caso especial heredado
+    if 'carre_aguas' in filename_lower:
+        return 'aguas'
+    return 'all'
+
 def process_file(file_path, market):
     global id_counter
     filename = os.path.basename(file_path).lower()
-    category = 'all'
-    for key, val in categories_map.items():
-        if key in filename:
-            category = val
-            break
-    
-    if category == 'all' and 'carre_aguas' in filename: category = 'aguas'
 
     try:
         if file_path.endswith('.csv'):
@@ -158,6 +167,9 @@ def process_file(file_path, market):
 
         for _, row in df.iterrows():
             name = str(row[prod_col]).strip()
+            # Normalizar múltiples espacios internos a un solo espacio
+            name = re.sub(r'\s+', ' ', name)
+            
             price_str = str(row[price_col])
             price_clean = price_str.replace('$', '').replace('\xa0', '').replace('.', '').replace(',', '.').strip()
             try:
@@ -175,6 +187,15 @@ def process_file(file_path, market):
             
             market_id = market_map.get(market, market)
             prod_key = f"{name}_{market_id}"
+            
+            category = determine_category(name, filename)
+            
+            if prod_key in processed_products:
+                # Si ya existe en esta corrida, actualizamos la categoría si es genérica ('all')
+                existing_p = processed_products[prod_key]
+                if existing_p['category'] == 'all' and category != 'all':
+                    existing_p['category'] = category
+                continue
             
             # Manejo del Historial
             history = []
@@ -195,7 +216,7 @@ def process_file(file_path, market):
                     "price": price
                 }]
             
-            all_products.append({
+            processed_products[prod_key] = {
                 "id": id_counter,
                 "name": name,
                 "price": price,
@@ -203,7 +224,7 @@ def process_file(file_path, market):
                 "category": category,
                 "image": image_url,
                 "history": history
-            })
+            }
             id_counter += 1
     except Exception as e:
         print(f"Error processing {file_path}: {e}")
@@ -215,6 +236,9 @@ for market in ['carrefour', 'changomas', 'laanonima', 'vea', 'maxiconsumo']:
         files = glob.glob(os.path.join(market_dir, "*.csv")) + glob.glob(os.path.join(market_dir, "*.xlsx"))
         for f in files:
             process_file(f, market)
+
+# Convert to list for saving
+all_products = list(processed_products.values())
 
 # Save as JSON
 with open(output_file, 'w', encoding='utf-8') as f:
