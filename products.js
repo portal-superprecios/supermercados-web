@@ -10877,25 +10877,25 @@ const allProductsData = [
     },
     {
         "id": 465,
-        "name": "Cerveza Ipa Imperial Pack x 6 Latas de 473 cc.",
-        "price": 18400.0,
+        "name": "Cerveza Golden Lata Imperial x 710 cc.",
+        "price": 4150.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "image": "images/laanonima/Cerveza_Golden_Lata_Imperial_x_710_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
-                "price": 18400.0
+                "price": 4150.0
             }
         ]
     },
     {
         "id": 466,
-        "name": "Cerveza Golden Lata Imperial x 710 cc.",
+        "name": "Cerveza Imperial Lata x 710 cc.",
         "price": 4150.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Cerveza_Lata_Ipa_Pampa_Brewing_x_473_cc.jpg",
+        "image": "images/laanonima/Cerveza_Imperial_Lata_x_710_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10905,25 +10905,11 @@ const allProductsData = [
     },
     {
         "id": 467,
-        "name": "Cerveza Imperial Lata x 710 cc.",
-        "price": 4150.0,
-        "market": "aura",
-        "category": "cervezas",
-        "image": "images/laanonima/Cerveza_Lata_Ipa_Pampa_Brewing_x_473_cc.jpg",
-        "history": [
-            {
-                "date": "2026-06-24",
-                "price": 4150.0
-            }
-        ]
-    },
-    {
-        "id": 468,
         "name": "Cerveza Imperial Lata x 473 cc.",
         "price": 2900.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "image": "images/laanonima/Cerveza_Imperial_Lata_x_473_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10932,12 +10918,12 @@ const allProductsData = [
         ]
     },
     {
-        "id": 469,
+        "id": 468,
         "name": "Cerveza Negra Imperial Cream Stout Pack x 6 Latas de 473 cc.",
         "price": 18400.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "image": "images/laanonima/Cerveza_Negra_Imperial_Cream_Stout_Pack_x_6_Latas_de_473_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10946,12 +10932,12 @@ const allProductsData = [
         ]
     },
     {
-        "id": 470,
+        "id": 469,
         "name": "Cerveza Imperial Pack x 6 Latas de 473 cc.",
         "price": 17300.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "image": "images/laanonima/Cerveza_Imperial_Pack_x_6_Latas_de_473_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10960,16 +10946,30 @@ const allProductsData = [
         ]
     },
     {
-        "id": 471,
+        "id": 470,
         "name": "Cerveza Roja x 6 Un. Imperial x 473 cc.",
         "price": 18400.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "image": "images/laanonima/Cerveza_Roja_x_6_Un._Imperial_x_473_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
                 "price": 18400.0
+            }
+        ]
+    },
+    {
+        "id": 471,
+        "name": "Cerveza Imperial Negra Lata x 473 cc.",
+        "price": 3100.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Cerveza_Imperial_Negra_Lata_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-25",
+                "price": 3100.0
             }
         ]
     },
@@ -10979,7 +10979,7 @@ const allProductsData = [
         "price": 18400.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "image": "images/laanonima/Cerveza_Lata_Apa_Pack_Imperial_Pack_x_6_Latas_de_473_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10993,7 +10993,7 @@ const allProductsData = [
         "price": 2900.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "image": "images/laanonima/Cerveza_Golden_Lata_Imperial_x_473_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11003,15 +11003,15 @@ const allProductsData = [
     },
     {
         "id": 474,
-        "name": "Cerveza Lata Ipa Pampa Brewing x 473 cc.",
-        "price": 3400.0,
+        "name": "Cerveza Rubia Pack x 4 Un. Andes Origen x 710 cc.",
+        "price": 13160.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Cerveza_Lata_Ipa_Pampa_Brewing_x_473_cc.jpg",
+        "image": "images/laanonima/Cerveza_Rubia_Pack_x_4_Un._Andes_Origen_x_710_cc.jpg",
         "history": [
             {
-                "date": "2026-06-24",
-                "price": 3400.0
+                "date": "2026-06-25",
+                "price": 13160.0
             }
         ]
     },
@@ -11077,7 +11077,7 @@ const allProductsData = [
         "price": 3150.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Dr._Lemon_Lata_sabor_Limón_x_473_cc.jpg",
+        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
         "history": [
             {
                 "date": "2026-06-24",
