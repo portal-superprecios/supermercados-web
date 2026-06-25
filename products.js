@@ -10317,6 +10317,2624 @@ const allProductsData = [
     },
     {
         "id": 425,
+        "name": "Aceite de Girasol La Anónima x 900 cc.",
+        "price": 5150.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5150.0
+            }
+        ]
+    },
+    {
+        "id": 426,
+        "name": "Aceite de Oliva Puro Cocinero x 900 cc.",
+        "price": 22200.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Aceite_de_Oliva_Puro_Cocinero_x_900_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 22200.0
+            }
+        ]
+    },
+    {
+        "id": 427,
+        "name": "Rocío Vegetal Clásico Aerosol Fritolim x 120 g.",
+        "price": 5300.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Rocío_Vegetal_Clásico_Aerosol_Fritolim_x_120_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5300.0
+            }
+        ]
+    },
+    {
+        "id": 428,
+        "name": "Rocío Vegetal Oliva Fritolim x 120 g.",
+        "price": 6550.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Rocío_Vegetal_Oliva_Fritolim_x_120_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6550.0
+            }
+        ]
+    },
+    {
+        "id": 429,
+        "name": "Rocío Vegetal Manteca Aerosol Fritolim x 120 g.",
+        "price": 5300.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Rocío_Vegetal_Manteca_Aerosol_Fritolim_x_120_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5300.0
+            }
+        ]
+    },
+    {
+        "id": 430,
+        "name": "Aceite Mezcla Girasol- Oliva Natura x 1,5 Lt.",
+        "price": 11550.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Aceite_Mezcla_Girasol-_Oliva_Natura_x_1,5_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 11550.0
+            }
+        ]
+    },
+    {
+        "id": 431,
+        "name": "Aceite de Oliva Extra Virgen Pet Cocinero x 250 cc.",
+        "price": 8250.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Aceite_de_Oliva_Extra_Virgen_Pet_Cocinero_x_250_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8250.0
+            }
+        ]
+    },
+    {
+        "id": 432,
+        "name": "Aceite de Oliva Extra Virgen Int. Cocinero x 500 cc.",
+        "price": 15000.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Aceite_de_Oliva_Extra_Virgen_Int._Cocinero_x_500_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 15000.0
+            }
+        ]
+    },
+    {
+        "id": 433,
+        "name": "Aceite de Oliva Extra Virgen Cocinero x 900 cc.",
+        "price": 26250.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Aceite_de_Oliva_Extra_Virgen_Cocinero_x_900_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 26250.0
+            }
+        ]
+    },
+    {
+        "id": 434,
+        "name": "Aceite de Maíz Clásico Mazola Aerosol x 126 cc.",
+        "price": 5150.0,
+        "market": "aura",
+        "category": "aceite",
+        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5150.0
+            }
+        ]
+    },
+    {
+        "id": 435,
+        "name": "Agua De Mesa Nestle x 6,4 Lt.",
+        "price": 7900.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_De_Mesa_Nestle_x_6,4_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 7900.0
+            }
+        ]
+    },
+    {
+        "id": 436,
+        "name": "Agua Glaciar sin gas Botella 2Lt. x1",
+        "price": 3850.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_Glaciar_sin_gas_Botella_2Lt._x1.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3850.0
+            }
+        ]
+    },
+    {
+        "id": 437,
+        "name": "Agua Mineral sin Gas Villavicencio x 2000 cc.",
+        "price": 3550.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_Mineral_sin_Gas_Villavicencio_x_2000_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3550.0
+            }
+        ]
+    },
+    {
+        "id": 438,
+        "name": "Agua Mineral sin Gas Villavicencio x 1500 cc.",
+        "price": 3150.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_Mineral_sin_Gas_Villavicencio_x_1500_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3150.0
+            }
+        ]
+    },
+    {
+        "id": 439,
+        "name": "Agua Eco de los Andes sin gas Botella 850cc x1",
+        "price": 2700.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_Eco_de_los_Andes_sin_gas_Botella_850cc_x1.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2700.0
+            }
+        ]
+    },
+    {
+        "id": 440,
+        "name": "Agua Mineral sin gas Villavicencio Sport x 750 cc.",
+        "price": 2650.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_Mineral_sin_gas_Villavicencio_Sport_x_750_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2650.0
+            }
+        ]
+    },
+    {
+        "id": 441,
+        "name": "Agua Mineral sin gas Glaciar x 500 cc.",
+        "price": 2350.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_Mineral_sin_gas_Glaciar_x_500_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2350.0
+            }
+        ]
+    },
+    {
+        "id": 442,
+        "name": "Agua Glaciar sin gas Botella 750cc x1",
+        "price": 2750.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_Glaciar_sin_gas_Botella_750cc_x1.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2750.0
+            }
+        ]
+    },
+    {
+        "id": 443,
+        "name": "Agua S/ Gas Baja En Sodio Ser x 1,5 Lt.",
+        "price": 2950.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_S_Gas_Baja_En_Sodio_Ser_x_1,5_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2950.0
+            }
+        ]
+    },
+    {
+        "id": 444,
+        "name": "Agua Nestlé Pureza Vital sin gas Botella 500cc x1",
+        "price": 2000.0,
+        "market": "aura",
+        "category": "aguas",
+        "image": "images/laanonima/Agua_Nestlé_Pureza_Vital_sin_gas_Botella_500cc_x1.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2000.0
+            }
+        ]
+    },
+    {
+        "id": 445,
+        "name": "Arroz Grano Largo Fino 00000 Dos Hermanos x 1 Kg.",
+        "price": 1800.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Doble_Carolina_Selección_Estuche_Gallo_Oro_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1800.0
+            }
+        ]
+    },
+    {
+        "id": 446,
+        "name": "Risotto Cuatro Quesos Knorr x 200 g.",
+        "price": 4800.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Risotto_Cuatro_Quesos_Knorr_x_200_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4800.0
+            }
+        ]
+    },
+    {
+        "id": 447,
+        "name": "Arroz Parboilizado Bolsa Gallo x 1 Kg.",
+        "price": 2830.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Parboilizado_Bolsa_Gallo_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2830.0
+            }
+        ]
+    },
+    {
+        "id": 448,
+        "name": "Arroz Parboil Bolsa Gallo x 500 g.",
+        "price": 1530.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Parboil_Bolsa_Gallo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1530.0
+            }
+        ]
+    },
+    {
+        "id": 449,
+        "name": "Arroz Grano Largo Fino Molinos Ala x 1 kg.",
+        "price": 2150.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Grano_Largo_Fino_Molinos_Ala_x_1_kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2150.0
+            }
+        ]
+    },
+    {
+        "id": 450,
+        "name": "Arroz Integral Bolsa Gallo x 500 g.",
+        "price": 1490.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Integral_Bolsa_Gallo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1490.0
+            }
+        ]
+    },
+    {
+        "id": 451,
+        "name": "Arroz Doble Carolina Gallo x 500 g.",
+        "price": 2210.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Doble_Carolina_Gallo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2210.0
+            }
+        ]
+    },
+    {
+        "id": 452,
+        "name": "Arroz Carnaroli Gallo x 500 g.",
+        "price": 3400.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Carnaroli_Gallo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3400.0
+            }
+        ]
+    },
+    {
+        "id": 453,
+        "name": "Arroz Yamani Gallo Estuche x 500 g.",
+        "price": 3400.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Yamani_Gallo_Estuche_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3400.0
+            }
+        ]
+    },
+    {
+        "id": 454,
+        "name": "Arroz Doble Carolina Selección Estuche Gallo Oro x 1 Kg.",
+        "price": 4380.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Arroz_Doble_Carolina_Selección_Estuche_Gallo_Oro_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4380.0
+            }
+        ]
+    },
+    {
+        "id": 455,
+        "name": "Carne Picada E/V Estancias LA x 500 g.",
+        "price": 8690.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Arroz_Carnaroli_Gallo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8690.0
+            }
+        ]
+    },
+    {
+        "id": 456,
+        "name": "Carne Picada Envasado al Vacío Best x 500 g.",
+        "price": 6790.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Carne_Picada_Envasado_al_Vacío_Best_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6790.0
+            }
+        ]
+    },
+    {
+        "id": 457,
+        "name": "Carne Picada M. E/V Estancias LA x 500 g.",
+        "price": 10240.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Arroz_Carnaroli_Gallo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 10240.0
+            }
+        ]
+    },
+    {
+        "id": 458,
+        "name": "Matambre Envasado al Vacío FB MEATS (Kg)",
+        "price": 11167.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Matambre_Envasado_al_Vacío_FB_MEATS_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 11167.0
+            }
+        ]
+    },
+    {
+        "id": 459,
+        "name": "Entraña E/V Estancias LA (Kg)",
+        "price": 30230.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Asado_con_Hueso_Congelado_Estancias_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 30230.0
+            }
+        ]
+    },
+    {
+        "id": 460,
+        "name": "Vacío E/V Estancias LA (Kg)",
+        "price": 23850.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Asado_con_Hueso_Congelado_Estancias_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 23850.0
+            }
+        ]
+    },
+    {
+        "id": 461,
+        "name": "Matambre Envasado al Vacío Best (Kg)",
+        "price": 20640.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Matambre_Envasado_al_Vacío_Best_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 20640.0
+            }
+        ]
+    },
+    {
+        "id": 462,
+        "name": "Bife Angosto con Feteado Best (Kg)",
+        "price": 27190.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Bife_Angosto_con_Feteado_Best_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 27190.0
+            }
+        ]
+    },
+    {
+        "id": 463,
+        "name": "Asado con Hueso Congelado Estancias La Anónima (Kg)",
+        "price": 16490.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Asado_con_Hueso_Congelado_Estancias_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 16490.0
+            }
+        ]
+    },
+    {
+        "id": 464,
+        "name": "Matambre Congelado Estancias La Anónima (Kg)",
+        "price": 11990.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Matambre_Congelado_Estancias_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 11990.0
+            }
+        ]
+    },
+    {
+        "id": 465,
+        "name": "Cerveza Ipa Imperial Pack x 6 Latas de 473 cc.",
+        "price": 18400.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 18400.0
+            }
+        ]
+    },
+    {
+        "id": 466,
+        "name": "Cerveza Golden Lata Imperial x 710 cc.",
+        "price": 4150.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Cerveza_Lata_Ipa_Pampa_Brewing_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4150.0
+            }
+        ]
+    },
+    {
+        "id": 467,
+        "name": "Cerveza Imperial Lata x 710 cc.",
+        "price": 4150.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Cerveza_Lata_Ipa_Pampa_Brewing_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4150.0
+            }
+        ]
+    },
+    {
+        "id": 468,
+        "name": "Cerveza Imperial Lata x 473 cc.",
+        "price": 2900.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2900.0
+            }
+        ]
+    },
+    {
+        "id": 469,
+        "name": "Cerveza Negra Imperial Cream Stout Pack x 6 Latas de 473 cc.",
+        "price": 18400.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 18400.0
+            }
+        ]
+    },
+    {
+        "id": 470,
+        "name": "Cerveza Imperial Pack x 6 Latas de 473 cc.",
+        "price": 17300.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 17300.0
+            }
+        ]
+    },
+    {
+        "id": 471,
+        "name": "Cerveza Roja x 6 Un. Imperial x 473 cc.",
+        "price": 18400.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 18400.0
+            }
+        ]
+    },
+    {
+        "id": 472,
+        "name": "Cerveza Lata Apa Pack Imperial Pack x 6 Latas de 473 cc.",
+        "price": 18400.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Aceite_de_Maíz_Clásico_Mazola_Aerosol_x_126_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 18400.0
+            }
+        ]
+    },
+    {
+        "id": 473,
+        "name": "Cerveza Golden Lata Imperial x 473 cc.",
+        "price": 2900.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2900.0
+            }
+        ]
+    },
+    {
+        "id": 474,
+        "name": "Cerveza Lata Ipa Pampa Brewing x 473 cc.",
+        "price": 3400.0,
+        "market": "aura",
+        "category": "cervezas",
+        "image": "images/laanonima/Cerveza_Lata_Ipa_Pampa_Brewing_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3400.0
+            }
+        ]
+    },
+    {
+        "id": 475,
+        "name": "Americano Cero Alcohol Lata Gancia x 473 cc.",
+        "price": 3450.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3450.0
+            }
+        ]
+    },
+    {
+        "id": 476,
+        "name": "Americano + Lima Limón Lata Gancia x 473 cc.",
+        "price": 3750.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3750.0
+            }
+        ]
+    },
+    {
+        "id": 477,
+        "name": "Dr. Lemon c/Vodka Pomelo x 473 cc.",
+        "price": 3150.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3150.0
+            }
+        ]
+    },
+    {
+        "id": 478,
+        "name": "Vermouth Rosso Carpano x 950 cc.",
+        "price": 6810.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Vermouth_Rosso_Carpano_x_950_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6810.0
+            }
+        ]
+    },
+    {
+        "id": 479,
+        "name": "Dr. Lemon Lata sabor Limón x 473 cc.",
+        "price": 3150.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Dr._Lemon_Lata_sabor_Limón_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3150.0
+            }
+        ]
+    },
+    {
+        "id": 480,
+        "name": "Bebida Alcohólica Mojito Sin Tacc Dr.Lemon x 473 cc.",
+        "price": 3150.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Bebida_Alcohólica_Mojito_Sin_Tacc_Dr.Lemon_x_473_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3150.0
+            }
+        ]
+    },
+    {
+        "id": 481,
+        "name": "Fernet Branca Menta x 450 cc.",
+        "price": 12150.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Fernet_Branca_Menta_x_450_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 12150.0
+            }
+        ]
+    },
+    {
+        "id": 482,
+        "name": "Fernet Branca Menta x 750 cc.",
+        "price": 18400.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Fernet_Branca_Menta_x_750_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 18400.0
+            }
+        ]
+    },
+    {
+        "id": 483,
+        "name": "Vermouth Bianco Carpano x 950 cc.",
+        "price": 6600.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Vermouth_Bianco_Carpano_x_950_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6600.0
+            }
+        ]
+    },
+    {
+        "id": 484,
+        "name": "Amargo Terma Pomelo Rosado Pet x 1,75 Lt.",
+        "price": 3350.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Amargo_Terma_Pomelo_Rosado_Pet_x_1,75_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3350.0
+            }
+        ]
+    },
+    {
+        "id": 485,
+        "name": "Jamón Cocido Feteado 42 x 200 g.",
+        "price": 3990.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Jamón_Cocido_Feteado_42_x_200_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3990.0
+            }
+        ]
+    },
+    {
+        "id": 486,
+        "name": "Fiambre Cocido de Cerdo Feteado Zur Linde x 200 g.",
+        "price": 4100.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Fiambre_Cocido_de_Cerdo_Feteado_Zur_Linde_x_200_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4100.0
+            }
+        ]
+    },
+    {
+        "id": 487,
+        "name": "Jamón Cocido Bocatti Feteado x 130 g.",
+        "price": 3290.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Jamón_Cocido_Bocatti_Feteado_x_130_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3290.0
+            }
+        ]
+    },
+    {
+        "id": 488,
+        "name": "Jamón Crudo Feteado 42 x 100 g.",
+        "price": 6750.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Jamón_Crudo_Feteado_42_x_100_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6750.0
+            }
+        ]
+    },
+    {
+        "id": 489,
+        "name": "Salame Milán Feteado 42 x 150 g.",
+        "price": 5100.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Salame_Milán_Feteado_42_x_150_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5100.0
+            }
+        ]
+    },
+    {
+        "id": 490,
+        "name": "Paleta Cocida Feteada 42 x 200 g.",
+        "price": 4190.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Paleta_Cocida_Feteada_42_x_200_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4190.0
+            }
+        ]
+    },
+    {
+        "id": 491,
+        "name": "Salame Milán Feteado 214 x 150 g.",
+        "price": 4450.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Salame_Milán_Feteado_214_x_150_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4450.0
+            }
+        ]
+    },
+    {
+        "id": 492,
+        "name": "Mortadela Feteada 42 x 200 g.",
+        "price": 2890.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Mortadela_Feteada_42_x_200_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2890.0
+            }
+        ]
+    },
+    {
+        "id": 493,
+        "name": "Jamón Cocido tipo Mont Blanc Feteado Los Calvos x 200 g.",
+        "price": 6900.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Jamón_Cocido_tipo_Mont_Blanc_Feteado_Los_Calvos_x_200_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6900.0
+            }
+        ]
+    },
+    {
+        "id": 494,
+        "name": "Jamon Cocido Feteado Paladini x 200 g.",
+        "price": 6750.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Jamon_Cocido_Feteado_Paladini_x_200_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6750.0
+            }
+        ]
+    },
+    {
+        "id": 495,
+        "name": "Mix Frutos Rojos Congelados La Anónima x 300 g.",
+        "price": 7450.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mix_Frutos_Rojos_Congelados_La_Anónima_x_300_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 7450.0
+            }
+        ]
+    },
+    {
+        "id": 496,
+        "name": "Arándanos Congelados La Anónima x 300 g.",
+        "price": 6400.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Arándanos_Congelados_La_Anónima_x_300_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6400.0
+            }
+        ]
+    },
+    {
+        "id": 497,
+        "name": "Frutillas Congeladas La Anónima x 300 g.",
+        "price": 6100.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Frutillas_Congeladas_La_Anónima_x_300_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6100.0
+            }
+        ]
+    },
+    {
+        "id": 498,
+        "name": "Arándanos Congelados Green Life x 300 g.",
+        "price": 6800.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Arándanos_Congelados_Green_Life_x_300_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6800.0
+            }
+        ]
+    },
+    {
+        "id": 499,
+        "name": "Mango Congelado en Cubos Biomac x 500 g.",
+        "price": 8550.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mango_Congelado_en_Cubos_Biomac_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8550.0
+            }
+        ]
+    },
+    {
+        "id": 500,
+        "name": "Frutillas Congeladas Karinat x 300 g.",
+        "price": 6350.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Frutillas_Congeladas_Karinat_x_300_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6350.0
+            }
+        ]
+    },
+    {
+        "id": 501,
+        "name": "Mix Berries Congelados Karinat x 300 g.",
+        "price": 8050.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mix_Berries_Congelados_Karinat_x_300_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8050.0
+            }
+        ]
+    },
+    {
+        "id": 502,
+        "name": "Mix Cuatro Berries Green Life x 400 g.",
+        "price": 10200.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mix_Cuatro_Berries_Green_Life_x_400_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 10200.0
+            }
+        ]
+    },
+    {
+        "id": 503,
+        "name": "Frutilla Congelada Karinat x 1000 g.",
+        "price": 14200.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Frutilla_Congelada_Karinat_x_1000_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 14200.0
+            }
+        ]
+    },
+    {
+        "id": 504,
+        "name": "Mix Tentación Congelados Maika x 350 g.",
+        "price": 10250.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Mix_Tentación_Congelados_Maika_x_350_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 10250.0
+            }
+        ]
+    },
+    {
+        "id": 505,
+        "name": "Hamburguesa de Carne Vacuna x 2 un. Paty x 160 gr.",
+        "price": 4700.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Hamburguesa_de_Carne_Vacuna_x_2_un._Paty_x_160_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4700.0
+            }
+        ]
+    },
+    {
+        "id": 506,
+        "name": "Medallones de Carne Vacuna Express x 4 Un. Paty x 276 g.",
+        "price": 6500.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Medallones_de_Carne_Vacuna_Express_x_4_Un._Paty_x_276_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6500.0
+            }
+        ]
+    },
+    {
+        "id": 507,
+        "name": "Hamburguesa Carne Vacuna Paty x 4 un. 288 g.",
+        "price": 8250.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Hamburguesa_Carne_Vacuna_Paty_x_4_un._288_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8250.0
+            }
+        ]
+    },
+    {
+        "id": 508,
+        "name": "Medallón de Carne Rebozado x 2 un. Paty x 200 gr.",
+        "price": 5300.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Medallón_de_Carne_Rebozado_x_2_un._Paty_x_200_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5300.0
+            }
+        ]
+    },
+    {
+        "id": 509,
+        "name": "Medallones de Carne Vacuna Express x 2 Un. Paty x 110 g.",
+        "price": 2700.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Medallones_de_Carne_Vacuna_Express_x_2_Un._Paty_x_110_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2700.0
+            }
+        ]
+    },
+    {
+        "id": 510,
+        "name": "Hamburguesa de Carne Vacuna x 4 un. La Anónima x 320 gr.",
+        "price": 12050.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Hamburguesa_de_Carne_Vacuna_x_4_un._La_Anónima_x_320_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 12050.0
+            }
+        ]
+    },
+    {
+        "id": 511,
+        "name": "Medallones de Carne Vacuna c/ Queso Paty x 2 un. 200 gr.",
+        "price": 6400.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Medallones_de_Carne_Vacuna_c_Queso_Paty_x_2_un._200_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6400.0
+            }
+        ]
+    },
+    {
+        "id": 512,
+        "name": "Hamburguesa de Carne Vacuna x 4 un. Swift x 320 gr.",
+        "price": 7560.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Hamburguesa_de_Carne_Vacuna_x_4_un._Swift_x_320_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 7560.0
+            }
+        ]
+    },
+    {
+        "id": 513,
+        "name": "Medallones de Carne Vacuna Best x 2 un. 110 gr.",
+        "price": 2350.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Medallones_de_Carne_Vacuna_Best_x_2_un._110_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2350.0
+            }
+        ]
+    },
+    {
+        "id": 514,
+        "name": "Hamburguesa de Carne Vacuna La Anónima x 12 un. 960 gr.",
+        "price": 35550.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images/laanonima/Hamburguesa_de_Carne_Vacuna_La_Anónima_x_12_un._960_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 35550.0
+            }
+        ]
+    },
+    {
+        "id": 515,
+        "name": "Harina de Trigo 000 Morixe x 1 Kg.",
+        "price": 1250.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Arroz_Doble_Carolina_Selección_Estuche_Gallo_Oro_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1250.0
+            }
+        ]
+    },
+    {
+        "id": 516,
+        "name": "Harina de Trigo 000 Fuerza Morixe x 1000 g.",
+        "price": 1850.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_de_Trigo_000_Fuerza_Morixe_x_1000_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1850.0
+            }
+        ]
+    },
+    {
+        "id": 517,
+        "name": "Harina de Trigo 0000 para Pizza Caserita x 1 Kg.",
+        "price": 1500.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_de_Trigo_0000_para_Pizza_Caserita_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1500.0
+            }
+        ]
+    },
+    {
+        "id": 518,
+        "name": "Harina de Trigo 0000 La Anonima x 1 Kg.",
+        "price": 1800.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_de_Trigo_0000_La_Anonima_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1800.0
+            }
+        ]
+    },
+    {
+        "id": 519,
+        "name": "Harina de Trigo 000 Favorita x 1000 g.",
+        "price": 1200.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_de_Trigo_000_Favorita_x_1000_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1200.0
+            }
+        ]
+    },
+    {
+        "id": 520,
+        "name": "Harina de Fuerza Masa Madre La Anónima x 1 Kg.",
+        "price": 2350.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_de_Fuerza_Masa_Madre_La_Anónima_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2350.0
+            }
+        ]
+    },
+    {
+        "id": 521,
+        "name": "Harina de Trigo 000 La Anonima x 1 Kg.",
+        "price": 1450.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_de_Trigo_000_La_Anonima_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1450.0
+            }
+        ]
+    },
+    {
+        "id": 522,
+        "name": "Harina Leudante La Anonima x 1 Kg.",
+        "price": 2000.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_Leudante_La_Anonima_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2000.0
+            }
+        ]
+    },
+    {
+        "id": 523,
+        "name": "Harina de Trigo Tipo 000 Best x 1 Kg.",
+        "price": 1200.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_de_Trigo_Tipo_000_Best_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1200.0
+            }
+        ]
+    },
+    {
+        "id": 524,
+        "name": "Harina de Trigo 0000 Chacabuco x 1 Kg.",
+        "price": 1400.0,
+        "market": "aura",
+        "category": "harinas",
+        "image": "images/laanonima/Harina_de_Trigo_0000_Chacabuco_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1400.0
+            }
+        ]
+    },
+    {
+        "id": 525,
+        "name": "Isotónica Gatorade Cool Blue Botella 750cc x1",
+        "price": 2130.0,
+        "market": "aura",
+        "category": "gatos",
+        "image": "images/laanonima/Isotónica_Gatorade_Cool_Blue_Botella_750cc_x1.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2130.0
+            }
+        ]
+    },
+    {
+        "id": 526,
+        "name": "Isotónica Gatorade Frutas Tropicales Botella 750cc x1",
+        "price": 2130.0,
+        "market": "aura",
+        "category": "gatos",
+        "image": "images/laanonima/Isotónica_Gatorade_Frutas_Tropicales_Botella_750cc_x1.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2130.0
+            }
+        ]
+    },
+    {
+        "id": 527,
+        "name": "Isotónica Gatorade Manzana Botella 750cc x1",
+        "price": 2130.0,
+        "market": "aura",
+        "category": "gatos",
+        "image": "images/laanonima/Isotónica_Gatorade_Manzana_Botella_750cc_x1.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2130.0
+            }
+        ]
+    },
+    {
+        "id": 528,
+        "name": "Bebida Isotónica Powerade Mountain Blast 995 Ml",
+        "price": 2535.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida_Isotónica_Powerade_Mountain_Blast_995_Ml.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2535.0
+            }
+        ]
+    },
+    {
+        "id": 529,
+        "name": "Bebida de Moras Pet Gatorade Sin Azúcar x 400 cc.",
+        "price": 2150.0,
+        "market": "aura",
+        "category": "gatos",
+        "image": "images/laanonima/Bebida_de_Moras_Pet_Gatorade_Sin_Azúcar_x_400_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2150.0
+            }
+        ]
+    },
+    {
+        "id": 530,
+        "name": "Bebida de Fresa y Kiwi Pet Gatorade Sin Azúcar x 400 cc.",
+        "price": 2150.0,
+        "market": "aura",
+        "category": "gatos",
+        "image": "images/laanonima/Bebida_de_Fresa_y_Kiwi_Pet_Gatorade_Sin_Azúcar_x_400_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2150.0
+            }
+        ]
+    },
+    {
+        "id": 531,
+        "name": "Bebida Isotónica Powerade Mountain Blast 500 Ml",
+        "price": 1690.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida_Isotónica_Powerade_Mountain_Blast_500_Ml.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1690.0
+            }
+        ]
+    },
+    {
+        "id": 532,
+        "name": "Bebida Isotónica Powerade Manzana 500 Ml",
+        "price": 1690.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida_Isotónica_Powerade_Manzana_500_Ml.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1690.0
+            }
+        ]
+    },
+    {
+        "id": 533,
+        "name": "Bebida Isotónica Powerade Uva 500 Ml",
+        "price": 1430.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida_Isotónica_Powerade_Uva_500_Ml.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1430.0
+            }
+        ]
+    },
+    {
+        "id": 534,
+        "name": "Bebida Cool Citrus Powerade x 500cc.",
+        "price": 1657.0,
+        "market": "aura",
+        "category": "isotonicas",
+        "image": "images/laanonima/Bebida_Cool_Citrus_Powerade_x_500cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1657.0
+            }
+        ]
+    },
+    {
+        "id": 535,
+        "name": "Leche LV Entera Clasica 3% La Serenisima x 1 Lt.",
+        "price": 3050.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Aceite_Mezcla_Girasol-_Oliva_Natura_x_1,5_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3050.0
+            }
+        ]
+    },
+    {
+        "id": 536,
+        "name": "Alimento Lácteo Primeros Años Las Tres Niñas x 1Lt.",
+        "price": 2025.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Alimento_Lácteo_Primeros_Años_Las_Tres_Niñas_x_1Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2025.0
+            }
+        ]
+    },
+    {
+        "id": 537,
+        "name": "NESTLÉ® Chocolatada Lista para Tomar x 190ml",
+        "price": 2650.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/NESTLÉ®_Chocolatada_Lista_para_Tomar_x_190ml.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2650.0
+            }
+        ]
+    },
+    {
+        "id": 538,
+        "name": "Leche LV Chocolatada Reducida en Lactosa Las Tres Niñas x 200 cc.",
+        "price": 2050.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche_LV_Chocolatada_Reducida_en_Lactosa_Las_Tres_Niñas_x_200_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2050.0
+            }
+        ]
+    },
+    {
+        "id": 539,
+        "name": "Leche chocolatada Cindor 200 cc.",
+        "price": 2950.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche_chocolatada_Cindor_200_cc.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2950.0
+            }
+        ]
+    },
+    {
+        "id": 540,
+        "name": "Leche chocolatada Cindor 1 Lt.",
+        "price": 8450.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche_chocolatada_Cindor_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8450.0
+            }
+        ]
+    },
+    {
+        "id": 541,
+        "name": "Leche LV Chocolatada Fortificada Las Tres Niñas x 1 Lt,",
+        "price": 5400.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche_LV_Chocolatada_Fortificada_Las_Tres_Niñas_x_1_Lt,.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5400.0
+            }
+        ]
+    },
+    {
+        "id": 542,
+        "name": "Leche LV Chocolatada Sabor Mocha Cindor x 1 Lt.",
+        "price": 8450.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Leche_LV_Chocolatada_Sabor_Mocha_Cindor_x_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8450.0
+            }
+        ]
+    },
+    {
+        "id": 543,
+        "name": "Bebida a Base de Almendras Ades x 1 Lt.",
+        "price": 4095.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Bebida_a_Base_de_Almendras_Ades_x_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4095.0
+            }
+        ]
+    },
+    {
+        "id": 544,
+        "name": "Bebida a Base de Soja sabor Natural Ades x 1 Lt.",
+        "price": 2520.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Bebida_a_Base_de_Soja_sabor_Natural_Ades_x_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2520.0
+            }
+        ]
+    },
+    {
+        "id": 545,
+        "name": "Pañal RN+ Deluxe Protection Mega Pampers x 36 Un.",
+        "price": 28900.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_RN+_Deluxe_Protection_Mega_Pampers_x_36_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 28900.0
+            }
+        ]
+    },
+    {
+        "id": 546,
+        "name": "Pañal XG Deluxe Protection Hiper Pampers x 36 Un.",
+        "price": 47850.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_XG_Deluxe_Protection_Hiper_Pampers_x_36_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 47850.0
+            }
+        ]
+    },
+    {
+        "id": 547,
+        "name": "Pañal XXG Deluxe Protection Hiper Pampers x 34 Un.",
+        "price": 47850.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_XXG_Deluxe_Protection_Hiper_Pampers_x_34_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 47850.0
+            }
+        ]
+    },
+    {
+        "id": 548,
+        "name": "Pañal XG Babydry Mega Pampers x 36 Un.",
+        "price": 35500.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_XG_Babydry_Mega_Pampers_x_36_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 35500.0
+            }
+        ]
+    },
+    {
+        "id": 549,
+        "name": "Pañal XXG Babydry Mega Pampers x 34 Un.",
+        "price": 35500.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_XXG_Babydry_Mega_Pampers_x_34_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 35500.0
+            }
+        ]
+    },
+    {
+        "id": 550,
+        "name": "Pañal RN+ Babydry Pampers x 36 Un.",
+        "price": 22400.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_RN+_Babydry_Pampers_x_36_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 22400.0
+            }
+        ]
+    },
+    {
+        "id": 551,
+        "name": "Pañal G Babydry Mega Pampers x 44 Un.",
+        "price": 35500.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_G_Babydry_Mega_Pampers_x_44_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 35500.0
+            }
+        ]
+    },
+    {
+        "id": 552,
+        "name": "Pañal P Babydry Hiper Pampers x 56 Un.",
+        "price": 30850.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_P_Babydry_Hiper_Pampers_x_56_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 30850.0
+            }
+        ]
+    },
+    {
+        "id": 553,
+        "name": "Pañal M Babydry Mega Pampers x 52 Un.",
+        "price": 35500.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_M_Babydry_Mega_Pampers_x_52_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 35500.0
+            }
+        ]
+    },
+    {
+        "id": 554,
+        "name": "Pañal M Babydry Hiper Pampers x 72 Un.",
+        "price": 54100.0,
+        "market": "aura",
+        "category": "pañales",
+        "image": "images/laanonima/Pañal_M_Babydry_Hiper_Pampers_x_72_Un.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 54100.0
+            }
+        ]
+    },
+    {
+        "id": 555,
+        "name": "Pollo Fresco Pollolin (Kg)",
+        "price": 3990.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pollo_Fresco_Pollolin_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3990.0
+            }
+        ]
+    },
+    {
+        "id": 556,
+        "name": "Pollo Fresco La Anónima (Kg)",
+        "price": 3990.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pollo_Fresco_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3990.0
+            }
+        ]
+    },
+    {
+        "id": 557,
+        "name": "Pechugas de Pollo La Anónima (Kg)",
+        "price": 8990.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pechugas_de_Pollo_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8990.0
+            }
+        ]
+    },
+    {
+        "id": 558,
+        "name": "Filet de Pechuga La Anónima (Kg)",
+        "price": 11790.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Filet_de_Pechuga_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 11790.0
+            }
+        ]
+    },
+    {
+        "id": 559,
+        "name": "Cuarto Trasero de Pollo La Anónima (Kg)",
+        "price": 5790.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Cuarto_Trasero_de_Pollo_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5790.0
+            }
+        ]
+    },
+    {
+        "id": 560,
+        "name": "Muslo de Pollo La Anónima (Kg)",
+        "price": 5990.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Muslo_de_Pollo_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5990.0
+            }
+        ]
+    },
+    {
+        "id": 561,
+        "name": "Pata de Pollo La Anónima (Kg)",
+        "price": 7190.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Pata_de_Pollo_La_Anónima_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 7190.0
+            }
+        ]
+    },
+    {
+        "id": 562,
+        "name": "Waffle Tradicional x 6 Un. Forno De Minas x 210 g.",
+        "price": 7250.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Waffle_Tradicional_x_6_Un._Forno_De_Minas_x_210_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 7250.0
+            }
+        ]
+    },
+    {
+        "id": 563,
+        "name": "Postre Helado Tofi x 637 g.",
+        "price": 21200.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Postre_Helado_Tofi_x_637_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 21200.0
+            }
+        ]
+    },
+    {
+        "id": 564,
+        "name": "Frambuesas Bañadas con Chocolate con Leche y Blanco Aguila x 150 g.",
+        "price": 9250.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Frambuesas_Bañadas_con_Chocolate_con_Leche_y_Blanco_Aguila_x_150_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 9250.0
+            }
+        ]
+    },
+    {
+        "id": 565,
+        "name": "Frambuesas Bañadas con Chocolate Amargo y Blanco Aguila x 150 g.",
+        "price": 9250.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Frambuesas_Bañadas_con_Chocolate_Amargo_y_Blanco_Aguila_x_150_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 9250.0
+            }
+        ]
+    },
+    {
+        "id": 566,
+        "name": "Postre Helado Chocotorta x 6 Un. Chocolinas x 318 g.",
+        "price": 21400.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Postre_Helado_Chocotorta_x_6_Un._Chocolinas_x_318_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 21400.0
+            }
+        ]
+    },
+    {
+        "id": 567,
+        "name": "Helado Mini Bites x 14 Un. Oreo x 72 g.",
+        "price": 6100.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Helado_Mini_Bites_x_14_Un._Oreo_x_72_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6100.0
+            }
+        ]
+    },
+    {
+        "id": 568,
+        "name": "Helado Chocolate DDL Granizado Frutilla Frigor x 1 Kg.",
+        "price": 19650.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Helado_Chocolate_DDL_Granizado_Frutilla_Frigor_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 19650.0
+            }
+        ]
+    },
+    {
+        "id": 569,
+        "name": "Helado Chomp Bocaditos Choco c/Dulce de Leche Chomp x 180 g.",
+        "price": 13750.0,
+        "market": "aura",
+        "category": "leches",
+        "image": "images/laanonima/Alfajor_de_Arroz_Relleno_Dulce_de_Leche_Sin_Tacc_Donn_x_78_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 13750.0
+            }
+        ]
+    },
+    {
+        "id": 570,
+        "name": "Helado DDL Americana Chocolate Frigor x 1 Kg.",
+        "price": 19650.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Helado_DDL_Americana_Chocolate_Frigor_x_1_Kg.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 19650.0
+            }
+        ]
+    },
+    {
+        "id": 571,
+        "name": "Bombón Escoces x 6 un. La Anónima x 552 gr.",
+        "price": 11350.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Bombón_Escoces_x_6_un._La_Anónima_x_552_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 11350.0
+            }
+        ]
+    },
+    {
+        "id": 572,
+        "name": "Queso Cremoso Horma Fraccionada Noalsa (Kg)",
+        "price": 12750.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 12750.0
+            }
+        ]
+    },
+    {
+        "id": 573,
+        "name": "Queso Azul H./Frac La Quesera (Kg)",
+        "price": 16590.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_Azul_H.Frac_La_Quesera_(Kg).jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 16590.0
+            }
+        ]
+    },
+    {
+        "id": 574,
+        "name": "Queso en Hebras Italiano Equilibrio La Paulina x 125 g.",
+        "price": 4450.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_en_Hebras_Italiano_Equilibrio_La_Paulina_x_125_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4450.0
+            }
+        ]
+    },
+    {
+        "id": 575,
+        "name": "Queso en Hebras Italiano La Paulina x 125 g.",
+        "price": 4450.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_en_Hebras_Italiano_La_Paulina_x_125_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4450.0
+            }
+        ]
+    },
+    {
+        "id": 576,
+        "name": "Queso en Hebras Italiano La Paulina x 500 g.",
+        "price": 15450.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_en_Hebras_Italiano_La_Paulina_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 15450.0
+            }
+        ]
+    },
+    {
+        "id": 577,
+        "name": "Queso en Hebras Parmesano La Paulina x 500 g.",
+        "price": 17250.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_en_Hebras_Parmesano_La_Paulina_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 17250.0
+            }
+        ]
+    },
+    {
+        "id": 578,
+        "name": "Queso en Hebras Italiano Equilibrio La Paulina x 500 g.",
+        "price": 15450.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_en_Hebras_Italiano_Equilibrio_La_Paulina_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 15450.0
+            }
+        ]
+    },
+    {
+        "id": 579,
+        "name": "Queso Rallado La Anónima x 120 g.",
+        "price": 6150.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_Rallado_La_Anónima_x_120_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6150.0
+            }
+        ]
+    },
+    {
+        "id": 580,
+        "name": "Queso Mozzarella Best x 500 g.",
+        "price": 9600.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_Mozzarella_Best_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 9600.0
+            }
+        ]
+    },
+    {
+        "id": 581,
+        "name": "Queso Mozzarella La Anónima x 500 g.",
+        "price": 10200.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Queso_Mozzarella_La_Anónima_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 10200.0
+            }
+        ]
+    },
+    {
+        "id": 582,
+        "name": "Oregano Doy Pack Dos Anclas x 25 g.",
+        "price": 1500.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Oregano_Doy_Pack_Dos_Anclas_x_25_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1500.0
+            }
+        ]
+    },
+    {
+        "id": 583,
+        "name": "Provenzal Dos Anclas x 50 g.",
+        "price": 2700.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Provenzal_Dos_Anclas_x_50_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2700.0
+            }
+        ]
+    },
+    {
+        "id": 584,
+        "name": "Polvo para preparar Salsa Blanca Dos Anclas x 40 g.",
+        "price": 840.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Polvo_para_preparar_Salsa_Blanca_Dos_Anclas_x_40_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 840.0
+            }
+        ]
+    },
+    {
+        "id": 585,
+        "name": "Ajo en Polvo Deshidratado Dos Anclas x 20 g.",
+        "price": 1400.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Ajo_en_Polvo_Deshidratado_Dos_Anclas_x_20_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1400.0
+            }
+        ]
+    },
+    {
+        "id": 586,
+        "name": "Perejil Deshidratado Dos Anclas x 25 g.",
+        "price": 1500.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Perejil_Deshidratado_Dos_Anclas_x_25_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1500.0
+            }
+        ]
+    },
+    {
+        "id": 587,
+        "name": "Pimentón Seleccionado Dos Anclas x 50 g.",
+        "price": 2300.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Pimentón_Seleccionado_Dos_Anclas_x_50_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2300.0
+            }
+        ]
+    },
+    {
+        "id": 588,
+        "name": "Ají Molido Dos Anclas x 50 g.",
+        "price": 2200.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Ají_Molido_Dos_Anclas_x_50_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2200.0
+            }
+        ]
+    },
+    {
+        "id": 589,
+        "name": "Condimento para Pizza Dos Anclas x 25 g.",
+        "price": 1550.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Condimento_para_Pizza_Dos_Anclas_x_25_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1550.0
+            }
+        ]
+    },
+    {
+        "id": 590,
+        "name": "Sal Fina Paquete Dos Anclas x 500 g.",
+        "price": 1600.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Sal_Fina_Paquete_Dos_Anclas_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1600.0
+            }
+        ]
+    },
+    {
+        "id": 591,
+        "name": "Sal Fina Dos Anclas Estuche x 500 g.",
+        "price": 2050.0,
+        "market": "aura",
+        "category": "sal",
+        "image": "images/laanonima/Sal_Fina_Dos_Anclas_Estuche_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 2050.0
+            }
+        ]
+    },
+    {
+        "id": 592,
+        "name": "Polvo para Preparar Bizcochuelo Chocolate Sin Gluten La Anonima x 500 g.",
+        "price": 4300.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Polvo_para_Preparar_Bizcochuelo_Chocolate_Sin_Gluten_La_Anonima_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4300.0
+            }
+        ]
+    },
+    {
+        "id": 593,
+        "name": "Polvo para Preparar Bizcochuelo Vainilla Sin Gluten La Anonima x 500 g.",
+        "price": 4300.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Polvo_para_Preparar_Bizcochuelo_Vainilla_Sin_Gluten_La_Anonima_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4300.0
+            }
+        ]
+    },
+    {
+        "id": 594,
+        "name": "Alfajor de Arroz Relleno Dulce de Leche Sin Tacc Donn x 78 g.",
+        "price": 1450.0,
+        "market": "aura",
+        "category": "arroz",
+        "image": "images/laanonima/Alfajor_de_Arroz_Relleno_Dulce_de_Leche_Sin_Tacc_Donn_x_78_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 1450.0
+            }
+        ]
+    },
+    {
+        "id": 595,
+        "name": "Premezcla para Pan y Pizza Sin TACC Maizena x 500 gr.",
+        "price": 5100.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Premezcla_para_Pan_y_Pizza_Sin_TACC_Maizena_x_500_gr.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5100.0
+            }
+        ]
+    },
+    {
+        "id": 596,
+        "name": "Granola con Arándanos y Almendras sin Tacc Maizena x 150 g.",
+        "price": 6500.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Granola_con_Arándanos_y_Almendras_sin_Tacc_Maizena_x_150_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6500.0
+            }
+        ]
+    },
+    {
+        "id": 597,
+        "name": "Granola con Coco y Semillas sin Tacc Maizena x 150 g.",
+        "price": 6500.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Granola_con_Coco_y_Semillas_sin_Tacc_Maizena_x_150_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 6500.0
+            }
+        ]
+    },
+    {
+        "id": 598,
+        "name": "Fideos Mix de Legumbres Tirabuzón sin Tacc. Matarazzo x 500 g.",
+        "price": 4750.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Fideos_Mix_de_Legumbres_Tirabuzón_sin_Tacc._Matarazzo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4750.0
+            }
+        ]
+    },
+    {
+        "id": 599,
+        "name": "Fideos Tirabuzón Libre de Gluten Matarazzo x 500 g.",
+        "price": 4650.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Fideos_Tirabuzón_Libre_de_Gluten_Matarazzo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4650.0
+            }
+        ]
+    },
+    {
+        "id": 600,
+        "name": "Fideos Penne Rigate Libre de Gluten Matarazzo x 500 g.",
+        "price": 4650.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Fideos_Penne_Rigate_Libre_de_Gluten_Matarazzo_x_500_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4650.0
+            }
+        ]
+    },
+    {
+        "id": 601,
+        "name": "Alfajor sin Tacc Mousse Choco x 3 Un. Happy Food x 150 g.",
+        "price": 3465.0,
+        "market": "aura",
+        "category": "all",
+        "image": "images/laanonima/Alfajor_sin_Tacc_Mousse_Choco_x_3_Un._Happy_Food_x_150_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3465.0
+            }
+        ]
+    },
+    {
+        "id": 602,
+        "name": "Papas Fritas Sabor a Queso Y Cebolla Lays x 77 g.",
+        "price": 4000.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Bebida_a_Base_de_Soja_sabor_Natural_Ades_x_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4000.0
+            }
+        ]
+    },
+    {
+        "id": 603,
+        "name": "Nachos Dinamita Flaming Hot Doritos x 82 g.",
+        "price": 3000.0,
+        "market": "aura",
+        "category": "snacks",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3000.0
+            }
+        ]
+    },
+    {
+        "id": 604,
+        "name": "Nachos Sabor a Queso Doritos x 129 g.",
+        "price": 5450.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Bebida_a_Base_de_Soja_sabor_Natural_Ades_x_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 5450.0
+            }
+        ]
+    },
+    {
+        "id": 605,
+        "name": "Papas Fritas Sabor Jamón Serrano Lays x 77 g.",
+        "price": 4000.0,
+        "market": "aura",
+        "category": "snacks",
+        "image": "images/laanonima/Jamon_Cocido_Feteado_Paladini_x_200_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4000.0
+            }
+        ]
+    },
+    {
+        "id": 606,
+        "name": "Nachos Sabor a Queso Doritos x 200 g.",
+        "price": 8850.0,
+        "market": "aura",
+        "category": "fiambres",
+        "image": "images/laanonima/Bebida_a_Base_de_Soja_sabor_Natural_Ades_x_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 8850.0
+            }
+        ]
+    },
+    {
+        "id": 607,
+        "name": "Papas Fritas Acanaladas Pehuamar x 135 g.",
+        "price": 3938.0,
+        "market": "aura",
+        "category": "snacks",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3938.0
+            }
+        ]
+    },
+    {
+        "id": 608,
+        "name": "Papas fritas Lays Sabor a Provoleta x 77 g",
+        "price": 4000.0,
+        "market": "aura",
+        "category": "snacks",
+        "image": "images/laanonima/Bebida_a_Base_de_Soja_sabor_Natural_Ades_x_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4000.0
+            }
+        ]
+    },
+    {
+        "id": 609,
+        "name": "Papas Fritas Sabor a Ketchup Lays x 77 g.",
+        "price": 4000.0,
+        "market": "aura",
+        "category": "snacks",
+        "image": "images/laanonima/Bebida_a_Base_de_Soja_sabor_Natural_Ades_x_1_Lt.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 4000.0
+            }
+        ]
+    },
+    {
+        "id": 610,
+        "name": "Nachos Sweet Chili Doritos x 74 g.",
+        "price": 3850.0,
+        "market": "aura",
+        "category": "snacks",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3850.0
+            }
+        ]
+    },
+    {
+        "id": 611,
+        "name": "Nachos sabor Pizza Doritos x 74 g.",
+        "price": 3850.0,
+        "market": "aura",
+        "category": "snacks",
+        "image": "images/laanonima/Condimento_para_Pizza_Dos_Anclas_x_25_g.jpg",
+        "history": [
+            {
+                "date": "2026-06-24",
+                "price": 3850.0
+            }
+        ]
+    },
+    {
+        "id": 612,
         "name": "Vinagre De Alcohol Sin Tacc X 1lt Favinco",
         "price": 1299.0,
         "market": "lumina",
@@ -10330,7 +12948,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 426,
+        "id": 613,
         "name": "Vinagre De Alcohol 1lts Cuisine & Co",
         "price": 1620.0,
         "market": "lumina",
@@ -10352,7 +12970,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 427,
+        "id": 614,
         "name": "Vinagre De Alcohol Clasico 1 Lt. Botella Casalta",
         "price": 1700.0,
         "market": "lumina",
@@ -10366,7 +12984,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 428,
+        "id": 615,
         "name": "Vinagre De Alcohol Menoyo 1 L",
         "price": 1850.0,
         "market": "lumina",
@@ -10380,7 +12998,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 429,
+        "id": 616,
         "name": "Vinagre de Manzana 500 Cc Cuisine & Co",
         "price": 2230.0,
         "market": "lumina",
@@ -10394,7 +13012,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 430,
+        "id": 617,
         "name": "Aceite Girasol Legitimo 900 Ml",
         "price": 3199.0,
         "market": "lumina",
@@ -10416,7 +13034,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 431,
+        "id": 618,
         "name": "Aceite De Girasol 900 Ml Cocinero",
         "price": 3589.0,
         "market": "lumina",
@@ -10454,7 +13072,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 432,
+        "id": 619,
         "name": "Jugo Sabor Limón 1 Lts Minerva",
         "price": 5062.5,
         "market": "lumina",
@@ -10468,7 +13086,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 433,
+        "id": 620,
         "name": "Aceite de Girasol 1.5 Lts Legitimo",
         "price": 5684.0,
         "market": "lumina",
@@ -10494,7 +13112,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 434,
+        "id": 621,
         "name": "Aceite De Girasol Cocinero 1.5 L",
         "price": 6161.0,
         "market": "lumina",
@@ -10508,7 +13126,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 435,
+        "id": 622,
         "name": "Soda 2.25 Lts Cuisine & Co",
         "price": 786.5,
         "market": "lumina",
@@ -10522,7 +13140,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 436,
+        "id": 623,
         "name": "Soda 1.75 Lts Cuisine & Co",
         "price": 1199.0,
         "market": "lumina",
@@ -10552,7 +13170,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 437,
+        "id": 624,
         "name": "Agua Cellier Sin Gas 2lt",
         "price": 1265.0,
         "market": "lumina",
@@ -10574,7 +13192,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 438,
+        "id": 625,
         "name": "Agua Gasificada Sabor Limoneto 2.25 Lts H2oh",
         "price": 1475.0,
         "market": "lumina",
@@ -10588,7 +13206,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 439,
+        "id": 626,
         "name": "Soda Gasificada 1.75 Lts Sierra de los Padres",
         "price": 1750.0,
         "market": "lumina",
@@ -10602,7 +13220,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 440,
+        "id": 627,
         "name": "Agua Nestle Pureza Vital 2.25lt",
         "price": 1820.0,
         "market": "lumina",
@@ -10624,7 +13242,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 441,
+        "id": 628,
         "name": "Agua Mineral Sin Gas 2 Lts Villavicencio",
         "price": 1939.0,
         "market": "lumina",
@@ -10638,7 +13256,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 442,
+        "id": 629,
         "name": "Agua Mineral Eco De Los Andes Sin Gas 2 L",
         "price": 2112.5,
         "market": "lumina",
@@ -10652,7 +13270,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 443,
+        "id": 630,
         "name": "Agua Mineral Sin Gas 2 Lts Glaciar",
         "price": 2275.0,
         "market": "lumina",
@@ -10674,7 +13292,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 444,
+        "id": 631,
         "name": "Agua Sin Gas 5 Lts Silva Sapori",
         "price": 2300.0,
         "market": "lumina",
@@ -10688,7 +13306,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 445,
+        "id": 632,
         "name": "Maíz Pisingallo 400 Grs Cuisine & Co",
         "price": 851.5,
         "market": "lumina",
@@ -10710,7 +13328,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 446,
+        "id": 633,
         "name": "Arroz Ala Grano Largo Fino 500 Gr",
         "price": 937.5,
         "market": "lumina",
@@ -10728,7 +13346,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 447,
+        "id": 634,
         "name": "Arroz Gallo Parboil Selec X 500 Gr Gallo",
         "price": 975.0,
         "market": "lumina",
@@ -10742,7 +13360,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 448,
+        "id": 635,
         "name": "Arroz Grano Largo 1 Kg Cuisine &co",
         "price": 1066.0,
         "market": "lumina",
@@ -10764,7 +13382,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 449,
+        "id": 636,
         "name": "Arroz Molinos Ala Integral X500g",
         "price": 1087.5,
         "market": "lumina",
@@ -10782,7 +13400,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 450,
+        "id": 637,
         "name": "Arroz Largo Fino Vanguardia 1 Kg",
         "price": 1099.0,
         "market": "lumina",
@@ -10796,7 +13414,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 451,
+        "id": 638,
         "name": "Arroz Luchetti Largo Fino X500g",
         "price": 1100.0,
         "market": "lumina",
@@ -10826,7 +13444,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 452,
+        "id": 639,
         "name": "Arroz Integral Selección 500 Grs Gallo",
         "price": 1105.0,
         "market": "lumina",
@@ -10840,7 +13458,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 453,
+        "id": 640,
         "name": "Garbanzos 400 Grs Cuisine & Co",
         "price": 1183.0,
         "market": "lumina",
@@ -10854,7 +13472,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 454,
+        "id": 641,
         "name": "Arroz Grano Largo Fino 1 Kg Molinos Ala",
         "price": 1200.75,
         "market": "lumina",
@@ -10868,7 +13486,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 455,
+        "id": 642,
         "name": "Queso Crema Clásico Individual 0.290 Kg Cuisine y Co",
         "price": 1999.0,
         "market": "lumina",
@@ -10886,7 +13504,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 456,
+        "id": 643,
         "name": "Queso Blanco Original 290 Gr La Serenísima Clásico",
         "price": 2499.0,
         "market": "lumina",
@@ -10904,7 +13522,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 457,
+        "id": 644,
         "name": "Queso Super Crem 1/4 Horma Mínimo 1 Kg Mayorista",
         "price": 8490.0,
         "market": "lumina",
@@ -10934,7 +13552,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 458,
+        "id": 645,
         "name": "Queso Cremoso x 1 Un Punta Del Agua",
         "price": 14120.0,
         "market": "lumina",
@@ -10956,7 +13574,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 459,
+        "id": 646,
         "name": "Espinazo",
         "price": 4215.0,
         "market": "lumina",
@@ -10974,7 +13592,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 460,
+        "id": 647,
         "name": "Falda",
         "price": 7905.0,
         "market": "lumina",
@@ -10988,7 +13606,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 461,
+        "id": 648,
         "name": "Carne Vacuna Picada Común La Hacienda",
         "price": 8335.0,
         "market": "lumina",
@@ -11018,7 +13636,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 462,
+        "id": 649,
         "name": "Azotillo",
         "price": 8899.0,
         "market": "lumina",
@@ -11048,7 +13666,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 463,
+        "id": 650,
         "name": "Osobuco Vacuno La Hacienda",
         "price": 9705.0,
         "market": "lumina",
@@ -11066,7 +13684,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 464,
+        "id": 651,
         "name": "Carnaza Comun La Hacienda",
         "price": 9749.0,
         "market": "lumina",
@@ -11100,7 +13718,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 465,
+        "id": 652,
         "name": "Manta Parrillera De Novillito",
         "price": 11999.0,
         "market": "lumina",
@@ -11114,7 +13732,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 466,
+        "id": 653,
         "name": "Tapa De Bife Novillito Ev Al Vacio",
         "price": 12829.0,
         "market": "lumina",
@@ -11164,7 +13782,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 467,
+        "id": 654,
         "name": "Carne Vacuna Picada Especial La Hacienda",
         "price": 13875.0,
         "market": "lumina",
@@ -11178,7 +13796,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 468,
+        "id": 655,
         "name": "Milanesa Cuadrada La Hacienda",
         "price": 14999.0,
         "market": "lumina",
@@ -11192,7 +13810,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 469,
+        "id": 656,
         "name": "Barra Frutilla Y Chocolate Cereal Mix 26 Gr",
         "price": 1200.0,
         "market": "lumina",
@@ -11222,7 +13840,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 470,
+        "id": 657,
         "name": "Barra de Cereal Sabor Yoghurt Frutilla 26 Grs Cereal Mix",
         "price": 1350.0,
         "market": "lumina",
@@ -11252,7 +13870,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 471,
+        "id": 658,
         "name": "Barra De Proteina bar Chocolate X 45 Gr Notprotein",
         "price": 1462.5,
         "market": "lumina",
@@ -11266,7 +13884,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 472,
+        "id": 659,
         "name": "Copos de Maíz Azucarados 150 Grs Cuisine & Co",
         "price": 1550.0,
         "market": "lumina",
@@ -11284,7 +13902,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 473,
+        "id": 660,
         "name": "Barra de Cereal Sabor Cajú y Arándanos 41 Grs Integra",
         "price": 1700.0,
         "market": "lumina",
@@ -11314,7 +13932,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 474,
+        "id": 661,
         "name": "Barra de Chocolate Sabor maní y Arándanos 41 Grs Integra",
         "price": 1900.0,
         "market": "lumina",
@@ -11344,7 +13962,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 475,
+        "id": 662,
         "name": "Barra De Cereal Cacao 45 Gr Muecas",
         "price": 2050.0,
         "market": "lumina",
@@ -11374,7 +13992,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 476,
+        "id": 663,
         "name": "Copos De Maíz Granix Skarchitos 240 Gr",
         "price": 2050.0,
         "market": "lumina",
@@ -11400,7 +14018,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 477,
+        "id": 664,
         "name": "Barra De Cereal Banana 45 Gr Muecas",
         "price": 2050.0,
         "market": "lumina",
@@ -11414,7 +14032,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 478,
+        "id": 665,
         "name": "Cereal Estrellas Sabor Frutal 145 Grs Formis",
         "price": 2150.0,
         "market": "lumina",
@@ -11428,7 +14046,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 479,
+        "id": 666,
         "name": "Cerveza 4,5º Lata X 500 Ml Landvik",
         "price": 1049.3,
         "market": "lumina",
@@ -11450,7 +14068,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 480,
+        "id": 667,
         "name": "Cerveza Brahma Chopp Lata 354mlx1",
         "price": 1850.0,
         "market": "lumina",
@@ -11484,7 +14102,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 481,
+        "id": 668,
         "name": "Cerveza Michelob Ultra Sin Gluten 473 Ml",
         "price": 1852.5,
         "market": "lumina",
@@ -11514,7 +14132,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 482,
+        "id": 669,
         "name": "Cerveza Sin Alcohol 330 Cc Corona",
         "price": 2100.0,
         "market": "lumina",
@@ -11576,7 +14194,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 483,
+        "id": 670,
         "name": "Cerveza Quilmes Clasica 710cc",
         "price": 2210.0,
         "market": "lumina",
@@ -11602,7 +14220,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 484,
+        "id": 671,
         "name": "Cerveza Quilmes Bajo Cero 1lt Ret.",
         "price": 2372.5,
         "market": "lumina",
@@ -11616,7 +14234,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 485,
+        "id": 672,
         "name": "Cerveza Heineken 473 Ml",
         "price": 2405.0,
         "market": "lumina",
@@ -11638,7 +14256,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 486,
+        "id": 673,
         "name": "Cerveza Rubia 330ml Corona",
         "price": 2430.0,
         "market": "lumina",
@@ -11652,7 +14270,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 487,
+        "id": 674,
         "name": "Cerveza Quilmes Clasica 1lt Ret",
         "price": 2811.9,
         "market": "lumina",
@@ -11666,7 +14284,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 488,
+        "id": 675,
         "name": "Cerveza Stella Artois Botella No Retornable 330mlx1",
         "price": 2887.5,
         "market": "lumina",
@@ -11688,7 +14306,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 489,
+        "id": 676,
         "name": "Salame Fuet Doina 150 Gr",
         "price": 3490.0,
         "market": "lumina",
@@ -11706,7 +14324,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 490,
+        "id": 677,
         "name": "Jamón Cocido Linea Permi Paladini X 150 Gr",
         "price": 5090.0,
         "market": "lumina",
@@ -11728,7 +14346,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 491,
+        "id": 678,
         "name": "Salame Sabor Salame Feteado 100 Grs Bocatti",
         "price": 5700.0,
         "market": "lumina",
@@ -11746,7 +14364,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 492,
+        "id": 679,
         "name": "Jamon Paladini Cocido Fetas Finas X 200 Gr",
         "price": 6290.0,
         "market": "lumina",
@@ -11768,7 +14386,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 493,
+        "id": 680,
         "name": "Jamon Cocido Feteado 200 Grs Campo Austral",
         "price": 6350.0,
         "market": "lumina",
@@ -11782,7 +14400,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 494,
+        "id": 681,
         "name": "Jamón Cocido Bocatti Feteado 130 Gr",
         "price": 6625.0,
         "market": "lumina",
@@ -11796,7 +14414,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 495,
+        "id": 682,
         "name": "Fiambre De Cerdo Tripack X Kg",
         "price": 10970.0,
         "market": "lumina",
@@ -11826,7 +14444,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 496,
+        "id": 683,
         "name": "Jamón Crudo Fetas Finas x 120 Grs Paladini",
         "price": 13450.0,
         "market": "lumina",
@@ -11840,7 +14458,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 497,
+        "id": 684,
         "name": "Jamón Cocido Tripack X Kg Jumbo",
         "price": 15739.0,
         "market": "lumina",
@@ -11858,7 +14476,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 498,
+        "id": 685,
         "name": "Fiambre de Paleta de Cerdo 200 Grs Campo Austral",
         "price": 16560.0,
         "market": "lumina",
@@ -11872,7 +14490,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 499,
+        "id": 686,
         "name": "Frutillas Congeladas 250 Grs",
         "price": 3700.0,
         "market": "lumina",
@@ -11894,7 +14512,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 500,
+        "id": 687,
         "name": "Frutillas Congeladas Enteras 1 Kg",
         "price": 13100.0,
         "market": "lumina",
@@ -11916,7 +14534,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 501,
+        "id": 688,
         "name": "Gaseosa Sabor Cola 354 Ml Pepsi",
         "price": 1050.0,
         "market": "lumina",
@@ -11934,7 +14552,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 502,
+        "id": 689,
         "name": "Gaseosa Cola 500 Ml Pepsi",
         "price": 1050.0,
         "market": "lumina",
@@ -11948,7 +14566,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 503,
+        "id": 690,
         "name": "Gaseosa Black Sin Azúcar 500 Ml Pepsi",
         "price": 1050.0,
         "market": "lumina",
@@ -11962,7 +14580,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 504,
+        "id": 691,
         "name": "Gaseosa Sabor Original 354 Ml Coca Cola",
         "price": 1666.67,
         "market": "lumina",
@@ -11984,7 +14602,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 505,
+        "id": 692,
         "name": "Gaseosa Cunnington Cola Suave 2.25lt",
         "price": 1990.0,
         "market": "lumina",
@@ -11998,7 +14616,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 506,
+        "id": 693,
         "name": "Gaseosa Cola Black Sin Azúcar 1.5 Lts Pepsi",
         "price": 1999.5,
         "market": "lumina",
@@ -12012,7 +14630,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 507,
+        "id": 694,
         "name": "Gaseosa Sabor Original X 600 Ml Coca-cola",
         "price": 2083.33,
         "market": "lumina",
@@ -12026,7 +14644,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 508,
+        "id": 695,
         "name": "Gaseosa Sin Azúcar Sabor Limón 1.5 Lts 7 Up",
         "price": 2129.0,
         "market": "lumina",
@@ -12044,7 +14662,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 509,
+        "id": 696,
         "name": "Gaseosa Pepsi Black 2 L",
         "price": 2274.5,
         "market": "lumina",
@@ -12058,7 +14676,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 510,
+        "id": 697,
         "name": "Gaseosa Pepsi Botella 2 L",
         "price": 2274.5,
         "market": "lumina",
@@ -12072,7 +14690,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 511,
+        "id": 698,
         "name": "Harina De Trigo 000 X 1 Kg Valle Fertil",
         "price": 799.0,
         "market": "lumina",
@@ -12090,7 +14708,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 512,
+        "id": 699,
         "name": "Harina 000 1 Kg Caserita",
         "price": 849.0,
         "market": "lumina",
@@ -12124,7 +14742,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 513,
+        "id": 700,
         "name": "Harina 000 Vit X 1 Kg Favorita",
         "price": 869.0,
         "market": "lumina",
@@ -12142,7 +14760,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 514,
+        "id": 701,
         "name": "Harina 000 Morixe 1 Kg",
         "price": 1150.0,
         "market": "lumina",
@@ -12168,7 +14786,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 515,
+        "id": 702,
         "name": "Harina 0000 1 Kg Caserita",
         "price": 1300.0,
         "market": "lumina",
@@ -12190,7 +14808,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 516,
+        "id": 703,
         "name": "Harina Pureza Ultra Refinada 1 Kg",
         "price": 1416.0,
         "market": "lumina",
@@ -12212,7 +14830,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 517,
+        "id": 704,
         "name": "Harina Leudante Fort Blancaflor 1 Kg",
         "price": 1540.0,
         "market": "lumina",
@@ -12226,7 +14844,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 518,
+        "id": 705,
         "name": "Harina Caserita Leudante 1 Kg",
         "price": 1550.0,
         "market": "lumina",
@@ -12240,7 +14858,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 519,
+        "id": 706,
         "name": "Polenta Presto Pronta X490g",
         "price": 1579.0,
         "market": "lumina",
@@ -12278,7 +14896,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 520,
+        "id": 707,
         "name": "Harina 0000 1 Kg Favorita",
         "price": 1600.0,
         "market": "lumina",
@@ -12292,7 +14910,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 521,
+        "id": 708,
         "name": "Bebida Isotónica Zero Sabor Fresa y Kiwi 400 Ml Gatorade",
         "price": 1040.0,
         "market": "lumina",
@@ -12306,7 +14924,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 522,
+        "id": 709,
         "name": "Bebida Isotónica Zero Sabor Moras 400 Ml Gatorade",
         "price": 1040.0,
         "market": "lumina",
@@ -12320,7 +14938,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 523,
+        "id": 710,
         "name": "Bebida Isotónica Sabor Multifruta 500 Ml Full Sport",
         "price": 1135.0,
         "market": "lumina",
@@ -12354,7 +14972,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 524,
+        "id": 711,
         "name": "Bebida Isotónica Sabor Mountain Blast 500 Ml Powerade",
         "price": 1300.0,
         "market": "lumina",
@@ -12372,7 +14990,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 525,
+        "id": 712,
         "name": "Bebida Isotónica Sabor Frutas Tropicales 500 Cc Powerade",
         "price": 1300.0,
         "market": "lumina",
@@ -12390,7 +15008,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 526,
+        "id": 713,
         "name": "Bebida Isotónica Sabor Manzana 500 Ml Powerade",
         "price": 1300.0,
         "market": "lumina",
@@ -12408,7 +15026,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 527,
+        "id": 714,
         "name": "Bebida Isotónica Sabor Uva 500 Ml Powerade",
         "price": 1300.0,
         "market": "lumina",
@@ -12426,7 +15044,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 528,
+        "id": 715,
         "name": "Bebida Isotónica Sabor Cool Blue 500 Ml Gatorade",
         "price": 1495.0,
         "market": "lumina",
@@ -12452,7 +15070,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 529,
+        "id": 716,
         "name": "Bebida Isotónica Sabor Manzana 500 Ml Gatorade",
         "price": 1495.0,
         "market": "lumina",
@@ -12466,7 +15084,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 530,
+        "id": 717,
         "name": "Bebida Isotónica Sabor Naranja 500 Ml Gatorade",
         "price": 1495.0,
         "market": "lumina",
@@ -12480,7 +15098,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 531,
+        "id": 718,
         "name": "Jugo en Polvo Sabor Naranja Dulce 15 Grs Arcor",
         "price": 200.0,
         "market": "lumina",
@@ -12494,7 +15112,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 532,
+        "id": 719,
         "name": "Jugo Manzana Roja 7 Gr Bc",
         "price": 200.0,
         "market": "lumina",
@@ -12508,7 +15126,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 533,
+        "id": 720,
         "name": "Jugo en Polvo Sabor Naranja Dulce 7,5 Grs Clight",
         "price": 500.0,
         "market": "lumina",
@@ -12526,7 +15144,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 534,
+        "id": 721,
         "name": "Jugo en Polvo Sabor Manzana 7 Grs Clight",
         "price": 500.0,
         "market": "lumina",
@@ -12544,7 +15162,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 535,
+        "id": 722,
         "name": "Jugo en Polvo Sabor Pomelo Rosado 8 Grs Clight",
         "price": 500.0,
         "market": "lumina",
@@ -12558,7 +15176,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 536,
+        "id": 723,
         "name": "Jugo en Polvo Sabor Limonada 8 Grs Clight",
         "price": 500.0,
         "market": "lumina",
@@ -12572,7 +15190,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 537,
+        "id": 724,
         "name": "Jugo en Polvo Sabor Naranja 8 Grs Clight",
         "price": 500.0,
         "market": "lumina",
@@ -12586,7 +15204,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 538,
+        "id": 725,
         "name": "Jugo en Polvo Sabor Limonada Maracuyá 7,5 Grs Clight",
         "price": 500.0,
         "market": "lumina",
@@ -12600,7 +15218,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 539,
+        "id": 726,
         "name": "Jugo En Polvo Ananá 7 Grs Clight",
         "price": 500.0,
         "market": "lumina",
@@ -12614,7 +15232,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 540,
+        "id": 727,
         "name": "Jugo En Polvo Limonada Rosa 8 Grs Clight",
         "price": 500.0,
         "market": "lumina",
@@ -12628,7 +15246,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 541,
+        "id": 728,
         "name": "Yogur Sabor Vainilla Firme Semidescremado 120 Grs La Serenisima",
         "price": 749.0,
         "market": "lumina",
@@ -12654,7 +15272,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 542,
+        "id": 729,
         "name": "Yogurt Sabor Frutilla Firme Semidescremado 120 Grs La Serenisima",
         "price": 749.0,
         "market": "lumina",
@@ -12668,7 +15286,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 543,
+        "id": 730,
         "name": "Leche Uat Entera Sachet X 1 L Cuisine & Co",
         "price": 1750.0,
         "market": "lumina",
@@ -12702,7 +15320,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 544,
+        "id": 731,
         "name": "Leche Entera 1 Lts Cuisine & Co",
         "price": 1790.0,
         "market": "lumina",
@@ -12728,7 +15346,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 545,
+        "id": 732,
         "name": "Leche Semi Descremada 1 Lts Cuisine & Co",
         "price": 1790.0,
         "market": "lumina",
@@ -12754,7 +15372,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 546,
+        "id": 733,
         "name": "Leche Desc Ls Reduc. Lactosa Sachet 1l",
         "price": 1925.0,
         "market": "lumina",
@@ -12784,7 +15402,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 547,
+        "id": 734,
         "name": "Leche Entera 3% Sachet 1lt La Serenísima",
         "price": 1925.0,
         "market": "lumina",
@@ -12798,7 +15416,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 548,
+        "id": 735,
         "name": "Leche Uat Descremada 1l Las Tres Niñas",
         "price": 1950.0,
         "market": "lumina",
@@ -12812,7 +15430,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 549,
+        "id": 736,
         "name": "Leche Uat Entera Las Tres Niñas 1l",
         "price": 1950.0,
         "market": "lumina",
@@ -12826,7 +15444,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 550,
+        "id": 737,
         "name": "Yogurt Sabor Natural Griego Entero 190 Grs Yogurisimo",
         "price": 2105.25,
         "market": "lumina",
@@ -12840,7 +15458,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 551,
+        "id": 738,
         "name": "Leche Polvo Fortigrow 200 Grs Nido®",
         "price": 3525.0,
         "market": "lumina",
@@ -12858,7 +15476,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 552,
+        "id": 739,
         "name": "Leche en Polvo Descremada 200 Grs La Serenisima",
         "price": 3800.0,
         "market": "lumina",
@@ -12872,7 +15490,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 553,
+        "id": 740,
         "name": "Leche Condensada 395 Grs Cuisine & Co",
         "price": 4950.0,
         "market": "lumina",
@@ -12910,7 +15528,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 554,
+        "id": 741,
         "name": "Leche Condensada Orgánica 395 Grs Nestlé®",
         "price": 5450.0,
         "market": "lumina",
@@ -12924,7 +15542,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 555,
+        "id": 742,
         "name": "Leche Condensada Descremada Orgánica 395 Grs Nestlé®",
         "price": 5450.0,
         "market": "lumina",
@@ -12962,7 +15580,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 556,
+        "id": 743,
         "name": "Leche En Polvo Entera 400 Grs Cuisine & Co",
         "price": 5850.0,
         "market": "lumina",
@@ -12980,7 +15598,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 557,
+        "id": 744,
         "name": "Leche En Polvo Descremada 400 Grs Cuisine & Co",
         "price": 5930.0,
         "market": "lumina",
@@ -13002,7 +15620,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 558,
+        "id": 745,
         "name": "Leche en Polvo Liviana 400 Grs La Serenisima",
         "price": 7550.0,
         "market": "lumina",
@@ -13016,7 +15634,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 559,
+        "id": 746,
         "name": "Leche En Polvo Purisima 0grasa Deslactosada",
         "price": 7850.0,
         "market": "lumina",
@@ -13030,7 +15648,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 560,
+        "id": 747,
         "name": "Leche Polvo 0 Porciento Lactosa 350 Grs Svelty®",
         "price": 8137.5,
         "market": "lumina",
@@ -13044,7 +15662,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 561,
+        "id": 748,
         "name": "Esponja Virulana Multiuso",
         "price": 665.0,
         "market": "lumina",
@@ -13066,7 +15684,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 562,
+        "id": 749,
         "name": "Esponja Go! Salvauñas",
         "price": 900.0,
         "market": "lumina",
@@ -13088,7 +15706,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 563,
+        "id": 750,
         "name": "Esponja Lisa de Poliéster 90 x 65 x 35 Cm 1 Un Home Care",
         "price": 950.0,
         "market": "lumina",
@@ -13106,7 +15724,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 564,
+        "id": 751,
         "name": "Rejilla Home Care Cocina",
         "price": 1240.0,
         "market": "lumina",
@@ -13120,7 +15738,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 565,
+        "id": 752,
         "name": "Trapo De Piso Home Care Gris Reforzado",
         "price": 1550.0,
         "market": "lumina",
@@ -13134,7 +15752,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 566,
+        "id": 753,
         "name": "Esponja Moritmer Poderosa",
         "price": 1600.0,
         "market": "lumina",
@@ -13152,7 +15770,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 567,
+        "id": 754,
         "name": "Trapo De Piso Home Care Gris Super",
         "price": 1910.0,
         "market": "lumina",
@@ -13166,7 +15784,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 568,
+        "id": 755,
         "name": "Lana de Acero x 10 Un Virulana",
         "price": 1925.0,
         "market": "lumina",
@@ -13180,7 +15798,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 569,
+        "id": 756,
         "name": "Esponja Mortimer Doble Cara 1 U",
         "price": 2000.0,
         "market": "lumina",
@@ -13198,7 +15816,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 570,
+        "id": 757,
         "name": "Guantes Plumitas Mediano",
         "price": 2065.0,
         "market": "lumina",
@@ -13212,7 +15830,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 571,
+        "id": 758,
         "name": "Alimento Para Gatos Whiskas Pasta Salmón 85 Gr",
         "price": 933.33,
         "market": "lumina",
@@ -13266,7 +15884,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 572,
+        "id": 759,
         "name": "Alimento Para Gatos Whiskas Pasta Carne 85 Gr",
         "price": 933.33,
         "market": "lumina",
@@ -13280,7 +15898,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 573,
+        "id": 760,
         "name": "Alimento para Gatos Sabor Carne Gatitos 85 Grs Whiskas",
         "price": 933.33,
         "market": "lumina",
@@ -13298,7 +15916,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 574,
+        "id": 761,
         "name": "Alimento para Gatos Húmedo Sabor Pollo Cachorros 85 Grs Purina Cat Chow",
         "price": 1650.0,
         "market": "lumina",
@@ -13312,7 +15930,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 575,
+        "id": 762,
         "name": "Alimento para Gatos Húmedo Sabor Pollo Adultos 85 Grs Purina Cat Chow",
         "price": 1650.0,
         "market": "lumina",
@@ -13326,7 +15944,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 576,
+        "id": 763,
         "name": "Alimento para Gatos Húmedo Sabor Pescado Adultos 85 Grs Purina Cat Chow",
         "price": 1650.0,
         "market": "lumina",
@@ -13340,7 +15958,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 577,
+        "id": 764,
         "name": "Alimento para Gatos Sabor Pescado Todas las Edades 1 Kg Sabrositos",
         "price": 3800.0,
         "market": "lumina",
@@ -13362,7 +15980,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 578,
+        "id": 765,
         "name": "Alimento Gatos Cat Chow Adulto Carne Pollo 500 Gr",
         "price": 4100.0,
         "market": "lumina",
@@ -13376,7 +15994,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 579,
+        "id": 766,
         "name": "Alimento Gatos Cat Chow Adulto Pescado Pollo 500 Gr",
         "price": 4100.0,
         "market": "lumina",
@@ -13390,7 +16008,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 580,
+        "id": 767,
         "name": "Alimento para Gatos Sabor Carne y Pollo Adulto 1 Kg Cat Chow",
         "price": 8000.0,
         "market": "lumina",
@@ -13404,7 +16022,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 581,
+        "id": 768,
         "name": "Alimento para Perros Húmedo Sabor Carne Adulto Razas Pequeñas 100 Grs Pedigree",
         "price": 932.67,
         "market": "lumina",
@@ -13418,7 +16036,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 582,
+        "id": 769,
         "name": "Alimento para Perros Húmedo Sabor Pollo Adulto Razas Pequeñas 100 Grs Pedigree",
         "price": 932.67,
         "market": "lumina",
@@ -13432,7 +16050,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 583,
+        "id": 770,
         "name": "Alimento para Perros Húmedo Sabor Carne Adulto 100 Grs Pedigree",
         "price": 932.67,
         "market": "lumina",
@@ -13446,7 +16064,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 584,
+        "id": 771,
         "name": "Alimento para Perros Orgánico Sabor Carne, Pollo y Cerdo Adultos 1.5 Kg Sabrositos",
         "price": 3850.0,
         "market": "lumina",
@@ -13468,7 +16086,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 585,
+        "id": 772,
         "name": "Snacks Dentastix Razas Mediano Cuidado Oral",
         "price": 3900.0,
         "market": "lumina",
@@ -13494,7 +16112,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 586,
+        "id": 773,
         "name": "Alimento para Perros Seco Saborizado Adultos Medianos y Grandes 1,5 Kg Dog Chow",
         "price": 5500.0,
         "market": "lumina",
@@ -13524,7 +16142,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 587,
+        "id": 774,
         "name": "Alimento para Perros Seco Saborizado Adulto Mini y Pequeño 1,5 Kg Dog Chow",
         "price": 7050.0,
         "market": "lumina",
@@ -13538,7 +16156,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 588,
+        "id": 775,
         "name": "Alimento para Perros Seco Saborizado Adultos 3 Kg Dogui",
         "price": 9650.0,
         "market": "lumina",
@@ -13568,7 +16186,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 589,
+        "id": 776,
         "name": "Alimento Para Perros Pedigree Adulto Mayor 3 Kg",
         "price": 9787.5,
         "market": "lumina",
@@ -13582,7 +16200,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 590,
+        "id": 777,
         "name": "Alimento para Perros Seco Saborizado Adulto Mini y Pequeño 3 Kg Dog Chow",
         "price": 13050.0,
         "market": "lumina",
@@ -13596,7 +16214,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 591,
+        "id": 778,
         "name": "Papel Higiénico Campanita Hoja Simple 4 U",
         "price": 1150.0,
         "market": "lumina",
@@ -13610,7 +16228,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 592,
+        "id": 779,
         "name": "Rollo De Cocina Sol Mayor X 3 Unid",
         "price": 1250.0,
         "market": "lumina",
@@ -13624,7 +16242,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 593,
+        "id": 780,
         "name": "Papel Higiénico Fresh Hoja Simple 30 M X 4 Un Higienol",
         "price": 1500.75,
         "market": "lumina",
@@ -13638,7 +16256,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 594,
+        "id": 781,
         "name": "Papel Higienico Simple Hoja 4x30 M Family Care",
         "price": 1649.0,
         "market": "lumina",
@@ -13688,7 +16306,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 595,
+        "id": 782,
         "name": "Rollo Cocina Doble Hoja 200 Paños X 1 Un Home Care.",
         "price": 1695.0,
         "market": "lumina",
@@ -13702,7 +16320,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 596,
+        "id": 783,
         "name": "Rollo De Cocina Elegante 3 U",
         "price": 1780.0,
         "market": "lumina",
@@ -13716,7 +16334,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 597,
+        "id": 784,
         "name": "Papel Higienico Elegante Simple Hoja 4x30m",
         "price": 1785.0,
         "market": "lumina",
@@ -13734,7 +16352,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 598,
+        "id": 785,
         "name": "Papel De Cocina Megarollo 200 Sussex",
         "price": 2010.0,
         "market": "lumina",
@@ -13748,7 +16366,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 599,
+        "id": 786,
         "name": "Papel Higienico Felpita Doble Hoja 4x20",
         "price": 2250.0,
         "market": "lumina",
@@ -13762,7 +16380,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 600,
+        "id": 787,
         "name": "Rollo Cocina Doble Hoja 50 X 3 Un Home Care",
         "price": 2470.0,
         "market": "lumina",
@@ -13780,7 +16398,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 601,
+        "id": 788,
         "name": "Pollo Congelado Con Menudos",
         "price": 3399.0,
         "market": "lumina",
@@ -13798,7 +16416,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 602,
+        "id": 789,
         "name": "Cuarto Trasero de Pollo Fresco",
         "price": 3799.0,
         "market": "lumina",
@@ -13820,7 +16438,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 603,
+        "id": 790,
         "name": "Pollo Entero con Menudos 1,8 Kg",
         "price": 4299.0,
         "market": "lumina",
@@ -13850,7 +16468,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 604,
+        "id": 791,
         "name": "Pollo Parrillero",
         "price": 5449.0,
         "market": "lumina",
@@ -13880,7 +16498,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 605,
+        "id": 792,
         "name": "Muslo de Pollo Fresco",
         "price": 6999.0,
         "market": "lumina",
@@ -13898,7 +16516,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 606,
+        "id": 793,
         "name": "Suprema De Pollo Granel Congelada.",
         "price": 7999.0,
         "market": "lumina",
@@ -13912,7 +16530,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 607,
+        "id": 794,
         "name": "Pata De Pollo",
         "price": 8349.0,
         "market": "lumina",
@@ -13938,7 +16556,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 608,
+        "id": 795,
         "name": "Suprema De Pollo Granel Fresca",
         "price": 9899.0,
         "market": "lumina",
@@ -14000,7 +16618,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 609,
+        "id": 796,
         "name": "Pavita Sadia X Kg",
         "price": 13749.0,
         "market": "lumina",
@@ -14014,7 +16632,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 610,
+        "id": 797,
         "name": "Queso Reggianito Rallado 35 Grs x 1 Un La Serenisima",
         "price": 1726.0,
         "market": "lumina",
@@ -14048,7 +16666,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 611,
+        "id": 798,
         "name": "Salchichas Granja Iris De Viena 6 U- 225 Gr",
         "price": 1885.0,
         "market": "lumina",
@@ -14066,7 +16684,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 612,
+        "id": 799,
         "name": "Salchichas Familiares x 6 Un 190 Grs Cuisine & Co",
         "price": 1899.0,
         "market": "lumina",
@@ -14100,7 +16718,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 613,
+        "id": 800,
         "name": "Queso Blanco Light 290 Gr La Serenísima Clásico",
         "price": 2499.0,
         "market": "lumina",
@@ -14118,7 +16736,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 614,
+        "id": 801,
         "name": "Queso Blanco Balance 290 Gr Casancrem",
         "price": 3339.0,
         "market": "lumina",
@@ -14132,7 +16750,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 615,
+        "id": 802,
         "name": "Queso Untable Finlandia Clásico 290 Gr",
         "price": 5342.0,
         "market": "lumina",
@@ -14150,7 +16768,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 616,
+        "id": 803,
         "name": "Queso Crema Blanco Fresco 500 Grs Casancrem",
         "price": 5599.0,
         "market": "lumina",
@@ -14168,7 +16786,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 617,
+        "id": 804,
         "name": "Queso Crema Blanco Balance 0.5 Kg Casancrem",
         "price": 5599.0,
         "market": "lumina",
@@ -14182,7 +16800,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 618,
+        "id": 805,
         "name": "Sal Fina Estrella De Mar 500 Gr",
         "price": 649.0,
         "market": "lumina",
@@ -14196,7 +16814,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 619,
+        "id": 806,
         "name": "Sal Gruesa 500 Grs Dos Anclas",
         "price": 1400.0,
         "market": "lumina",
@@ -14222,7 +16840,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 620,
+        "id": 807,
         "name": "Sal Parrillera Entrefina 500 Grs Dos Anclas",
         "price": 1400.0,
         "market": "lumina",
@@ -14248,7 +16866,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 621,
+        "id": 808,
         "name": "Sal Fina Dos Anclas 500 Gr",
         "price": 1415.0,
         "market": "lumina",
@@ -14778,7 +17396,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 622,
+        "id": 809,
         "name": "Sal Entrefina Celusal 500 Gr",
         "price": 1487.0,
         "market": "lumina",
@@ -14800,7 +17418,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 623,
+        "id": 810,
         "name": "Sal Gruesa 500 Grs Celusal",
         "price": 1487.0,
         "market": "lumina",
@@ -14826,7 +17444,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 624,
+        "id": 811,
         "name": "Sal Fina Celusal 500 Gr",
         "price": 1549.0,
         "market": "lumina",
@@ -14844,7 +17462,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 625,
+        "id": 812,
         "name": "Sal Fina 500 Grs Celusal",
         "price": 1800.0,
         "market": "lumina",
@@ -15102,7 +17720,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 626,
+        "id": 813,
         "name": "Sal Gruesa 1 Kg Dos Anclas",
         "price": 2500.0,
         "market": "lumina",
@@ -15116,7 +17734,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 627,
+        "id": 814,
         "name": "AGUA CELLIER 600 ML",
         "price": 499.9,
         "market": "maxiconsumo",
@@ -15146,7 +17764,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 628,
+        "id": 815,
         "name": "AGUA 401 2 LT",
         "price": 569.9,
         "market": "maxiconsumo",
@@ -15164,7 +17782,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 629,
+        "id": 816,
         "name": "AGUA DASH BAJA SODIO 2 LT",
         "price": 749.9,
         "market": "maxiconsumo",
@@ -15178,7 +17796,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 630,
+        "id": 817,
         "name": "AGUA CELLIER 2 LT",
         "price": 949.9,
         "market": "maxiconsumo",
@@ -15208,7 +17826,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 631,
+        "id": 818,
         "name": "AGUA GLACIAR SIN GAS 500 cc",
         "price": 999.9,
         "market": "maxiconsumo",
@@ -15246,7 +17864,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 632,
+        "id": 819,
         "name": "AGUA BENEDICTINO 500 CC",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -15264,7 +17882,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 633,
+        "id": 820,
         "name": "AGUA VILLA DEL SUR 600 CC",
         "price": 1269.9,
         "market": "maxiconsumo",
@@ -15282,7 +17900,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 634,
+        "id": 821,
         "name": "AGUA NESTLE PUREZA VITAL 1.5 LT",
         "price": 1299.9,
         "market": "maxiconsumo",
@@ -15312,7 +17930,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 635,
+        "id": 822,
         "name": "AGUA NESTLE PUREZA VITAL 2.25 LT",
         "price": 1299.9,
         "market": "maxiconsumo",
@@ -15326,7 +17944,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 636,
+        "id": 823,
         "name": "AGUA VILLAVICENCIO 500 CC",
         "price": 1549.9,
         "market": "maxiconsumo",
@@ -15340,7 +17958,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 637,
+        "id": 824,
         "name": "ALIMENTO PARA PERROS PETS CLASS PERRO ADULTOS CARNE 100 GR",
         "price": 729.9,
         "market": "maxiconsumo",
@@ -15374,7 +17992,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 638,
+        "id": 825,
         "name": "ALIMENTO PARA PERROS PETS CLASS CACHORROS POLLO Y LECHE 85 GR",
         "price": 729.9,
         "market": "maxiconsumo",
@@ -15408,7 +18026,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 639,
+        "id": 826,
         "name": "ALIMENTO PARA PERROS PETS CLASS ADULTOS POLLO 100 GR",
         "price": 729.9,
         "market": "maxiconsumo",
@@ -15442,7 +18060,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 640,
+        "id": 827,
         "name": "ALIMENTO PARA PERROS PEDIGREE ADULTOS POLLO 100 GR",
         "price": 999.9,
         "market": "maxiconsumo",
@@ -15456,7 +18074,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 641,
+        "id": 828,
         "name": "ALIMENTO PARA ANIMALES PEDIGREE POUCH RAZAS PEQUEÑAS CARNE 100 gr",
         "price": 1099.89,
         "market": "maxiconsumo",
@@ -15474,7 +18092,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 642,
+        "id": 829,
         "name": "ALIMENTO PARA ANIMALES PEDIGREE POUCH RAZAS PEQUEÑAS POLLO 100 gr",
         "price": 1099.89,
         "market": "maxiconsumo",
@@ -15488,7 +18106,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 643,
+        "id": 830,
         "name": "ALIMENTO PARA PERROS PEDIGREE POUCH CARNE ADULTO 100 GR",
         "price": 1099.89,
         "market": "maxiconsumo",
@@ -15506,7 +18124,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 644,
+        "id": 831,
         "name": "ALIMENTO PARA PERROS PEDIGREE POUCH CACHORRO 85 GR",
         "price": 1099.89,
         "market": "maxiconsumo",
@@ -15524,7 +18142,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 645,
+        "id": 832,
         "name": "ALIMENTO PARA PERROS DOG CHOW ADULTOS SALMON 100 GR",
         "price": 1199.9,
         "market": "maxiconsumo",
@@ -15538,7 +18156,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 646,
+        "id": 833,
         "name": "ALIMENTO PARA PERROS DOG CHOW ADULTOS PAVO 100 GR",
         "price": 1199.9,
         "market": "maxiconsumo",
@@ -15552,7 +18170,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 647,
+        "id": 834,
         "name": "ALIMENTO PARA GATOS PETS CLASS FRUTOS DE MAR 85 GR",
         "price": 729.9,
         "market": "maxiconsumo",
@@ -15586,7 +18204,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 648,
+        "id": 835,
         "name": "ALIMENTO PARA GATOS PETS CLASS SALMON ROSADO 85 GR",
         "price": 729.9,
         "market": "maxiconsumo",
@@ -15620,7 +18238,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 649,
+        "id": 836,
         "name": "ALIMENTO PARA GATOS PETS CLASS CARNE 85 GR",
         "price": 729.9,
         "market": "maxiconsumo",
@@ -15654,7 +18272,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 650,
+        "id": 837,
         "name": "ALIMENTO PARA ANIMALES WHISKAS POUCH GATITOS CARNE 85 GR",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -15684,7 +18302,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 651,
+        "id": 838,
         "name": "ALIMENTO PARA ANIMALES WHISKAS POUCH POLLO 85 GR",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -15714,7 +18332,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 652,
+        "id": 839,
         "name": "ALIMENTO PARA ANIMALES WHISKAS POUCH SALMON 85 gr",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -15744,7 +18362,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 653,
+        "id": 840,
         "name": "ALIMENTO PARA ANIMALES WHISKAS POUCH PAVO 85 gr",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -15766,7 +18384,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 654,
+        "id": 841,
         "name": "ALIMENTO PARA GATOS WHISKAS POUCH CARNE 85 GR",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -15788,7 +18406,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 655,
+        "id": 842,
         "name": "ALIMENTO PARA GATOS WHISKAS POUCH SARDINA 85 GR",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -15810,7 +18428,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 656,
+        "id": 843,
         "name": "ALIMENTO PARA GATOS CAT CHOW ADULTOS POLLO 85 GR",
         "price": 1199.9,
         "market": "maxiconsumo",
@@ -15840,7 +18458,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 657,
+        "id": 844,
         "name": "ARROZ EL DIQUE \"0000\" 500 GR",
         "price": 549.9,
         "market": "maxiconsumo",
@@ -15874,7 +18492,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 658,
+        "id": 845,
         "name": "ARROZ CAÑUELAS LARGO FINO 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -15908,7 +18526,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 659,
+        "id": 846,
         "name": "ARROZ MARIA LARGO FINO 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -15938,7 +18556,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 660,
+        "id": 847,
         "name": "ARROZ MOLTO INTEGRAL 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -15956,7 +18574,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 661,
+        "id": 848,
         "name": "ARROZ MOLTO LARGO FINO 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -15978,7 +18596,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 662,
+        "id": 849,
         "name": "ARROZ ALA LARGO 500 GR",
         "price": 749.9,
         "market": "maxiconsumo",
@@ -16000,7 +18618,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 663,
+        "id": 850,
         "name": "ARROZ MAROLIO PARBOLIZADO 500 GR",
         "price": 859.9,
         "market": "maxiconsumo",
@@ -16014,7 +18632,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 664,
+        "id": 851,
         "name": "ARROZ MAROLIO DOBLE 500 GR",
         "price": 879.9,
         "market": "maxiconsumo",
@@ -16032,7 +18650,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 665,
+        "id": 852,
         "name": "ARROZ LUCCHETTI LARGO FINO 500 GR",
         "price": 879.9,
         "market": "maxiconsumo",
@@ -16050,7 +18668,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 666,
+        "id": 853,
         "name": "ARROZ ALA DORADO 500 GR",
         "price": 949.9,
         "market": "maxiconsumo",
@@ -16068,7 +18686,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 667,
+        "id": 854,
         "name": "PAÑAL BABYSEC ULTRA REGULAR XX GRANDE 8 UN",
         "price": 2499.9,
         "market": "maxiconsumo",
@@ -16102,7 +18720,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 668,
+        "id": 855,
         "name": "PAÑAL BABYSEC ULTRA REGULAR GRANDE 8 UN",
         "price": 2499.9,
         "market": "maxiconsumo",
@@ -16128,7 +18746,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 669,
+        "id": 856,
         "name": "OLEO CALCAREO ESTRELLA SIN FRAGANCIA 245 ML",
         "price": 3849.91,
         "market": "maxiconsumo",
@@ -16146,7 +18764,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 670,
+        "id": 857,
         "name": "OLEO CALCAREO ESTRELLA CON MANZANILLA 250 ml",
         "price": 3849.91,
         "market": "maxiconsumo",
@@ -16164,7 +18782,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 671,
+        "id": 858,
         "name": "OLEO LIMPIEZA ESTRELLA EXTRA VITAMINA 250 ML",
         "price": 3849.91,
         "market": "maxiconsumo",
@@ -16182,7 +18800,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 672,
+        "id": 859,
         "name": "OLEO LIMPIEZA ESTRELLA EXTRA VITAMINA 500 ml",
         "price": 5199.9,
         "market": "maxiconsumo",
@@ -16196,7 +18814,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 673,
+        "id": 860,
         "name": "OLEO CALCAREO ESTRELLA 500 ML",
         "price": 5199.9,
         "market": "maxiconsumo",
@@ -16210,7 +18828,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 674,
+        "id": 861,
         "name": "OLEO LIMPIEZA ESTRELLA 500 ML",
         "price": 5199.9,
         "market": "maxiconsumo",
@@ -16224,7 +18842,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 675,
+        "id": 862,
         "name": "ACEITE JOHNSON'S NORMAL 100 CC",
         "price": 5499.9,
         "market": "maxiconsumo",
@@ -16238,7 +18856,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 676,
+        "id": 863,
         "name": "ACEITE JOHNSON'S NORMAL 200 CC",
         "price": 7499.9,
         "market": "maxiconsumo",
@@ -16252,7 +18870,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 677,
+        "id": 864,
         "name": "CHORIZO SWIFT DE CERDO 400 GR",
         "price": 3999.9,
         "market": "maxiconsumo",
@@ -16290,7 +18908,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 678,
+        "id": 865,
         "name": "QUEBRACHO COLORADO 10 KG",
         "price": 7799.89,
         "market": "maxiconsumo",
@@ -16304,7 +18922,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 679,
+        "id": 866,
         "name": "OSOBUCO RODAJA AL VACIO 1 KG",
         "price": 9999.9,
         "market": "maxiconsumo",
@@ -16326,7 +18944,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 680,
+        "id": 867,
         "name": "ASADO CARNES PLANCHA CONGELADA 1 KG",
         "price": 11999.9,
         "market": "maxiconsumo",
@@ -16372,7 +18990,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 681,
+        "id": 868,
         "name": "PICADA CARNES CONGELADA 1 KG",
         "price": 12999.91,
         "market": "maxiconsumo",
@@ -16406,7 +19024,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 682,
+        "id": 869,
         "name": "PALETA TF AL VACIO 1 KG",
         "price": 13999.9,
         "market": "maxiconsumo",
@@ -16436,7 +19054,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 683,
+        "id": 870,
         "name": "ROAD BEEF TF AL VACIO 1 KG",
         "price": 13999.9,
         "market": "maxiconsumo",
@@ -16466,7 +19084,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 684,
+        "id": 871,
         "name": "TAPA DE ASADO TF AL VACIO 1KG",
         "price": 13999.9,
         "market": "maxiconsumo",
@@ -16484,7 +19102,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 685,
+        "id": 872,
         "name": "PALOMITA CARNES PORCION 1 KG",
         "price": 13999.9,
         "market": "maxiconsumo",
@@ -16502,7 +19120,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 686,
+        "id": 873,
         "name": "VACIO TF CARNE COGELADO 1 KG",
         "price": 14999.9,
         "market": "maxiconsumo",
@@ -16516,7 +19134,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 687,
+        "id": 874,
         "name": "CEREAL NUTRIFOODS COPO MAIZ 150 gr",
         "price": 1349.9,
         "market": "maxiconsumo",
@@ -16534,7 +19152,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 688,
+        "id": 875,
         "name": "CEREAL MAROLIO ARITOS FRUTADOS 160 gr",
         "price": 1449.89,
         "market": "maxiconsumo",
@@ -16552,7 +19170,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 689,
+        "id": 876,
         "name": "CEREAL NUTRIFOODS COPO AZUCAR 200 gr",
         "price": 1549.89,
         "market": "maxiconsumo",
@@ -16570,7 +19188,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 690,
+        "id": 877,
         "name": "CEREAL LASFOR BOLITAS CHOCOLATADAS 160/180 GR",
         "price": 1599.9,
         "market": "maxiconsumo",
@@ -16588,7 +19206,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 691,
+        "id": 878,
         "name": "CEREAL MAROLIO REDONDITOS CHOCOLATE 210 gr",
         "price": 1699.89,
         "market": "maxiconsumo",
@@ -16606,7 +19224,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 692,
+        "id": 879,
         "name": "CEREAL MAROLIO ALMOHADITAS CHOCOLATE 180 gr",
         "price": 1899.89,
         "market": "maxiconsumo",
@@ -16624,7 +19242,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 693,
+        "id": 880,
         "name": "CEREAL MAROLIO ALMOHADITAS FRUTILLA 180 gr",
         "price": 1899.89,
         "market": "maxiconsumo",
@@ -16642,7 +19260,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 694,
+        "id": 881,
         "name": "SEMILLA GENSER MIX DESAYUNO 150 gr",
         "price": 1970.92,
         "market": "maxiconsumo",
@@ -16656,7 +19274,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 695,
+        "id": 882,
         "name": "SEMILLA GENSER MIX ENSALADAS Y SOPAS 150 gr",
         "price": 1999.9,
         "market": "maxiconsumo",
@@ -16670,7 +19288,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 696,
+        "id": 883,
         "name": "CEREAL KELLOGGS ZUCARITAS CHOCOLATE 240 GR",
         "price": 1999.9,
         "market": "maxiconsumo",
@@ -16684,7 +19302,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 697,
+        "id": 884,
         "name": "CERVEZA ZEUS 473 CC",
         "price": 999.9,
         "market": "maxiconsumo",
@@ -16722,7 +19340,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 698,
+        "id": 885,
         "name": "CERVEZA QUILMES 0.0 SIN ALCOHOL 473 CC",
         "price": 1299.9,
         "market": "maxiconsumo",
@@ -16760,7 +19378,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 699,
+        "id": 886,
         "name": "CERVEZA ZEUS PET 1 LT",
         "price": 1399.9,
         "market": "maxiconsumo",
@@ -16778,7 +19396,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 700,
+        "id": 887,
         "name": "CERVEZA ZEUS 710 CC",
         "price": 1599.9,
         "market": "maxiconsumo",
@@ -16804,7 +19422,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 701,
+        "id": 888,
         "name": "CERVEZA BRAHMA AMARILLA MUSICA 473 CC",
         "price": 1649.9,
         "market": "maxiconsumo",
@@ -16822,7 +19440,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 702,
+        "id": 889,
         "name": "CERVEZA BUDWEISER LATA 473 CC",
         "price": 1649.91,
         "market": "maxiconsumo",
@@ -16836,7 +19454,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 703,
+        "id": 890,
         "name": "CERVEZA QUILMES STOUT 473 CC",
         "price": 1799.91,
         "market": "maxiconsumo",
@@ -16850,7 +19468,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 704,
+        "id": 891,
         "name": "CERVEZA QUILMES LATA 473 CC",
         "price": 1799.91,
         "market": "maxiconsumo",
@@ -16892,7 +19510,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 705,
+        "id": 892,
         "name": "CERVEZA ZEUS NO RETORNABLE 1 LT",
         "price": 1999.91,
         "market": "maxiconsumo",
@@ -16906,7 +19524,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 706,
+        "id": 893,
         "name": "CERVEZA ANDES ORIGEN ROJA 473 cc",
         "price": 2149.9,
         "market": "maxiconsumo",
@@ -16940,7 +19558,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 707,
+        "id": 894,
         "name": "APERITIVO FERCHO FERNET-COCA 1 LT",
         "price": 799.9,
         "market": "maxiconsumo",
@@ -16982,7 +19600,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 708,
+        "id": 895,
         "name": "FERNET BRANCA MINI 5 CC",
         "price": 2999.88,
         "market": "maxiconsumo",
@@ -16996,7 +19614,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 709,
+        "id": 896,
         "name": "FERNET CAPRI 750 CC",
         "price": 3499.9,
         "market": "maxiconsumo",
@@ -17018,7 +19636,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 710,
+        "id": 897,
         "name": "FERNET 1882 450 CC",
         "price": 5299.9,
         "market": "maxiconsumo",
@@ -17044,7 +19662,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 711,
+        "id": 898,
         "name": "FERNET BUHERO 700 ML",
         "price": 6499.9,
         "market": "maxiconsumo",
@@ -17082,7 +19700,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 712,
+        "id": 899,
         "name": "FERNET 1882 750 CC",
         "price": 7591.06,
         "market": "maxiconsumo",
@@ -17104,7 +19722,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 713,
+        "id": 900,
         "name": "FERNET 1882 1.008 LT",
         "price": 7999.88,
         "market": "maxiconsumo",
@@ -17138,7 +19756,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 714,
+        "id": 901,
         "name": "FERNET BRANCA 450 CC",
         "price": 10899.9,
         "market": "maxiconsumo",
@@ -17156,7 +19774,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 715,
+        "id": 902,
         "name": "FERNET BRANCA 750 CC",
         "price": 16499.9,
         "market": "maxiconsumo",
@@ -17182,7 +19800,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 716,
+        "id": 903,
         "name": "FERNET BRANCA 1 LT",
         "price": 21899.9,
         "market": "maxiconsumo",
@@ -17200,7 +19818,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 717,
+        "id": 904,
         "name": "BONDIOLITAS CAGNOLI X 200 GR 2 UN",
         "price": 4598.9,
         "market": "maxiconsumo",
@@ -17218,7 +19836,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 718,
+        "id": 905,
         "name": "CHORIZO CAGNOLI DE CERDO 400 GR",
         "price": 4824.9,
         "market": "maxiconsumo",
@@ -17232,7 +19850,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 719,
+        "id": 906,
         "name": "BONDIOLA CAGNOLI CERDO CONGELADO 1 KG",
         "price": 8999.9,
         "market": "maxiconsumo",
@@ -17262,7 +19880,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 720,
+        "id": 907,
         "name": "SALAME 66 MILAN 1 KG",
         "price": 11999.9,
         "market": "maxiconsumo",
@@ -17280,7 +19898,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 721,
+        "id": 908,
         "name": "SALAME LA RESIDENCIA MILA 1/2 FINO 1 KG",
         "price": 12469.9,
         "market": "maxiconsumo",
@@ -17298,7 +19916,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 722,
+        "id": 909,
         "name": "SALAME MAROLIO PAPEL 1 KG",
         "price": 12899.89,
         "market": "maxiconsumo",
@@ -17312,7 +19930,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 723,
+        "id": 910,
         "name": "SALAME MAROLIO MILAN 1/2 1 KG",
         "price": 13569.9,
         "market": "maxiconsumo",
@@ -17326,7 +19944,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 724,
+        "id": 911,
         "name": "SALAME CHAMPION MILAN 1 KG",
         "price": 15819.89,
         "market": "maxiconsumo",
@@ -17340,7 +19958,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 725,
+        "id": 912,
         "name": "SALAMIN LA CASONA PICADO GRUESO 1 KG",
         "price": 16699.9,
         "market": "maxiconsumo",
@@ -17354,7 +19972,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 726,
+        "id": 913,
         "name": "SALAMIN CHAMPION FINO 1 KG",
         "price": 17399.9,
         "market": "maxiconsumo",
@@ -17368,7 +19986,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 727,
+        "id": 914,
         "name": "DURAZNO MAROLIO TROZO TETRA RECART 200 GR",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -17382,7 +20000,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 728,
+        "id": 915,
         "name": "DURAZNO MAROLIO MITAD 820 GR",
         "price": 2099.89,
         "market": "maxiconsumo",
@@ -17396,7 +20014,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 729,
+        "id": 916,
         "name": "DURAZNO MOLTO MITADES 820 GR",
         "price": 2999.91,
         "market": "maxiconsumo",
@@ -17418,7 +20036,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 730,
+        "id": 917,
         "name": "COCTEL DE FRUTAS MOLTO 4 FRUTAS 820 GR",
         "price": 2999.91,
         "market": "maxiconsumo",
@@ -17436,7 +20054,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 731,
+        "id": 918,
         "name": "ANANA MAROLIO RODAJA 565 GR",
         "price": 3299.9,
         "market": "maxiconsumo",
@@ -17450,7 +20068,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 732,
+        "id": 919,
         "name": "ANANA MOLTO RODAJA 565 GR",
         "price": 3699.9,
         "market": "maxiconsumo",
@@ -17464,7 +20082,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 733,
+        "id": 920,
         "name": "ANANA MAROLIO TROZO 850 GR",
         "price": 4249.9,
         "market": "maxiconsumo",
@@ -17478,7 +20096,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 734,
+        "id": 921,
         "name": "ANANA MAROLIO RODAJA 825 GR",
         "price": 4699.89,
         "market": "maxiconsumo",
@@ -17504,7 +20122,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 735,
+        "id": 922,
         "name": "ANANA MOLTO RODAJA 850 GR",
         "price": 4999.9,
         "market": "maxiconsumo",
@@ -17518,7 +20136,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 736,
+        "id": 923,
         "name": "ANANA CARACAS 836 GR",
         "price": 5399.9,
         "market": "maxiconsumo",
@@ -17540,7 +20158,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 737,
+        "id": 924,
         "name": "GASEOSA CUNNINGTON CLASICA POMELO 500 CC",
         "price": 699.89,
         "market": "maxiconsumo",
@@ -17558,7 +20176,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 738,
+        "id": 925,
         "name": "GASEOSA FRESHY NARANJA 2.25 LT",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -17588,7 +20206,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 739,
+        "id": 926,
         "name": "GASEOSA FRESHY COLA 2.25 LT",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -17618,7 +20236,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 740,
+        "id": 927,
         "name": "AGUA SMARTWATER 591 CC",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -17652,7 +20270,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 741,
+        "id": 928,
         "name": "GASEOSA FRESHY LIMA LIMON 2.25 LT",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -17682,7 +20300,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 742,
+        "id": 929,
         "name": "GASEOSA FRESHY POMELO 2.25 LT",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -17708,7 +20326,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 743,
+        "id": 930,
         "name": "GASEOSA FRESHY TONICA 2.25 LT",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -17734,7 +20352,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 744,
+        "id": 931,
         "name": "GASEOSA FRESHY GUARANA 2.25 LT",
         "price": 1099.9,
         "market": "maxiconsumo",
@@ -17760,7 +20378,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 745,
+        "id": 932,
         "name": "GASEOSA PEPSI COLA 500 CC",
         "price": 1249.89,
         "market": "maxiconsumo",
@@ -17774,7 +20392,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 746,
+        "id": 933,
         "name": "GASEOSA PEPSI COLA 354 CC",
         "price": 1396.41,
         "market": "maxiconsumo",
@@ -17792,7 +20410,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 747,
+        "id": 934,
         "name": "HAMBURGUESA PATY FINITA 2 UN",
         "price": 1899.58,
         "market": "maxiconsumo",
@@ -17806,7 +20424,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 748,
+        "id": 935,
         "name": "MEDALLON PATY EXPRESS 2X55 GR",
         "price": 2219.9,
         "market": "maxiconsumo",
@@ -17828,7 +20446,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 749,
+        "id": 936,
         "name": "MEDALLONES CHAMPION ESTUCHE 4 UN",
         "price": 2249.9,
         "market": "maxiconsumo",
@@ -17842,7 +20460,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 750,
+        "id": 937,
         "name": "HAMBURGUESA UNION GANADERA FINITAS 2 UN",
         "price": 2579.9,
         "market": "maxiconsumo",
@@ -17880,7 +20498,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 751,
+        "id": 938,
         "name": "HAMBURGUESA PATY CLASICA FLOW 2 UN",
         "price": 4339.89,
         "market": "maxiconsumo",
@@ -17894,7 +20512,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 752,
+        "id": 939,
         "name": "HAMBURGUESA UNION GANADERA SUPER GIGANTES 2 UN",
         "price": 6998.99,
         "market": "maxiconsumo",
@@ -17908,7 +20526,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 753,
+        "id": 940,
         "name": "HAMBURGUESA PATY ESTUCHE 4 UN 80 GR",
         "price": 7999.9,
         "market": "maxiconsumo",
@@ -17930,7 +20548,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 754,
+        "id": 941,
         "name": "HAMBURGUESA MAROLIO 12 UN",
         "price": 14999.9,
         "market": "maxiconsumo",
@@ -17960,7 +20578,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 755,
+        "id": 942,
         "name": "HAMBURGUESA PATY X 12 UN 80 GR",
         "price": 15487.88,
         "market": "maxiconsumo",
@@ -17974,7 +20592,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 756,
+        "id": 943,
         "name": "HAMBURGUESA MAROLIO 20 UN",
         "price": 24898.9,
         "market": "maxiconsumo",
@@ -17988,7 +20606,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 757,
+        "id": 944,
         "name": "ISOTONICA UP GRADE FRUTOS ROJOS 750 CC",
         "price": 749.9,
         "market": "maxiconsumo",
@@ -18022,7 +20640,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 758,
+        "id": 945,
         "name": "ISOTONICA UP GRADE MANZANA 750 C",
         "price": 749.9,
         "market": "maxiconsumo",
@@ -18056,7 +20674,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 759,
+        "id": 946,
         "name": "ISOTONICA UP GRADE BLUEBERRY 750 CC",
         "price": 749.9,
         "market": "maxiconsumo",
@@ -18090,7 +20708,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 760,
+        "id": 947,
         "name": "ISOTONICA POWERADE MANZANA PET 500 CC",
         "price": 1149.9,
         "market": "maxiconsumo",
@@ -18120,7 +20738,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 761,
+        "id": 948,
         "name": "ISOTONICA GATORADE NARANJA PET 500 CC",
         "price": 1399.9,
         "market": "maxiconsumo",
@@ -18150,7 +20768,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 762,
+        "id": 949,
         "name": "ISOTONICA GATORADE MANZANA PET 500 CC",
         "price": 1399.9,
         "market": "maxiconsumo",
@@ -18180,7 +20798,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 763,
+        "id": 950,
         "name": "ISOTONICA GATORADE COOL BLUE PET 500 CC",
         "price": 1399.9,
         "market": "maxiconsumo",
@@ -18194,7 +20812,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 764,
+        "id": 951,
         "name": "ISOTONICA GATORADE UVA PET 500 CC",
         "price": 1399.9,
         "market": "maxiconsumo",
@@ -18208,7 +20826,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 765,
+        "id": 952,
         "name": "ISOTONICA GATORADE FRUTAS TROPICALES PET 500 CC",
         "price": 1399.9,
         "market": "maxiconsumo",
@@ -18222,7 +20840,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 766,
+        "id": 953,
         "name": "ISOTONICA POWERADE MANZANA PET 995 CC",
         "price": 1569.9,
         "market": "maxiconsumo",
@@ -18248,7 +20866,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 767,
+        "id": 954,
         "name": "JUGO NOEL MULTIFRUTA 16 GR",
         "price": 279.9,
         "market": "maxiconsumo",
@@ -18262,7 +20880,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 768,
+        "id": 955,
         "name": "JUGO NOEL MANZANA 16 GR",
         "price": 279.9,
         "market": "maxiconsumo",
@@ -18276,7 +20894,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 769,
+        "id": 956,
         "name": "JUGO NOEL NARANJA 16 GR",
         "price": 279.9,
         "market": "maxiconsumo",
@@ -18298,7 +20916,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 770,
+        "id": 957,
         "name": "JUGO NOEL LIMONADA 16 GR",
         "price": 279.9,
         "market": "maxiconsumo",
@@ -18320,7 +20938,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 771,
+        "id": 958,
         "name": "JUGO ARCOR MANGO NARANJA 15 GR",
         "price": 299.89,
         "market": "maxiconsumo",
@@ -18334,7 +20952,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 772,
+        "id": 959,
         "name": "JUGO ARCOR ANANA 15 GR",
         "price": 299.89,
         "market": "maxiconsumo",
@@ -18352,7 +20970,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 773,
+        "id": 960,
         "name": "JUGO ARCOR NARANJA 15 GR",
         "price": 299.89,
         "market": "maxiconsumo",
@@ -18366,7 +20984,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 774,
+        "id": 961,
         "name": "JUGO ARCOR NARANJA DURAZNO 15 GR",
         "price": 299.89,
         "market": "maxiconsumo",
@@ -18380,7 +20998,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 775,
+        "id": 962,
         "name": "JUGO ARCOR MANZANA 15 GR",
         "price": 299.89,
         "market": "maxiconsumo",
@@ -18394,7 +21012,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 776,
+        "id": 963,
         "name": "JUGO ARCOR NARANJA BANANA 15 GR",
         "price": 299.89,
         "market": "maxiconsumo",
@@ -18408,7 +21026,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 777,
+        "id": 964,
         "name": "LECHE ARMONIA SACHET 2% 1 LT",
         "price": 1779.9,
         "market": "maxiconsumo",
@@ -18430,7 +21048,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 778,
+        "id": 965,
         "name": "LECHE ARMONIA SACHET 1% 1 LT",
         "price": 1779.9,
         "market": "maxiconsumo",
@@ -18444,7 +21062,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 779,
+        "id": 966,
         "name": "LECHE LA SERENISIMA LIVIANA 1% SACHET 1 LT",
         "price": 1849.9,
         "market": "maxiconsumo",
@@ -18474,7 +21092,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 780,
+        "id": 967,
         "name": "CREMA LA SERENISIMA CULINARIA 200 CC",
         "price": 2499.9,
         "market": "maxiconsumo",
@@ -18488,7 +21106,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 781,
+        "id": 968,
         "name": "CREMA LA SERENISIMA VITAMINAS A y E 200 GR",
         "price": 2499.9,
         "market": "maxiconsumo",
@@ -18502,7 +21120,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 782,
+        "id": 969,
         "name": "CREMA MILKAUT SIMPLE 200 GR",
         "price": 2799.89,
         "market": "maxiconsumo",
@@ -18516,7 +21134,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 783,
+        "id": 970,
         "name": "CREMA MILKAUT DOBLE 200 CC",
         "price": 2899.9,
         "market": "maxiconsumo",
@@ -18530,7 +21148,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 784,
+        "id": 971,
         "name": "CREMA LA PAULINA 350 CC",
         "price": 3499.89,
         "market": "maxiconsumo",
@@ -18544,7 +21162,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 785,
+        "id": 972,
         "name": "CREMA MILKAUT 330 CC",
         "price": 4299.89,
         "market": "maxiconsumo",
@@ -18558,7 +21176,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 786,
+        "id": 973,
         "name": "CREMA LA SERENISIMA VITAMINAS A y E 360 GR",
         "price": 4499.89,
         "market": "maxiconsumo",
@@ -18572,7 +21190,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 787,
+        "id": 974,
         "name": "QUESO LA PAULINA DAMBO FETAS 180 gr",
         "price": 3999.9,
         "market": "maxiconsumo",
@@ -18586,7 +21204,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 788,
+        "id": 975,
         "name": "QUESO SANTA ROSA AZUL PORCION 140 gr",
         "price": 5299.9,
         "market": "maxiconsumo",
@@ -18604,7 +21222,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 789,
+        "id": 976,
         "name": "MUZZARELLA MAROLIO 1/4 HORMA 1 KG",
         "price": 8679.9,
         "market": "maxiconsumo",
@@ -18618,7 +21236,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 790,
+        "id": 977,
         "name": "QUESO SPALEN BARRA TYBO 1 KG",
         "price": 8999.9,
         "market": "maxiconsumo",
@@ -18632,7 +21250,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 791,
+        "id": 978,
         "name": "QUESO LA PAULINA BARRA PRATO 1 KG",
         "price": 9899.91,
         "market": "maxiconsumo",
@@ -18666,7 +21284,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 792,
+        "id": 979,
         "name": "QUESO LA PAULINA BARRA SANDWICH 1 KG",
         "price": 9899.91,
         "market": "maxiconsumo",
@@ -18700,7 +21318,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 793,
+        "id": 980,
         "name": "QUESO BARRAZA BARRA TYBO 1 kg",
         "price": 11759.89,
         "market": "maxiconsumo",
@@ -18718,7 +21336,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 794,
+        "id": 981,
         "name": "QUESO PUYEHUE BARRA 1 KG",
         "price": 11899.89,
         "market": "maxiconsumo",
@@ -18736,7 +21354,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 795,
+        "id": 982,
         "name": "QUESO LA QUESERA AZUL MITAD 1 KG",
         "price": 17399.9,
         "market": "maxiconsumo",
@@ -18750,7 +21368,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 796,
+        "id": 983,
         "name": "QUESO JC SARDO FRESCO 1 KG",
         "price": 17999.9,
         "market": "maxiconsumo",
@@ -18764,7 +21382,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 797,
+        "id": 984,
         "name": "SAL EL DIQUE FINA 500 GR",
         "price": 459.9,
         "market": "maxiconsumo",
@@ -18778,7 +21396,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 798,
+        "id": 985,
         "name": "SAL DOS ESTRELLAS FINA 500 gr",
         "price": 599.89,
         "market": "maxiconsumo",
@@ -18808,7 +21426,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 799,
+        "id": 986,
         "name": "SAL COLOSAL ENTREFINA DOYPACK 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -18842,7 +21460,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 800,
+        "id": 987,
         "name": "SAL COLOSAL GRUESA DOYPACK 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -18876,7 +21494,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 801,
+        "id": 988,
         "name": "SAL MAROLIO FINA PAQUETE 500 GR",
         "price": 699.9,
         "market": "maxiconsumo",
@@ -18910,7 +21528,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 802,
+        "id": 989,
         "name": "SAL COLOSAL FINA DOYPACK 250 GR",
         "price": 729.9,
         "market": "maxiconsumo",
@@ -18940,7 +21558,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 803,
+        "id": 990,
         "name": "SAL DOS ANCLAS FINA PAQUETE 500 GR",
         "price": 819.9,
         "market": "maxiconsumo",
@@ -18954,7 +21572,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 804,
+        "id": 991,
         "name": "SAL EL DIQUE ENTREFINA 1 KG",
         "price": 849.89,
         "market": "maxiconsumo",
@@ -18968,7 +21586,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 805,
+        "id": 992,
         "name": "SAL DOS ESTRELLAS GRUESA 1 kg",
         "price": 949.9,
         "market": "maxiconsumo",
@@ -18982,7 +21600,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 806,
+        "id": 993,
         "name": "SAL DOS ANCLAS GRUESA ESTUCHE 500 GR",
         "price": 999.9,
         "market": "maxiconsumo",
@@ -18996,7 +21614,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 807,
+        "id": 994,
         "name": "SNACK TAKIS ORIGINAL 85 GR",
         "price": 2399.9,
         "market": "maxiconsumo",
@@ -19010,7 +21628,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 808,
+        "id": 995,
         "name": "SNACK TAKIS XPLOSION 85 GR",
         "price": 2399.9,
         "market": "maxiconsumo",
@@ -19024,7 +21642,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 809,
+        "id": 996,
         "name": "SNACK DORITOS QUESO 77 GR",
         "price": 3399.89,
         "market": "maxiconsumo",
@@ -19042,7 +21660,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 810,
+        "id": 997,
         "name": "SNACK MAICITOS PEHUAMAR 265 GR",
         "price": 4499.91,
         "market": "maxiconsumo",
@@ -19068,7 +21686,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 811,
+        "id": 998,
         "name": "SNACK DORITOS QUESO 129 GR",
         "price": 4999.89,
         "market": "maxiconsumo",
@@ -19082,7 +21700,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 812,
+        "id": 999,
         "name": "SNACK CHEETOS QUESO 229 GR",
         "price": 5899.9,
         "market": "maxiconsumo",
@@ -19096,7 +21714,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 813,
+        "id": 1000,
         "name": "SNACK DORITOS QUESO 200 GR",
         "price": 6799.9,
         "market": "maxiconsumo",
@@ -19110,7 +21728,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 814,
+        "id": 1001,
         "name": "SEMILLAS DE GIRASOL PIPAS SNACKS 150 gr",
         "price": 0.0,
         "market": "maxiconsumo",
@@ -19124,7 +21742,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 815,
+        "id": 1002,
         "name": "SNACK 3D QUESO 85 GR",
         "price": 0.0,
         "market": "maxiconsumo",
@@ -19138,7 +21756,7 @@ const allProductsData = [
         ]
     },
     {
-        "id": 816,
+        "id": 1003,
         "name": "SNACK TOSTITOS ROUNDED 160 GR",
         "price": 0.0,
         "market": "maxiconsumo",
