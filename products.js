@@ -13497,7 +13497,7 @@ const allProductsData = [
         "price": 4150.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Sprite_Zero_Lima_Limón_Light_Pet_x_1,5_lt.jpg",
+        "image": "images/laanonima/Gaseosa_Sprite_Zero_Lima_Limón_Light_Pet_x_1,5_lt..webp",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13567,7 +13567,7 @@ const allProductsData = [
         "price": 1374.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Pomelo_Lata_Schweppes_x_310_cc.jpg",
+        "image": "images/laanonima/Gaseosa_Pomelo_Lata_Schweppes_x_310_cc..webp",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13595,7 +13595,7 @@ const allProductsData = [
         "price": 958.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Cola_sin_Azúcar_Coca-Cola_Lata_x_220_cc.jpg",
+        "image": "images/laanonima/Gaseosa_Cola_sin_Azúcar_Coca-Cola_Lata_x_220_cc..webp",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13609,7 +13609,7 @@ const allProductsData = [
         "price": 5650.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Cola_Diet_Coca-Cola_Zero_Pet_x_2,25_lt.jpg",
+        "image": "images/laanonima/Gaseosa_Cola_Diet_Coca-Cola_Zero_Pet_x_2,25_lt..webp",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13623,7 +13623,7 @@ const allProductsData = [
         "price": 5650.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Sprite_Zero_Lima_Limón_Light_Pet_x_2,25_lt.jpg",
+        "image": "images/laanonima/Gaseosa_Sprite_Zero_Lima_Limón_Light_Pet_x_2,25_lt..webp",
         "history": [
             {
                 "date": "2026-06-30",
