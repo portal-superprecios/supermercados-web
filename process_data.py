@@ -109,23 +109,79 @@ def find_image(market, csv_img_filename, product_name):
             if normalize(f).replace('_', '') == agg_norm_csv:
                 return f"images/{market}/{f}"
 
-    # 4. Product name match (fuzzy)
+    # 4. Strict semantic/fuzzy match (only if we have a very close match)
     norm_name = normalize(product_name)
-    if norm_name:
-        # Strategy A: Substring
-        for f in files:
-            norm_f = normalize(f)
-            if (norm_name in norm_f or norm_f in norm_name) and len(norm_f) > 5:
-                return f"images/{market}/{f}"
-        
-        # Strategy B: Word set match (at least 3 words must match if name has > 3 words)
-        name_words = set(norm_name.split('_'))
-        if len(name_words) >= 3:
-            for f in files:
-                f_words = set(normalize(f).split('_'))
-                if len(name_words & f_words) >= 3:
-                    return f"images/{market}/{f}"
+    name_words = [w for w in norm_name.split('_') if len(w) > 0]
     
+    stop_words = {'la', 'el', 'los', 'las', 'de', 'del', 'con', 'sin', 'para', 'y', 'o', 'x', 'en', 'un', 'una', 'laanonima', 'best'}
+    units = {'g', 'gr', 'ml', 'cc', 'lt', 'l', 'kg', 'un', 'u', 'unidades', 'grs', 'kgs', 'lts'}
+    
+    # Extract numbers (quantities) from name
+    name_numbers = set(re.findall(r'\d+', norm_name))
+    
+    best_file = None
+    best_score = 0
+    
+    for f in files:
+        norm_f = normalize(f)
+        f_words = [w for w in norm_f.split('_') if len(w) > 0]
+        
+        # Check numbers conflict
+        f_numbers = set(re.findall(r'\d+', norm_f))
+        
+        significant_name_nums = name_numbers - {'0', '00', '000', '0000'}
+        significant_f_nums = f_numbers - {'0', '00', '000', '0000'}
+        
+        has_number_conflict = False
+        if significant_name_nums and significant_f_nums:
+            if not (significant_name_nums & significant_f_nums):
+                has_number_conflict = True
+                
+        if has_number_conflict:
+            continue
+            
+        # Check core product word conflicts
+        conflicts = [
+            ('entera', 'descremada'), ('entera', 'descrem'),
+            ('oliva', 'girasol'), ('oliva', 'mezcla'), ('girasol', 'mezcla'),
+            ('arroz', 'pan'), ('arroz', 'fideos'),
+            ('leche', 'agua'), ('leche', 'queso'),
+            ('hamburguesa', 'picadillo'), ('hamburguesas', 'picadillo'),
+            ('servilletas', 'bolsa'), ('servilleta', 'bolsa'),
+            ('papel', 'servilletas'),
+            ('hamburguesa', 'medallon'), ('hamburguesas', 'medallon'),
+            ('manzana', 'pomelo'), ('manzana', 'naranja'), ('pomelo', 'naranja'),
+            ('cerveza', 'terma'), ('cerveza', 'amargo'),
+            ('pollo', 'arroz'),
+        ]
+        has_word_conflict = False
+        for w1, w2 in conflicts:
+            if (w1 in name_words and w2 in f_words) or (w2 in name_words and w1 in f_words):
+                has_word_conflict = True
+                break
+        if has_word_conflict:
+            continue
+            
+        # Count matching non-stop, non-unit, non-numeric words
+        name_core_words = set(w for w in name_words if not w.isdigit()) - stop_words - units
+        f_core_words = set(w for w in f_words if not w.isdigit()) - stop_words - units
+        
+        if not name_core_words or not f_core_words:
+            continue
+            
+        intersection = name_core_words & f_core_words
+        
+        # Must match at least 2 core words or 1 if it's the only core word
+        min_match = min(2, len(name_core_words), len(f_core_words))
+        if len(intersection) >= min_match:
+            score = len(intersection)
+            if score > best_score:
+                best_score = score
+                best_file = f
+                
+    if best_file:
+        return f"images/{market}/{best_file}"
+        
     return None
 
 def determine_category(product_name, filename):
@@ -160,7 +216,7 @@ def process_file(file_path, market):
         cols = {col.lower().strip().replace('\ufeff', ''): col for col in df.columns}
         prod_col = cols.get('producto')
         price_col = cols.get('precio')
-        img_col = cols.get('imagen') or cols.get('image')
+        img_col = cols.get('imagen') or cols.get('image') or cols.get('archivo imagen local') or cols.get('url imagen')
 
         if not prod_col or not price_col:
             return

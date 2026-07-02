@@ -10335,7 +10335,7 @@
         "price": 4250.0,
         "market": "aura",
         "category": "aceite",
-        "image": "images/laanonima/Aperitivo_de_Alcachofas_Cynar_70_x_750_cc..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10349,7 +10349,7 @@
         "price": 4800.0,
         "market": "aura",
         "category": "aceite",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10363,7 +10363,7 @@
         "price": 5000.0,
         "market": "aura",
         "category": "aceite",
-        "image": "images/laanonima/Aperitivo_de_Alcachofas_Cynar_70_x_750_cc..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10377,7 +10377,7 @@
         "price": 5150.0,
         "market": "aura",
         "category": "aceite",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10391,7 +10391,7 @@
         "price": 5150.0,
         "market": "aura",
         "category": "aceite",
-        "image": "images/laanonima/Aperitivo_de_Alcachofas_Cynar_70_x_750_cc..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10405,7 +10405,7 @@
         "price": 5300.0,
         "market": "aura",
         "category": "aceite",
-        "image": "images/laanonima/Maní_Frito_Pelado_Salado_La_Anónima_x_120_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10419,7 +10419,7 @@
         "price": 5300.0,
         "market": "aura",
         "category": "aceite",
-        "image": "images/laanonima/Maní_Frito_Pelado_Salado_La_Anónima_x_120_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10433,7 +10433,7 @@
         "price": 5700.0,
         "market": "aura",
         "category": "aceite",
-        "image": "images/laanonima/Agua_Mineral_sGas_Villa_del_Sur_x_1,65_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10461,7 +10461,7 @@
         "price": 1500.0,
         "market": "aura",
         "category": "aguas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Agua_Mineral_sin_gas_Glaciar_x_500_cc..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10475,7 +10475,7 @@
         "price": 1500.0,
         "market": "aura",
         "category": "aguas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Agua_Mineral_sin_gas_Glaciar_x_500_cc..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10503,7 +10503,7 @@
         "price": 2100.0,
         "market": "aura",
         "category": "aguas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Agua_Mineral_sin_gas_Bonaqua_x_2,5_Lt..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10545,7 +10545,7 @@
         "price": 2550.0,
         "market": "aura",
         "category": "aguas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Agua_Mineral_sin_gas_Bonaqua_x_2,5_Lt..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10573,7 +10573,7 @@
         "price": 2700.0,
         "market": "aura",
         "category": "aguas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Agua_Glaciar_sin_gas_Botella_2Lt._x1.webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10601,7 +10601,7 @@
         "price": 1150.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "images/laanonima/Arroz_Grano_Largo_Fino_Molinos_Ala_x_500_g..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10643,7 +10643,7 @@
         "price": 1450.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "images/laanonima/Arroz_Grano_Largo_Fino_Molinos_Ala_x_500_g..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10657,7 +10657,7 @@
         "price": 1490.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10671,7 +10671,7 @@
         "price": 1530.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10685,7 +10685,7 @@
         "price": 1550.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10699,7 +10699,7 @@
         "price": 1610.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "images/laanonima/Arroz_Grano_Largo_Fino_Molinos_Ala_x_500_g..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10713,7 +10713,7 @@
         "price": 1800.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Alimento_Seco_Gatos_Cachorros_Sabrositos_x_1_Kg..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10727,7 +10727,7 @@
         "price": 2050.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Alimento_Seco_Gatos_Cachorros_Sabrositos_x_1_Kg..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-27",
@@ -10777,7 +10777,7 @@
         "price": 11740.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Alimento_Humedo_para_Gato_Adulto_Atun_Felix_x_85_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10809,7 +10809,7 @@
         "price": 14890.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Bife_Ancho_Envasado_al_Vacio_Estancias_La_Anónima_(Kg).webp",
+        "image": "images/laanonima/Matambre_Envasado_al_Vacío_Best_(Kg).webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10841,7 +10841,7 @@
         "price": 18070.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Colita_de_Cuadril_EV_Best_(Kg).webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10883,7 +10883,7 @@
         "price": 20900.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Asado_con_Hueso_Congelado_Estancias_La_Anónima_(Kg).webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-27",
@@ -10925,7 +10925,7 @@
         "price": 2900.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Energizante_Speed_x_473_cc..webp",
+        "image": "images/laanonima/Cerveza_Golden_Cero_Imperial_x_473_cc..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -10939,7 +10939,7 @@
         "price": 2900.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Energizante_Speed_x_473_cc..webp",
+        "image": "images/laanonima/Cerveza_Andes_Origen_Rubia_Lata_473cc_x1.webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10953,7 +10953,7 @@
         "price": 3400.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Energizante_Speed_x_473_cc..webp",
+        "image": "images/laanonima/Cerveza_1890_Lata_x_473_cc..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10981,7 +10981,7 @@
         "price": 3600.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Energizante_Speed_x_473_cc..webp",
+        "image": "images/laanonima/Cerveza_1890_Lata_x_473_cc..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -10995,7 +10995,7 @@
         "price": 3600.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Energizante_Speed_x_473_cc..webp",
+        "image": "images/laanonima/Cerveza_1890_Lata_x_473_cc..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11009,7 +11009,7 @@
         "price": 3750.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Agua_Mineral_sin_gas_Glaciar_x_500_cc..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11023,7 +11023,7 @@
         "price": 3750.0,
         "market": "aura",
         "category": "cervezas",
-        "image": "images/laanonima/Bebida_Energizante_Speed_x_473_cc..webp",
+        "image": "images/laanonima/Cerveza_1890_Lata_x_473_cc..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11037,7 +11037,7 @@
         "price": 1700.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sGas_Villa_del_Sur_x_1,65_Lt..webp",
+        "image": "images/laanonima/Amargo_Blanco_Tres_Torres_Pet_x_1,5_lt..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11065,7 +11065,7 @@
         "price": 1700.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sGas_Villa_del_Sur_x_1,65_Lt..webp",
+        "image": "images/laanonima/Amargo_Blanco_Tres_Torres_Pet_x_1,5_lt..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11093,7 +11093,7 @@
         "price": 1750.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sGas_Villa_del_Sur_x_1,65_Lt..webp",
+        "image": "images/laanonima/Amargo_Terma_Pomelo_Rosado_Pet_x_1,35_lt..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11107,7 +11107,7 @@
         "price": 1750.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sGas_Villa_del_Sur_x_1,65_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11135,7 +11135,7 @@
         "price": 2550.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Bebida_Energizante_Speed_x_473_cc..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11341,7 +11341,7 @@
         "price": 6100.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11355,7 +11355,7 @@
         "price": 6400.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11369,7 +11369,7 @@
         "price": 7450.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11383,7 +11383,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Mix_Bosque_Congelados_Maika_x_350_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11401,7 +11401,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Arroz_Dorado_Natural_Molinos_Ala_x_500_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11419,7 +11419,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Mortadela_con_Queso_Mini_Paladini_x_300_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11437,7 +11437,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Mix_Bosque_Congelados_Maika_x_350_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11455,7 +11455,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Mix_Bosque_Congelados_Maika_x_350_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11473,7 +11473,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Galletitas_sabor_Frutilla_sin_Tacc_Smams_x_105_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11505,7 +11505,7 @@
         "price": 2350.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Medallones_de_Carne_Vacuna_c_Queso_Paty_x_2_un._200_gr..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11519,7 +11519,7 @@
         "price": 2700.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Medallones_de_Carne_Vacuna_c_Queso_Paty_x_2_un._200_gr..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11603,7 +11603,7 @@
         "price": 6500.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Hamburguesa_de_Carne_Vacuna_Clásico_Paty_x_4_un._320_gr..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11617,7 +11617,7 @@
         "price": 8250.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Hamburguesa_de_Carne_Vacuna_Clásico_Paty_x_4_un._320_gr..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11649,7 +11649,7 @@
         "price": 1200.0,
         "market": "aura",
         "category": "harinas",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11663,7 +11663,7 @@
         "price": 1200.0,
         "market": "aura",
         "category": "harinas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Harina_de_Trigo_0000_Chacabuco_x_1_Kg..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11691,7 +11691,7 @@
         "price": 1450.0,
         "market": "aura",
         "category": "harinas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Harina_de_Trigo_0000_Chacabuco_x_1_Kg..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11719,7 +11719,7 @@
         "price": 1800.0,
         "market": "aura",
         "category": "harinas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Harina_de_Trigo_0000_Chacabuco_x_1_Kg..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11733,7 +11733,7 @@
         "price": 1850.0,
         "market": "aura",
         "category": "harinas",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11765,7 +11765,7 @@
         "price": 2000.0,
         "market": "aura",
         "category": "harinas",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "images/laanonima/Harina_Leudante_Morixe_x_1_Kg..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11779,7 +11779,7 @@
         "price": 2350.0,
         "market": "aura",
         "category": "harinas",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11793,7 +11793,7 @@
         "price": 2050.0,
         "market": "aura",
         "category": "isotonicas",
-        "image": "images/laanonima/Agua_Mineral_sin_gas_Glaciar_x_500_cc..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -11807,7 +11807,7 @@
         "price": 2150.0,
         "market": "aura",
         "category": "gatos",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "images/laanonima/Bebida_de_Fresa_y_Kiwi_Pet_Gatorade_Sin_Azúcar_x_400_cc..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11853,7 +11853,7 @@
         "price": 2550.0,
         "market": "aura",
         "category": "isotonicas",
-        "image": "images/laanonima/Bebida_Powerade_Naranja_x_500_cc..webp",
+        "image": "images/laanonima/Bebida_Isotónica_Powerade_Frutas_Tropicales_500_Ml.webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11949,7 +11949,7 @@
         "price": 1650.0,
         "market": "aura",
         "category": "leches",
-        "image": "images/laanonima/Leche_L.V._Chocolatada_Ilolay_Tetra_Brik_x_1_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-27",
@@ -11963,7 +11963,7 @@
         "price": 2050.0,
         "market": "aura",
         "category": "leches",
-        "image": "images/laanonima/Leberwurst_a_Las_Finas_Hierbas_Paladini_x_200_g..webp",
+        "image": "images/laanonima/Leche_LV_Chocolatada_Kids_Ilolay_x_200_cc..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -11991,7 +11991,7 @@
         "price": 2300.0,
         "market": "aura",
         "category": "leches",
-        "image": "images/laanonima/Agua_Mineral_sGas_Villa_del_Sur_x_1,65_Lt..webp",
+        "image": "images/laanonima/Leche_L.V._Las_Tres_Niñas_Parcialmente_Descremada_x_1_Lt..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12005,7 +12005,7 @@
         "price": 2300.0,
         "market": "aura",
         "category": "leches",
-        "image": "images/laanonima/Agua_Mineral_sGas_Villa_del_Sur_x_1,65_Lt..webp",
+        "image": "images/laanonima/Leche_Entera_La_Anónima_Ultra_Fortificada_Sachet_x_1_Lt..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12047,7 +12047,7 @@
         "price": 2670.0,
         "market": "aura",
         "category": "leches",
-        "image": "images/laanonima/Agua_Mineral_sGas_Villa_del_Sur_x_1,65_Lt..webp",
+        "image": "images/laanonima/Leche_L.V._La_Anónima_Descremada_x_1_Lt..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12075,7 +12075,7 @@
         "price": 2670.0,
         "market": "aura",
         "category": "leches",
-        "image": "images/laanonima/Agua_de_Mesa_sin_gas_Villa_Del_Sur_x_2,25_Lt..webp",
+        "image": "images/laanonima/Leche_Entera_La_Anónima_Ultra_Fortificada_Sachet_x_1_Lt..webp",
         "history": [
             {
                 "date": "2026-06-27",
@@ -12313,7 +12313,7 @@
         "price": 3250.0,
         "market": "aura",
         "category": "gatos",
-        "image": "images/laanonima/Alimento_Humedo_para_Gato_Adulto_Atun_Felix_x_85_g..webp",
+        "image": "images/laanonima/Alimento_Seco_Gatos_Cachorros_Sabrositos_x_1_Kg..webp",
         "history": [
             {
                 "date": "2026-06-27",
@@ -12327,7 +12327,7 @@
         "price": 3350.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Alimento_Humedo_para_Gato_Adulto_Atun_Felix_x_85_g..webp",
+        "image": "images/laanonima/Alimento_Seco_Perro_Adulto_Pequeño_CarneVegetales_Pedigree_x_1,5_Kg..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12355,7 +12355,7 @@
         "price": 8600.0,
         "market": "aura",
         "category": "carnes",
-        "image": "images/laanonima/Alimento_Humedo_para_Gato_Adulto_Atun_Felix_x_85_g..webp",
+        "image": "images/laanonima/Alimento_Seco_Perro_Adulto_Pequeño_CarneVegetales_Pedigree_x_1,5_Kg..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12369,7 +12369,7 @@
         "price": 1600.0,
         "market": "aura",
         "category": "papeles",
-        "image": "images/laanonima/Bolsa_para_Residuos_B.P._45x60cm_x_30_un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12411,7 +12411,7 @@
         "price": 2050.0,
         "market": "aura",
         "category": "papeles",
-        "image": "images/laanonima/Servilletas_Papel_Tissue_La_Anónima_Decoradas_32cmx30cm_x_70_un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12425,7 +12425,7 @@
         "price": 2093.0,
         "market": "aura",
         "category": "papeles",
-        "image": "images/laanonima/Papel_Higiénico_Hoja_Simple_Elegante_30_Mts_Blanco_x_4_un..webp",
+        "image": "images/laanonima/Papel_Higiénico_Hoja_Simple_La_Anónima_4_x_80_metros.webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12453,7 +12453,7 @@
         "price": 2450.0,
         "market": "aura",
         "category": "papeles",
-        "image": "images/laanonima/Bolsas_para_Residuos_Best_60x100cm_x_10_un..webp",
+        "image": "images/laanonima/Bolsa_para_Residuos_La_Anónima_45x55cm_x_20_un..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12481,7 +12481,7 @@
         "price": 2900.0,
         "market": "aura",
         "category": "papeles",
-        "image": "images/laanonima/Bolsas_para_Residuos_Best_60x100cm_x_10_un..webp",
+        "image": "images/laanonima/Bolsa_para_Residuos_Rollo_Asurin_45x60cm_x_30_un..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12509,7 +12509,7 @@
         "price": 18350.0,
         "market": "aura",
         "category": "pañales",
-        "image": "images/laanonima/Amargo_Serrano_Terma_Pet_Pack_Ahorro_x_1,75_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12685,7 +12685,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Arrollado_de_Pollo_Congelado_Pollolin_(Kg).webp",
+        "image": "images/laanonima/Pollo_Fresco_La_Anónima_(Kg).webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -12703,7 +12703,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Arrollado_de_Pollo_Congelado_Pollolin_(Kg).webp",
+        "image": "images/laanonima/Pollo_Fresco_La_Anónima_(Kg).webp",
         "history": [
             {
                 "date": "2026-06-27",
@@ -12717,7 +12717,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Asado_con_Hueso_Congelado_Estancias_La_Anónima_(Kg).webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -12735,7 +12735,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Arrollado_de_Pollo_Congelado_Pollolin_(Kg).webp",
+        "image": "images/laanonima/Pollo_Fresco_La_Anónima_(Kg).webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -12753,7 +12753,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Arrollado_de_Pollo_Congelado_Pollolin_(Kg).webp",
+        "image": "images/laanonima/Pollo_Fresco_La_Anónima_(Kg).webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -12771,7 +12771,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Arrollado_de_Pollo_Congelado_Pollolin_(Kg).webp",
+        "image": "images/laanonima/Pollo_Fresco_La_Anónima_(Kg).webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -12789,7 +12789,7 @@
         "price": 3250.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12803,7 +12803,7 @@
         "price": 3500.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Alimento_para_Perro_Adulto_7+_Pouch_Carne_Pedigree_x_100_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12817,7 +12817,7 @@
         "price": 3550.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12831,7 +12831,7 @@
         "price": 3600.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12873,7 +12873,7 @@
         "price": 6100.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Hamburguesa_Carne_Vacuna_Finitas_x_2_Un._Paty_x_110_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -12929,7 +12929,7 @@
         "price": 2450.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Alimento_para_Perro_Adulto_7+_Pouch_Carne_Pedigree_x_100_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-27",
@@ -12943,7 +12943,7 @@
         "price": 3150.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "images/laanonima/Queso_Cheddar_En_Fetas_x_8_Un._Tonadita_x_120_g..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12957,7 +12957,7 @@
         "price": 3950.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Bastonitos_de_Queso_Krachitos_x_125_g..webp",
+        "image": "images/laanonima/Queso_Mozzarella_Feteado_Pampa_Cheese_x_200_g..webp",
         "history": [
             {
                 "date": "2026-06-25",
@@ -12971,7 +12971,7 @@
         "price": 4450.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Bastonitos_de_Queso_Krachitos_x_125_g..webp",
+        "image": "images/laanonima/Queso_Cremoso_La_Paulina_Trozado_(Kg).webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -12985,7 +12985,7 @@
         "price": 4450.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Bastonitos_de_Queso_Krachitos_x_125_g..webp",
+        "image": "images/laanonima/Queso_Cremoso_La_Paulina_Trozado_(Kg).webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -12999,7 +12999,7 @@
         "price": 5150.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Bastonitos_de_Queso_Krachitos_x_125_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13027,7 +13027,7 @@
         "price": 9600.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Arroz_Dorado_Natural_Molinos_Ala_x_500_g..webp",
+        "image": "images/laanonima/Queso_Mozzarella_Vacalin_x_500_g..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -13041,7 +13041,7 @@
         "price": 10200.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "images/laanonima/Queso_Mozzarella_Vacalin_x_500_g..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -13055,7 +13055,7 @@
         "price": 10300.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Bastonitos_de_Queso_Krachitos_x_125_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13083,7 +13083,7 @@
         "price": 1400.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Ají_Molido_Dos_Anclas_x_50_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -13097,7 +13097,7 @@
         "price": 1500.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Ají_Molido_Dos_Anclas_x_50_g..webp",
+        "image": "images/laanonima/Condimento_para_Pizza_Dos_Anclas_x_25_g..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -13111,7 +13111,7 @@
         "price": 1500.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Ají_Molido_Dos_Anclas_x_50_g..webp",
+        "image": "images/laanonima/Condimento_para_Pizza_Dos_Anclas_x_25_g..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -13181,7 +13181,7 @@
         "price": 0.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Ají_Molido_Dos_Anclas_x_50_g..webp",
+        "image": "images/laanonima/Sal_Fina_Dos_Anclas_Estuche_x_500_g..webp",
         "history": [
             {
                 "date": "2026-06-24",
@@ -13217,7 +13217,7 @@
         "price": 2400.0,
         "market": "aura",
         "category": "cereales",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13231,7 +13231,7 @@
         "price": 2550.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13245,7 +13245,7 @@
         "price": 2650.0,
         "market": "aura",
         "category": "arroz",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13259,7 +13259,7 @@
         "price": 2800.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13273,7 +13273,7 @@
         "price": 3000.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Alimento_para_Perro_Adulto_7+_Pouch_Carne_Pedigree_x_100_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13287,7 +13287,7 @@
         "price": 3500.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13301,7 +13301,7 @@
         "price": 4300.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -13315,7 +13315,7 @@
         "price": 4300.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Agua_Mineral_sin_Gas_Austral_La_Anónima_x_6,250_Lt..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-24",
@@ -13329,7 +13329,7 @@
         "price": 4500.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Agua_de_Mesa_sin_Gas_Benedictino_1.5L_x_4_Un..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-27",
@@ -13343,7 +13343,7 @@
         "price": 4650.0,
         "market": "aura",
         "category": "all",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-27",
@@ -13357,7 +13357,7 @@
         "price": 1200.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Lomo_al_Horno_Feteado_Var.Log5_Bocatti_x_70_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13371,7 +13371,7 @@
         "price": 1600.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Bastonitos_de_Queso_Krachitos_x_125_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13385,7 +13385,7 @@
         "price": 1700.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Hamburguesa_Carne_Vacuna_Finitas_x_2_Un._Paty_x_110_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13399,7 +13399,7 @@
         "price": 1800.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13413,7 +13413,7 @@
         "price": 1800.0,
         "market": "aura",
         "category": "snacks",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13427,7 +13427,7 @@
         "price": 1950.0,
         "market": "aura",
         "category": "sal",
-        "image": "images/laanonima/Hamburguesa_Carne_Vacuna_Finitas_x_2_Un._Paty_x_110_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13441,7 +13441,7 @@
         "price": 2000.0,
         "market": "aura",
         "category": "snacks",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13455,7 +13455,7 @@
         "price": 2100.0,
         "market": "aura",
         "category": "snacks",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13469,7 +13469,7 @@
         "price": 2100.0,
         "market": "aura",
         "category": "fiambres",
-        "image": "images/laanonima/Aritos_de_Arroz_sabor_Crema_cCebolla_Dos_Hermanos_x_80_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13483,7 +13483,7 @@
         "price": 2150.0,
         "market": "aura",
         "category": "snacks",
-        "image": "images/laanonima/Rueditas_sabor_Pizza_Pep_x_74_g..webp",
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
         "history": [
             {
                 "date": "2026-06-25",
@@ -13497,7 +13497,7 @@
         "price": 4150.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Sprite_Zero_Lima_Limón_Light_Pet_x_1,5_lt..webp",
+        "image": "images/laanonima/Gaseosa_Sprite_Zero_Lima_Limón_Light_Pet_x_1,5_lt.jpg",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13553,7 +13553,7 @@
         "price": 1374.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Bebida_de_Fresa_y_Kiwi_Pet_Gatorade_Sin_Azúcar_x_400_cc..webp",
+        "image": "images/laanonima/Gaseosa_Cola_sAzúcar_Lata_Coca_Cola_x_354_cc.jpg",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13567,7 +13567,7 @@
         "price": 1374.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Pomelo_Lata_Schweppes_x_310_cc..webp",
+        "image": "images/laanonima/Gaseosa_Pomelo_Lata_Schweppes_x_310_cc.jpg",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13581,7 +13581,7 @@
         "price": 1374.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Bebida_de_Fresa_y_Kiwi_Pet_Gatorade_Sin_Azúcar_x_400_cc..webp",
+        "image": "images/laanonima/Gaseosa_Lima_Limón_sAzúcar_Lata_Sprite_x_354_cc.jpg",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13595,7 +13595,7 @@
         "price": 958.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Cola_sin_Azúcar_Coca-Cola_Lata_x_220_cc..webp",
+        "image": "images/laanonima/Gaseosa_Cola_sin_Azúcar_Coca-Cola_Lata_x_220_cc.jpg",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13609,7 +13609,7 @@
         "price": 5650.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Cola_Diet_Coca-Cola_Zero_Pet_x_2,25_lt..webp",
+        "image": "images/laanonima/Gaseosa_Cola_Diet_Coca-Cola_Zero_Pet_x_2,25_lt.jpg",
         "history": [
             {
                 "date": "2026-06-30",
@@ -13623,7 +13623,7 @@
         "price": 5650.0,
         "market": "aura",
         "category": "gaseosas",
-        "image": "images/laanonima/Gaseosa_Sprite_Zero_Lima_Limón_Light_Pet_x_2,25_lt..webp",
+        "image": "images/laanonima/Gaseosa_Sprite_Zero_Lima_Limón_Light_Pet_x_2,25_lt.jpg",
         "history": [
             {
                 "date": "2026-06-30",
