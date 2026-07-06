@@ -72,7 +72,7 @@ def normalize(s):
         s = s.replace(char, replacement)
     
     # Remove file extension if present
-    if '.' in s and len(s.split('.')[-1]) <= 4:
+    if '.' in s and len(s.split('.')[-1]) <= 5:
         s = '.'.join(s.split('.')[:-1])
     
     # Replace non-alphanumeric with underscore, then collapse
@@ -80,108 +80,166 @@ def normalize(s):
     s = re.sub(r'_+', '_', s)
     return s.strip('_')
 
+
+def is_valid_image(filepath):
+    """Returns True if the file is a real image (JPEG/PNG/WEBP), not an SVG/XML stub."""
+    try:
+        if not os.path.exists(filepath):
+            return False
+        sz = os.path.getsize(filepath)
+        if sz < 500:
+            return False
+        with open(filepath, 'rb') as fp:
+            header = fp.read(12)
+        # SVG/XML stubs start with '<'
+        if header[:1] == b'<':
+            return False
+        # Accept JPEG, PNG, WEBP
+        if header[:2] == b'\xff\xd8':  # JPEG
+            return True
+        if header[:4] == b'\x89PNG':   # PNG
+            return True
+        if header[8:12] == b'WEBP':    # WEBP
+            return True
+        # Accept any file larger than 2 KB (likely a real image)
+        return sz > 2000
+    except Exception:
+        return False
+
 def find_image(market, csv_img_filename, product_name):
-    img_dir = os.path.join("images", market)
+    target_dirs = []
+    if market == 'laanonima':
+        target_dirs.append(os.path.join("images", "laanonima_web"))
+    target_dirs.append(os.path.join("images", market))
 
-    if not os.path.exists(img_dir):
-        return None
-    
-    if market not in dir_cache:
-        dir_cache[market] = os.listdir(img_dir)
-    
-    files = dir_cache[market]
-    
-    # 1. Exact match
-    if csv_img_filename in files:
-        return f"images/{market}/{csv_img_filename}"
-    
-    # 2. Normalized filename match
-    norm_csv = normalize(csv_img_filename)
-    if norm_csv:
-        for f in files:
-            if normalize(f) == norm_csv:
-                return f"images/{market}/{f}"
-    
-    # 3. Aggressive normalization (remove all underscores)
-    agg_norm_csv = norm_csv.replace('_', '')
-    if agg_norm_csv:
-        for f in files:
-            if normalize(f).replace('_', '') == agg_norm_csv:
-                return f"images/{market}/{f}"
+    for img_dir in target_dirs:
+        if not os.path.exists(img_dir):
+            continue
+        
+        if img_dir not in dir_cache:
+            dir_cache[img_dir] = os.listdir(img_dir)
+        
+        files = dir_cache[img_dir]
+        
+        # 1. Exact match
+        if csv_img_filename in files:
+            candidate = f"{img_dir}/{csv_img_filename}"
+            if is_valid_image(candidate):
+                return candidate
+        
+        # 2. Normalized filename match
+        norm_csv = normalize(csv_img_filename)
+        if norm_csv:
+            for f in files:
+                if normalize(f) == norm_csv:
+                    candidate = f"{img_dir}/{f}"
+                    if is_valid_image(candidate):
+                        return candidate
+        
+        # 3. Aggressive normalization (remove all underscores)
+        agg_norm_csv = norm_csv.replace('_', '')
+        if agg_norm_csv:
+            for f in files:
+                if normalize(f).replace('_', '') == agg_norm_csv:
+                    candidate = f"{img_dir}/{f}"
+                    if is_valid_image(candidate):
+                        return candidate
 
-    # 4. Strict semantic/fuzzy match (only if we have a very close match)
+    # 4. Strict semantic/fuzzy match — searches laanonima_web first (real images),
+    #    then falls back to the primary market directory.
     norm_name = normalize(product_name)
     name_words = [w for w in norm_name.split('_') if len(w) > 0]
-    
+
     stop_words = {'la', 'el', 'los', 'las', 'de', 'del', 'con', 'sin', 'para', 'y', 'o', 'x', 'en', 'un', 'una', 'laanonima', 'best'}
     units = {'g', 'gr', 'ml', 'cc', 'lt', 'l', 'kg', 'un', 'u', 'unidades', 'grs', 'kgs', 'lts'}
-    
+
     # Extract numbers (quantities) from name
     name_numbers = set(re.findall(r'\d+', norm_name))
-    
+
+    # Build list of (directory, files) to search — laanonima_web has priority
+    fuzzy_dirs = []
+    if market == 'laanonima':
+        web_dir = os.path.join("images", "laanonima_web")
+        if os.path.exists(web_dir):
+            if web_dir not in dir_cache:
+                dir_cache[web_dir] = os.listdir(web_dir)
+            fuzzy_dirs.append((web_dir, dir_cache[web_dir]))
+    primary_dir = os.path.join("images", market)
+    if os.path.exists(primary_dir):
+        if primary_dir not in dir_cache:
+            dir_cache[primary_dir] = os.listdir(primary_dir)
+        fuzzy_dirs.append((primary_dir, dir_cache[primary_dir]))
+
     best_file = None
     best_score = 0
-    
-    for f in files:
-        norm_f = normalize(f)
-        f_words = [w for w in norm_f.split('_') if len(w) > 0]
-        
-        # Check numbers conflict
-        f_numbers = set(re.findall(r'\d+', norm_f))
-        
-        significant_name_nums = name_numbers - {'0', '00', '000', '0000'}
-        significant_f_nums = f_numbers - {'0', '00', '000', '0000'}
-        
-        has_number_conflict = False
-        if significant_name_nums and significant_f_nums:
-            if not (significant_name_nums & significant_f_nums):
-                has_number_conflict = True
-                
-        if has_number_conflict:
-            continue
-            
-        # Check core product word conflicts
-        conflicts = [
-            ('entera', 'descremada'), ('entera', 'descrem'),
-            ('oliva', 'girasol'), ('oliva', 'mezcla'), ('girasol', 'mezcla'),
-            ('arroz', 'pan'), ('arroz', 'fideos'),
-            ('leche', 'agua'), ('leche', 'queso'),
-            ('hamburguesa', 'picadillo'), ('hamburguesas', 'picadillo'),
-            ('servilletas', 'bolsa'), ('servilleta', 'bolsa'),
-            ('papel', 'servilletas'),
-            ('hamburguesa', 'medallon'), ('hamburguesas', 'medallon'),
-            ('manzana', 'pomelo'), ('manzana', 'naranja'), ('pomelo', 'naranja'),
-            ('cerveza', 'terma'), ('cerveza', 'amargo'),
-            ('pollo', 'arroz'),
-        ]
-        has_word_conflict = False
-        for w1, w2 in conflicts:
-            if (w1 in name_words and w2 in f_words) or (w2 in name_words and w1 in f_words):
-                has_word_conflict = True
-                break
-        if has_word_conflict:
-            continue
-            
-        # Count matching non-stop, non-unit, non-numeric words
-        name_core_words = set(w for w in name_words if not w.isdigit()) - stop_words - units
-        f_core_words = set(w for w in f_words if not w.isdigit()) - stop_words - units
-        
-        if not name_core_words or not f_core_words:
-            continue
-            
-        intersection = name_core_words & f_core_words
-        
-        # Must match at least 2 core words or 1 if it's the only core word
-        min_match = min(2, len(name_core_words), len(f_core_words))
-        if len(intersection) >= min_match:
-            score = len(intersection)
-            if score > best_score:
-                best_score = score
-                best_file = f
-                
+    best_result_dir = primary_dir
+
+    for search_dir, files in fuzzy_dirs:
+        for f in files:
+            norm_f = normalize(f)
+            f_words = [w for w in norm_f.split('_') if len(w) > 0]
+
+            # Check numbers conflict
+            f_numbers = set(re.findall(r'\d+', norm_f))
+
+            significant_name_nums = name_numbers - {'0', '00', '000', '0000'}
+            significant_f_nums = f_numbers - {'0', '00', '000', '0000'}
+
+            has_number_conflict = False
+            if significant_name_nums and significant_f_nums:
+                if not (significant_name_nums & significant_f_nums):
+                    has_number_conflict = True
+
+            if has_number_conflict:
+                continue
+
+            # Check core product word conflicts
+            conflicts = [
+                ('entera', 'descremada'), ('entera', 'descrem'),
+                ('oliva', 'girasol'), ('oliva', 'mezcla'), ('girasol', 'mezcla'),
+                ('arroz', 'pan'), ('arroz', 'fideos'),
+                ('leche', 'agua'), ('leche', 'queso'),
+                ('hamburguesa', 'picadillo'), ('hamburguesas', 'picadillo'),
+                ('servilletas', 'bolsa'), ('servilleta', 'bolsa'),
+                ('papel', 'servilletas'),
+                ('hamburguesa', 'medallon'), ('hamburguesas', 'medallon'),
+                ('manzana', 'pomelo'), ('manzana', 'naranja'), ('pomelo', 'naranja'),
+                ('cerveza', 'terma'), ('cerveza', 'amargo'),
+                ('pollo', 'arroz'),
+            ]
+            has_word_conflict = False
+            for w1, w2 in conflicts:
+                if (w1 in name_words and w2 in f_words) or (w2 in name_words and w1 in f_words):
+                    has_word_conflict = True
+                    break
+            if has_word_conflict:
+                continue
+
+            # Count matching non-stop, non-unit, non-numeric words
+            name_core_words = set(w for w in name_words if not w.isdigit()) - stop_words - units
+            f_core_words = set(w for w in f_words if not w.isdigit()) - stop_words - units
+
+            if not name_core_words or not f_core_words:
+                continue
+
+            intersection = name_core_words & f_core_words
+
+            # Must match at least 2 core words or 1 if it's the only core word
+            min_match = min(2, len(name_core_words), len(f_core_words))
+            if len(intersection) >= min_match:
+                score = len(intersection)
+                if score > best_score:
+                    best_score = score
+                    best_file = f
+                    best_result_dir = search_dir
+
+        # If we already found a good match in laanonima_web, don't search further
+        if best_file and search_dir != primary_dir:
+            break
+
     if best_file:
-        return f"images/{market}/{best_file}"
-        
+        return f"{best_result_dir}/{best_file}"
+
     return None
 
 def determine_category(product_name, filename):
