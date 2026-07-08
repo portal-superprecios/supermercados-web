@@ -13749,34 +13749,6 @@
     },
     {
         "id": 635,
-        "name": "Pouch Perro Adulto Pollo Pedigree x 100 g.",
-        "price": 1290.0,
-        "market": "aura",
-        "category": "perros",
-        "image": "images\\laanonima/Alimento_para_Perro_Adulto_RP_Pouch_Pollo_Pedigree_x_100_g.webp",
-        "history": [
-            {
-                "date": "2026-07-07",
-                "price": 1290.0
-            }
-        ]
-    },
-    {
-        "id": 636,
-        "name": "Alimento para Perro Adulto Pouch Carne Pedigree x 100 g.",
-        "price": 1290.0,
-        "market": "aura",
-        "category": "carnes",
-        "image": "images\\laanonima/Alimento_para_Perro_Adulto_Pouch_Carne_Pedigree_x_100_g.webp",
-        "history": [
-            {
-                "date": "2026-07-07",
-                "price": 1290.0
-            }
-        ]
-    },
-    {
-        "id": 637,
         "name": "Pouch Gato Adulto Pollo Whiskas x 85 g.",
         "price": 1650.0,
         "market": "aura",
@@ -13790,21 +13762,7 @@
         ]
     },
     {
-        "id": 638,
-        "name": "Alimento para Perro Adulto RP Pouch Pollo Pedigree x 100 g.",
-        "price": 1650.0,
-        "market": "aura",
-        "category": "perros",
-        "image": "images\\laanonima/Alimento_para_Perro_Adulto_RP_Pouch_Pollo_Pedigree_x_100_g.webp",
-        "history": [
-            {
-                "date": "2026-07-07",
-                "price": 1650.0
-            }
-        ]
-    },
-    {
-        "id": 639,
+        "id": 636,
         "name": "Pouch Gato Adulto Pavo Whiskas x 85 g.",
         "price": 1650.0,
         "market": "aura",
@@ -13818,12 +13776,54 @@
         ]
     },
     {
-        "id": 640,
+        "id": 637,
         "name": "Pouch Gato Adulto Carne Whiskas x 85 g.",
         "price": 1650.0,
         "market": "aura",
         "category": "carnes",
         "image": "images\\laanonima/Pouch_Gato_Adulto_Carne_Whiskas_x_85_g.webp",
+        "history": [
+            {
+                "date": "2026-07-07",
+                "price": 1650.0
+            }
+        ]
+    },
+    {
+        "id": 638,
+        "name": "Pouch Perro Adulto Pollo Pedigree x 100 g.",
+        "price": 1290.0,
+        "market": "aura",
+        "category": "perros",
+        "image": "images\\laanonima/Alimento_para_Perro_Adulto_RP_Pouch_Pollo_Pedigree_x_100_g.webp",
+        "history": [
+            {
+                "date": "2026-07-07",
+                "price": 1290.0
+            }
+        ]
+    },
+    {
+        "id": 639,
+        "name": "Alimento para Perro Adulto Pouch Carne Pedigree x 100 g.",
+        "price": 1290.0,
+        "market": "aura",
+        "category": "carnes",
+        "image": "images\\laanonima/Alimento_para_Perro_Adulto_Pouch_Carne_Pedigree_x_100_g.webp",
+        "history": [
+            {
+                "date": "2026-07-07",
+                "price": 1290.0
+            }
+        ]
+    },
+    {
+        "id": 640,
+        "name": "Alimento para Perro Adulto RP Pouch Pollo Pedigree x 100 g.",
+        "price": 1650.0,
+        "market": "aura",
+        "category": "perros",
+        "image": "images\\laanonima/Alimento_para_Perro_Adulto_RP_Pouch_Pollo_Pedigree_x_100_g.webp",
         "history": [
             {
                 "date": "2026-07-07",
