@@ -242,21 +242,96 @@ def find_image(market, csv_img_filename, product_name):
 
     return None
 
+categories_map_filename = [
+    ('alimentos_gatos', 'gatos'),
+    ('alimento_gatos', 'gatos'),
+    ('mascotas_gatos', 'gatos'),
+    ('gatos', 'gatos'),
+    ('alimentos_perros', 'perros'),
+    ('alimento_perros', 'perros'),
+    ('mascotas_perros', 'perros'),
+    ('perros', 'perros'),
+    ('hamburguesas', 'hamburguesas'),
+    ('hamburguesa', 'hamburguesas'),
+    ('carnevacuna', 'carnes'),
+    ('carne_vacuna', 'carnes'),
+    ('carnes', 'carnes'),
+    ('pollos', 'carnes'),
+    ('pollo', 'carnes'),
+    ('aceite', 'aceite'),
+    ('aceites', 'aceite'),
+    ('agua', 'aguas'),
+    ('aguas', 'aguas'),
+    ('arroz', 'arroz'),
+    ('cereal', 'cereales'),
+    ('cereales', 'cereales'),
+    ('cerveza', 'cervezas'),
+    ('cervezas', 'cervezas'),
+    ('fernet', 'cervezas'),
+    ('fiambre', 'fiambres'),
+    ('fiambres', 'fiambres'),
+    ('queso', 'fiambres'),
+    ('quesos', 'fiambres'),
+    ('gaseosa', 'gaseosas'),
+    ('gaseosas', 'gaseosas'),
+    ('harina', 'harinas'),
+    ('harinas', 'harinas'),
+    ('isotonica', 'isotonicas'),
+    ('isotonicas', 'isotonicas'),
+    ('energizante', 'isotonicas'),
+    ('jugo', 'jugos'),
+    ('jugos', 'jugos'),
+    ('limpieza', 'limpieza'),
+    ('panal', 'pañales'),
+    ('panales', 'pañales'),
+    ('pañal', 'pañales'),
+    ('pañales', 'pañales'),
+    ('bebe', 'pañales'),
+    ('bebes', 'pañales'),
+    ('papel', 'papeles'),
+    ('papeles', 'papeles'),
+    ('pepel', 'papeles'),
+    ('pepeles', 'papeles'),
+    ('sal_', 'sal'),
+    ('sal.', 'sal'),
+    ('_sal_', 'sal'),
+    ('sal_laanonima', 'sal'),
+    ('sal', 'sal'),
+    ('snack', 'snacks'),
+    ('snacks', 'snacks'),
+    ('leche', 'leches'),
+    ('leches', 'leches'),
+    ('lacteo', 'leches'),
+    ('lacteos', 'leches'),
+    ('yogur', 'leches'),
+]
+
 def determine_category(product_name, filename):
+    fn_lower = filename.lower()
     name_lower = product_name.lower()
-    # 1. Buscar en el nombre del producto primero
-    for key, val in categories_map.items():
-        if key in name_lower:
+
+    # Prioridad 1: Excepciones por nombre específico para evitar falsas clasificaciones
+    # (por ejemplo alimentos de mascotas o hamburguesas que incluyan palabras como "carne")
+    if any(w in name_lower for w in ['whiskas', 'felix', 'cat chow', 'catchow', 'gatos', 'gato']) or ('alimento' in name_lower and 'gato' in name_lower):
+        return 'gatos'
+    if any(w in name_lower for w in ['pedigree', 'dog chow', 'dogchow', 'perros', 'perro', 'pets class', 'dentastix']) or ('alimento' in name_lower and 'perro' in name_lower):
+        return 'perros'
+    if any(w in name_lower for w in ['hamburguesa', 'hamburguesas', 'medallon', 'medallones', 'paty']):
+        return 'hamburguesas'
+
+    # Prioridad 2: Buscar en el nombre del archivo CSV (representa la categoría/sección del supermercado)
+    for key, val in categories_map_filename:
+        if key in fn_lower:
             return val
-    # 2. Si no se encuentra, buscar en el nombre del archivo
-    filename_lower = filename.lower()
-    for key, val in categories_map.items():
-        if key in filename_lower:
-            return val
-    # Caso especial heredado
-    if 'carre_aguas' in filename_lower:
-        return 'aguas'
+
+    # Prioridad 3: Reglas semánticas avanzadas en el nombre del producto
+    if re.search(r'\b(carne|carnes|novillo|novillito|vacuno|asado|bife|roast beef|matambre|osobuco|paleta|peceto|lomo|entraña|vacio|vacío|bondiola|cerdo|pollo|pechuga|muslo|picada)\b', name_lower):
+        return 'carnes'
+    if re.search(r'\b(sal|sales)\b', name_lower) and not any(w in name_lower for w in ['salame', 'salamin', 'salchicha', 'salado', 'salados', 'salmon', 'salmón', 'salsa', 'salvado']):
+        return 'sal'
+
     return 'all'
+
 
 def process_file(file_path, market):
     global id_counter
