@@ -136,7 +136,7 @@ function updateDynamicOffers() {
     const usedIds = new Set();
     
     // Lista de categorías que nos interesan destacar
-    let categoriesToHighlight = ['aceite', 'leches', 'carnes', 'arroz', 'harinas', 'aguas', 'gaseosas', 'fideos', 'limpieza', 'snacks', 'cervezas', 'cereales'];
+    let categoriesToHighlight = ['aceite', 'leches', 'carnes', 'arroz', 'harinas', 'aguas', 'gaseosas', 'fideos', 'limpieza', 'snacks', 'cervezas', 'cereales', 'cafes'];
 
     // Barajamos aleatoriamente las categorías para que cambien en cada actualización/carga de la página
     categoriesToHighlight = categoriesToHighlight.sort(() => 0.5 - Math.random());

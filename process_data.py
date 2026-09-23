@@ -34,7 +34,9 @@ categories_map = {
     'fiambre': 'fiambres',
     'leche': 'leches',
     'energizante': 'isotonicas',
-    'panales': 'pañales'
+    'panales': 'pañales',
+    'cafe': 'cafes',
+    'cafes': 'cafes'
 }
 market_map = {
     'carrefour': 'zenith',
@@ -304,6 +306,8 @@ categories_map_filename = [
     ('lacteo', 'leches'),
     ('lacteos', 'leches'),
     ('yogur', 'leches'),
+    ('cafe', 'cafes'),
+    ('cafes', 'cafes'),
 ]
 
 def determine_category(product_name, filename):
@@ -329,6 +333,8 @@ def determine_category(product_name, filename):
         return 'carnes'
     if re.search(r'\b(sal|sales)\b', name_lower) and not any(w in name_lower for w in ['salame', 'salamin', 'salchicha', 'salado', 'salados', 'salmon', 'salmón', 'salsa', 'salvado']):
         return 'sal'
+    if re.search(r'\b(cafe|café|cafes|cafés)\b', name_lower):
+        return 'cafes'
 
     return 'all'
 
