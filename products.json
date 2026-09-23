@@ -1105,7 +1105,7 @@
         "price": 4611.75,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Nescafé Dolca suave doypack 100 grs_0.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1119,7 +1119,7 @@
         "price": 5749.0,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Café en saquitos Cabrales caja x 18 uni_13.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1133,7 +1133,7 @@
         "price": 7836.75,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Nescafé Dolca Suave 170 grs_1.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1147,7 +1147,7 @@
         "price": 8684.25,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Café instantáneo Dolca Origenes dp 160 g_12.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1161,7 +1161,7 @@
         "price": 8850.0,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Café tostado molido Morenita 250 grs_4.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1175,7 +1175,7 @@
         "price": 8949.0,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Nescafé Tradición Doypack 100 grs_2.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1189,7 +1189,7 @@
         "price": 9215.0,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Café instantáneo La Virginia especial cl_10.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1203,7 +1203,7 @@
         "price": 9675.0,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Nescafé Dolca Original Frasco 170 grs_6.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1217,7 +1217,7 @@
         "price": 9990.0,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Café molido torrado intenso Sensaciones _8.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -1231,7 +1231,7 @@
         "price": 10499.0,
         "market": "zenith",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\carrefour/Infusion a base de café Arlistan pet 170_5.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -7997,7 +7997,7 @@
         "price": 3899.0,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Capuccino Instantaneo La Virginia Doypac_8.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8011,7 +8011,7 @@
         "price": 5839.0,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Café Cabrales En Saquitos 18saq_11.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8025,7 +8025,7 @@
         "price": 6239.0,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Café La Morenita En Saquitos Intenso 20s_16.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8039,7 +8039,7 @@
         "price": 6429.0,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Café La Virginia En Saquitos 20saq_7.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8053,7 +8053,7 @@
         "price": 7069.0,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Café Molido La Morenita Intenso 250gr_19.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8067,7 +8067,7 @@
         "price": 7289.0,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Café Molido La Virginia Torrado Equilibr_23.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8081,7 +8081,7 @@
         "price": 7409.0,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Café Molido La Planta De Café Torrado 25_17.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8095,7 +8095,7 @@
         "price": 7967.4,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Café Instantáneo Nescafé Dolca Original _0.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8109,7 +8109,7 @@
         "price": 7967.4,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Café Instantáneo Nescafé Dolca Suave 170_1.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -8123,7 +8123,7 @@
         "price": 8519.0,
         "market": "terra",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\changomas/Cafe Instantaneo Clasico Doy Pack La Vir_2.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17485,7 +17485,7 @@
         "price": 3890.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Suave y Espumoso Más Aroma 50 Grs A_10.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17499,7 +17499,7 @@
         "price": 5290.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Torrado Tostado con Azúcar 100 Grs _15.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17513,7 +17513,7 @@
         "price": 5990.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Suave y Espumoso 170 Grs Arlistan_1.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17527,7 +17527,7 @@
         "price": 6990.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Instantáneo Suave Espuma 170 Grs La_16.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17541,7 +17541,7 @@
         "price": 7890.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Instantáneo Clásico 100 Grs Cruzeir_4.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17555,7 +17555,7 @@
         "price": 8190.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Tradición Doypack 100 Grs Nescafé_5.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17569,7 +17569,7 @@
         "price": 8190.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Molido Torrado Equilibrado 250 Grs _14.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17583,7 +17583,7 @@
         "price": 8490.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Instantáneo Clásico Espuma 170 Grs _8.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17597,7 +17597,7 @@
         "price": 10390.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Suave 170 Grs Dolca_0.jpg",
         "history": [
             {
                 "date": "2026-09-23",
@@ -17611,7 +17611,7 @@
         "price": 10890.0,
         "market": "lumina",
         "category": "cafes",
-        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80",
+        "image": "images\\vea/Café Tostado Molido Puro 190 Grs Nescafé_17.jpg",
         "history": [
             {
                 "date": "2026-09-23",
